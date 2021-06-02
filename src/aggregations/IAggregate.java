@@ -6,6 +6,6 @@ import model.Satellite;
 
 public interface IAggregate {
 
-	public CompositeContainer aggregate(ArrayList<Satellite> satellitesList);
+	public CompositeContainerHead aggregate(ArrayList<Satellite> satellitesList);
 
 }

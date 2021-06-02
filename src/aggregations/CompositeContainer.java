@@ -1,31 +1,21 @@
 package aggregations;
 
-import java.util.ArrayList;
+public class CompositeContainer extends CompositeContainerHead {
 
-public class CompositeContainer {
+	private String key = null;
+	private String data = null;
 
-	private String data = "";
-
-	private ArrayList<CompositeContainer> compositums = new ArrayList<CompositeContainer>();
-
-	public void addHierarchy(CompositeContainer container) {
-		this.compositums.add(container);
-	}
-
-	public CompositeContainer(String data) {
-		this.data = data;
-	}
-
-	public void set(String data) {
+	public CompositeContainer(String key, String data) {
+		this.key = key;
 		this.data = data;
 	}
 
 	public String getData() {
-		return data;
+		return this.data;
 	}
-		
-	public ArrayList<CompositeContainer> getCompositums() {
-		return compositums;
+
+	public String getKey() {
+		return this.key;
 	}
 
 }

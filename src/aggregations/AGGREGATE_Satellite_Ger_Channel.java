@@ -8,9 +8,9 @@ import model.Channel;
 
 public class AGGREGATE_Satellite_Ger_Channel implements IAggregate {
 	@Override
-	public CompositeContainer aggregate(ArrayList<Satellite> satellitesList) {
+	public CompositeContainerHead aggregate(ArrayList<Satellite> satellitesList) {
 
-		CompositeContainer topContainer = new CompositeContainer("");
+		CompositeContainerHead topContainer = new CompositeContainerHead();
 
 		for (Satellite satellite : satellitesList) {
 			CompositeContainer temp = null;
@@ -18,10 +18,10 @@ public class AGGREGATE_Satellite_Ger_Channel implements IAggregate {
 				for (Channel channel: transponder.getChannels()) {
 					if(channel.getLanguage().contains("ger")) {
 						if(temp == null) {
-							temp = new CompositeContainer(satellite.getSat());
+							temp = new CompositeContainer("Satellite", satellite.getSat());
 							topContainer.addHierarchy(temp);
 						}
-						CompositeContainer channelContainer = new CompositeContainer(channel.getName());
+						CompositeContainer channelContainer = new CompositeContainer("Channel", channel.getName());
 						temp.addHierarchy(channelContainer);
 					}
 						

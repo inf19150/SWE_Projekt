@@ -12,12 +12,11 @@ import java.util.ArrayList;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 
-import aggregations.AGGREGATE_Satellite_Ger_Channel;
-import aggregations.AGGREGATE_Satellite_Transponder_Count_Channels;
-import aggregations.CompositeContainer;
-import aggregations.IAggregate;
+import aggregations.*;
 import model.Satellite;
 import model.Transponder;
+import output.JSONFileWriter;
+import output.SimpleFileWriter;
 
 public class Main {
 
@@ -60,30 +59,11 @@ public class Main {
 				satellitesList.add(new Satellite(t));
 		}
 
-		IAggregate aggregate = new AGGREGATE_Satellite_Ger_Channel();
-		CompositeContainer compositeContainer = aggregate.aggregate(satellitesList);
-
-		try {
-			printCompositum(compositeContainer, -1);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-
-	}
-
-	public void printCompositum(CompositeContainer c, int level) throws Exception {
-
-		for (int i = 0; i < level; i++) {
-			// System.out.print("\t");
-			this.fileWriter.write("\t");
-		}
-
-		// System.out.println(c.getData());
-		this.fileWriter.write(c.getData() + "\n");
-
-		for (CompositeContainer comp : c.getCompositums()) {
-			printCompositum(comp, level + 1);
-		}
+		IAggregate aggregate = new AGGREGATE_Satellite_Transponder_Count_Channels();
+		CompositeContainerHead compositeContainer = aggregate.aggregate(satellitesList);
+		
+		new SimpleFileWriter("simpleFileWriter.txt").output(compositeContainer);	
+		new JSONFileWriter("JSONFileWriter.txt").output(compositeContainer);
 
 	}
 
