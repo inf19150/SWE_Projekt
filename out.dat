@@ -1,0 +1,8764 @@
+
+BulgariaSat-1
+	f=12072
+		Radio: 0
+		TV: 6
+	f=12092
+		Radio: 0
+		TV: 8
+	f=12188
+		Radio: 0
+		TV: 17
+	f=12207
+		Radio: 0
+		TV: 19
+	f=12226
+		Radio: 0
+		TV: 3
+	f=12322
+		Radio: 0
+		TV: 9
+	f=12341
+		Radio: 0
+		TV: 8
+	f=12360
+		Radio: 0
+		TV: 26
+	f=12380
+		Radio: 0
+		TV: 29
+	f=12418
+		Radio: 0
+		TV: 5
+	f=12437
+		Radio: 0
+		TV: 14
+	f=12456
+		Radio: 0
+		TV: 24
+	f=12476
+		Radio: 0
+		TV: 6
+	f=12524
+		Radio: 0
+		TV: 1
+	f=12563
+		Radio: 0
+		TV: 6
+Eutelsat 3B
+	f=3691
+		Radio: 0
+		TV: 1
+	f=3692
+		Radio: 0
+		TV: 1
+	f=3694
+		Radio: 0
+		TV: 1
+	f=3694
+		Radio: 0
+		TV: 1
+	f=3697
+		Radio: 0
+		TV: 1
+	f=3728
+		Radio: 0
+		TV: 6
+	f=3729
+		Radio: 0
+		TV: 14
+	f=3741
+		Radio: 0
+		TV: 1
+	f=3779
+		Radio: 0
+		TV: 1
+	f=3795
+		Radio: 0
+		TV: 1
+	f=4024
+		Radio: 0
+		TV: 1
+	f=4033
+		Radio: 0
+		TV: 1
+	f=4034
+		Radio: 0
+		TV: 1
+	f=4064
+		Radio: 0
+		TV: 23
+	f=4080
+		Radio: 0
+		TV: 51
+	f=4099
+		Radio: 0
+		TV: 25
+	f=4186
+		Radio: 0
+		TV: 1
+	f=11475
+		Radio: 0
+		TV: 1
+	f=11498
+		Radio: 0
+		TV: 1
+	f=11501
+		Radio: 0
+		TV: 1
+	f=11606
+		Radio: 0
+		TV: 1
+	f=11608
+		Radio: 0
+		TV: 1
+	f=11645
+		Radio: 0
+		TV: 1
+	f=11662
+		Radio: 0
+		TV: 1
+	f=11677
+		Radio: 0
+		TV: 4
+	f=11679
+		Radio: 0
+		TV: 1
+	f=11680
+		Radio: 0
+		TV: 1
+	f=11687
+		Radio: 0
+		TV: 1
+	f=11695
+		Radio: 0
+		TV: 1
+	f=12509
+		Radio: 0
+		TV: 1
+	f=12522
+		Radio: 0
+		TV: 2
+	f=12552
+		Radio: 0
+		TV: 1
+	f=12576
+		Radio: 0
+		TV: 1
+	f=12702
+		Radio: 0
+		TV: 2
+	f=12720
+		Radio: 0
+		TV: 3
+Rascom 1R
+	f=3985
+		Radio: 0
+		TV: 9
+	f=3997
+		Radio: 0
+		TV: 1
+	f=4012
+		Radio: 0
+		TV: 1
+	f=10889
+		Radio: 0
+		TV: 2
+	f=11284
+		Radio: 0
+		TV: 1
+	f=11290
+		Radio: 0
+		TV: 3
+	f=11321
+		Radio: 0
+		TV: 1
+SES 5
+	f=3693
+		Radio: 0
+		TV: 1
+	f=3697
+		Radio: 0
+		TV: 1
+	f=3702
+		Radio: 0
+		TV: 2
+	f=3800
+		Radio: 0
+		TV: 8
+	f=3835
+		Radio: 0
+		TV: 1
+	f=3843
+		Radio: 0
+		TV: 1
+	f=3844
+		Radio: 0
+		TV: 1
+	f=3853
+		Radio: 0
+		TV: 1
+	f=3855
+		Radio: 0
+		TV: 1
+	f=3857
+		Radio: 0
+		TV: 1
+	f=3858
+		Radio: 0
+		TV: 1
+	f=3860
+		Radio: 0
+		TV: 1
+	f=3862
+		Radio: 0
+		TV: 1
+	f=3868
+		Radio: 0
+		TV: 1
+	f=3869
+		Radio: 0
+		TV: 1
+	f=3870
+		Radio: 0
+		TV: 1
+	f=3877
+		Radio: 0
+		TV: 1
+	f=3892
+		Radio: 0
+		TV: 5
+	f=3990
+		Radio: 0
+		TV: 0
+	f=3992
+		Radio: 1
+		TV: 1
+	f=3996
+		Radio: 1
+		TV: 0
+	f=4001
+		Radio: 1
+		TV: 1
+	f=4003
+		Radio: 0
+		TV: 1
+	f=4028
+		Radio: 0
+		TV: 0
+	f=4050
+		Radio: 0
+		TV: 0
+	f=4057
+		Radio: 0
+		TV: 0
+	f=11265
+		Radio: 0
+		TV: 17
+	f=11266
+		Radio: 0
+		TV: 21
+	f=11305
+		Radio: 0
+		TV: 8
+	f=11306
+		Radio: 0
+		TV: 10
+	f=11345
+		Radio: 0
+		TV: 14
+	f=11345
+		Radio: 0
+		TV: 11
+	f=11385
+		Radio: 0
+		TV: 8
+	f=11385
+		Radio: 0
+		TV: 8
+	f=11727
+		Radio: 11
+		TV: 0
+	f=11747
+		Radio: 3
+		TV: 24
+	f=11804
+		Radio: 0
+		TV: 1
+	f=11823
+		Radio: 0
+		TV: 1
+	f=11900
+		Radio: 0
+		TV: 1
+	f=11919
+		Radio: 0
+		TV: 24
+	f=11997
+		Radio: 0
+		TV: 1
+	f=12015
+		Radio: 0
+		TV: 8
+	f=12034
+		Radio: 0
+		TV: 13
+	f=12053
+		Radio: 0
+		TV: 1
+	f=12054
+		Radio: 0
+		TV: 14
+	f=12055
+		Radio: 0
+		TV: 8
+	f=12266
+		Radio: 0
+		TV: 4
+	f=12342
+		Radio: 0
+		TV: 1
+	f=12381
+		Radio: 0
+		TV: 1
+	f=12419
+		Radio: 0
+		TV: 1
+Astra 4A
+	f=11747
+		Radio: 0
+		TV: 16
+	f=11766
+		Radio: 0
+		TV: 24
+	f=11785
+		Radio: 0
+		TV: 24
+	f=11823
+		Radio: 0
+		TV: 11
+	f=11881
+		Radio: 0
+		TV: 16
+	f=11919
+		Radio: 0
+		TV: 29
+	f=11938
+		Radio: 0
+		TV: 20
+	f=11958
+		Radio: 0
+		TV: 23
+	f=11996
+		Radio: 0
+		TV: 8
+	f=12015
+		Radio: 26
+		TV: 16
+	f=12054
+		Radio: 0
+		TV: 0
+	f=12073
+		Radio: 3
+		TV: 12
+	f=12092
+		Radio: 0
+		TV: 16
+	f=12130
+		Radio: 0
+		TV: 9
+	f=12188
+		Radio: 0
+		TV: 8
+	f=12188
+		Radio: 0
+		TV: 8
+	f=12207
+		Radio: 0
+		TV: 20
+	f=12245
+		Radio: 0
+		TV: 12
+	f=12265
+		Radio: 0
+		TV: 9
+	f=12284
+		Radio: 4
+		TV: 8
+	f=12303
+		Radio: 3
+		TV: 9
+	f=12322
+		Radio: 0
+		TV: 18
+	f=12341
+		Radio: 0
+		TV: 7
+	f=12341
+		Radio: 0
+		TV: 8
+	f=12360
+		Radio: 0
+		TV: 13
+	f=12380
+		Radio: 1
+		TV: 7
+	f=12399
+		Radio: 0
+		TV: 10
+	f=12418
+		Radio: 0
+		TV: 8
+	f=12437
+		Radio: 0
+		TV: 9
+	f=12456
+		Radio: 0
+		TV: 0
+	f=12476
+		Radio: 4
+		TV: 0
+	f=12512
+		Radio: 0
+		TV: 0
+	f=12582
+		Radio: 0
+		TV: 1
+	f=12602
+		Radio: 0
+		TV: 0
+	f=12608
+		Radio: 0
+		TV: 5
+	f=12611
+		Radio: 0
+		TV: 0
+	f=12616
+		Radio: 0
+		TV: 0
+	f=12630
+		Radio: 0
+		TV: 0
+	f=12637
+		Radio: 0
+		TV: 4
+	f=12642
+		Radio: 0
+		TV: 0
+	f=12645
+		Radio: 0
+		TV: 15
+	f=12645
+		Radio: 1
+		TV: 0
+	f=12699
+		Radio: 3
+		TV: 0
+	f=12734
+		Radio: 2
+		TV: 1
+Eutelsat 7B
+	f=10721
+		Radio: 3
+		TV: 6
+	f=10762
+		Radio: 0
+		TV: 9
+	f=10887
+		Radio: 0
+		TV: 7
+	f=11222
+		Radio: 1
+		TV: 6
+	f=11262
+		Radio: 0
+		TV: 6
+	f=11304
+		Radio: 0
+		TV: 6
+	f=11324
+		Radio: 0
+		TV: 8
+	f=11345
+		Radio: 0
+		TV: 9
+	f=11387
+		Radio: 0
+		TV: 4
+	f=12556
+		Radio: 0
+		TV: 1
+	f=12744
+		Radio: 0
+		TV: 1
+	f=21565
+		Radio: 0
+		TV: 1
+	f=21567
+		Radio: 0
+		TV: 1
+	f=21571
+		Radio: 0
+		TV: 1
+Eutelsat 7C
+	f=10721
+		Radio: 2
+		TV: 0
+	f=10803
+		Radio: 0
+		TV: 8
+	f=10804
+		Radio: 0
+		TV: 14
+	f=10845
+		Radio: 0
+		TV: 7
+	f=10886
+		Radio: 0
+		TV: 11
+	f=10886
+		Radio: 0
+		TV: 12
+	f=10928
+		Radio: 0
+		TV: 7
+	f=10928
+		Radio: 0
+		TV: 7
+	f=11015
+		Radio: 0
+		TV: 1
+	f=11168
+		Radio: 0
+		TV: 2
+	f=11471
+		Radio: 0
+		TV: 5
+	f=11471
+		Radio: 0
+		TV: 3
+	f=11513
+		Radio: 0
+		TV: 7
+	f=11513
+		Radio: 0
+		TV: 11
+	f=11554
+		Radio: 0
+		TV: 2
+	f=11596
+		Radio: 0
+		TV: 15
+	f=11637
+		Radio: 0
+		TV: 15
+	f=11678
+		Radio: 0
+		TV: 9
+Eutelsat 9B
+	f=11727
+		Radio: 14
+		TV: 18
+	f=11747
+		Radio: 0
+		TV: 22
+	f=11785
+		Radio: 0
+		TV: 10
+	f=11804
+		Radio: 0
+		TV: 10
+	f=11823
+		Radio: 3
+		TV: 4
+	f=11843
+		Radio: 0
+		TV: 12
+	f=11862
+		Radio: 0
+		TV: 7
+	f=11881
+		Radio: 0
+		TV: 8
+	f=11900
+		Radio: 0
+		TV: 11
+	f=11919
+		Radio: 5
+		TV: 7
+	f=11938
+		Radio: 0
+		TV: 11
+	f=11958
+		Radio: 15
+		TV: 13
+	f=11977
+		Radio: 0
+		TV: 12
+	f=11996
+		Radio: 1
+		TV: 10
+	f=12015
+		Radio: 0
+		TV: 6
+	f=12034
+		Radio: 1
+		TV: 12
+	f=12054
+		Radio: 0
+		TV: 15
+	f=12073
+		Radio: 10
+		TV: 28
+	f=12092
+		Radio: 0
+		TV: 6
+	f=12111
+		Radio: 0
+		TV: 22
+	f=12111
+		Radio: 0
+		TV: 29
+	f=12111
+		Radio: 0
+		TV: 1
+	f=12130
+		Radio: 0
+		TV: 10
+	f=12149
+		Radio: 0
+		TV: 16
+	f=12149
+		Radio: 0
+		TV: 17
+	f=12169
+		Radio: 0
+		TV: 17
+	f=12170
+		Radio: 0
+		TV: 5
+	f=12188
+		Radio: 0
+		TV: 19
+	f=12188
+		Radio: 0
+		TV: 17
+	f=12207
+		Radio: 0
+		TV: 15
+	f=12245
+		Radio: 0
+		TV: 6
+	f=12256
+		Radio: 0
+		TV: 21
+	f=12284
+		Radio: 0
+		TV: 17
+	f=12322
+		Radio: 0
+		TV: 13
+	f=12360
+		Radio: 0
+		TV: 9
+	f=12399
+		Radio: 0
+		TV: 16
+	f=12437
+		Radio: 0
+		TV: 10
+	f=12466
+		Radio: 0
+		TV: 29
+	f=12476
+		Radio: 0
+		TV: 11
+Eutelsat 10A
+	f=3645
+		Radio: 0
+		TV: 16
+	f=3648
+		Radio: 0
+		TV: 17
+	f=3672
+		Radio: 0
+		TV: 1
+	f=3676
+		Radio: 0
+		TV: 27
+	f=3700
+		Radio: 0
+		TV: 1
+	f=3721
+		Radio: 0
+		TV: 6
+	f=3725
+		Radio: 0
+		TV: 17
+	f=3737
+		Radio: 0
+		TV: 16
+	f=3748
+		Radio: 0
+		TV: 17
+	f=3759
+		Radio: 0
+		TV: 13
+	f=3768
+		Radio: 0
+		TV: 11
+	f=3778
+		Radio: 0
+		TV: 9
+	f=3835
+		Radio: 0
+		TV: 1
+	f=3857
+		Radio: 0
+		TV: 1
+	f=3894
+		Radio: 0
+		TV: 0
+	f=10732
+		Radio: 0
+		TV: 1
+	f=10747
+		Radio: 0
+		TV: 1
+	f=10756
+		Radio: 0
+		TV: 1
+	f=10831
+		Radio: 0
+		TV: 1
+	f=10836
+		Radio: 0
+		TV: 1
+	f=10839
+		Radio: 1
+		TV: 1
+	f=11007
+		Radio: 1
+		TV: 1
+	f=11035
+		Radio: 1
+		TV: 0
+	f=11112
+		Radio: 0
+		TV: 1
+	f=11221
+		Radio: 12
+		TV: 15
+	f=11346
+		Radio: 0
+		TV: 7
+	f=11483
+		Radio: 0
+		TV: 1
+	f=11487
+		Radio: 0
+		TV: 1
+	f=11568
+		Radio: 0
+		TV: 1
+	f=11601
+		Radio: 0
+		TV: 1
+	f=11624
+		Radio: 1
+		TV: 1
+	f=11628
+		Radio: 0
+		TV: 1
+	f=11639
+		Radio: 1
+		TV: 1
+	f=11645
+		Radio: 1
+		TV: 1
+	f=11645
+		Radio: 0
+		TV: 0
+	f=11652
+		Radio: 0
+		TV: 0
+	f=11654
+		Radio: 0
+		TV: 0
+	f=11660
+		Radio: 0
+		TV: 0
+	f=11663
+		Radio: 0
+		TV: 1
+	f=11665
+		Radio: 0
+		TV: 0
+	f=11676
+		Radio: 0
+		TV: 0
+	f=11683
+		Radio: 0
+		TV: 0
+	f=11691
+		Radio: 0
+		TV: 0
+	f=12508
+		Radio: 0
+		TV: 0
+	f=12508
+		Radio: 0
+		TV: 0
+	f=12511
+		Radio: 0
+		TV: 0
+	f=12517
+		Radio: 0
+		TV: 0
+	f=12525
+		Radio: 0
+		TV: 0
+	f=12527
+		Radio: 0
+		TV: 0
+	f=12529
+		Radio: 0
+		TV: 1
+	f=12532
+		Radio: 0
+		TV: 0
+	f=12546
+		Radio: 0
+		TV: 0
+	f=12553
+		Radio: 0
+		TV: 0
+	f=12556
+		Radio: 0
+		TV: 0
+	f=12562
+		Radio: 0
+		TV: 0
+	f=12563
+		Radio: 0
+		TV: 0
+	f=12565
+		Radio: 0
+		TV: 0
+	f=12567
+		Radio: 0
+		TV: 0
+	f=12568
+		Radio: 0
+		TV: 0
+	f=12570
+		Radio: 0
+		TV: 0
+	f=12576
+		Radio: 0
+		TV: 0
+	f=12594
+		Radio: 0
+		TV: 0
+	f=12598
+		Radio: 0
+		TV: 0
+	f=12601
+		Radio: 0
+		TV: 0
+	f=12602
+		Radio: 0
+		TV: 0
+	f=12602
+		Radio: 0
+		TV: 0
+	f=12620
+		Radio: 0
+		TV: 0
+	f=12637
+		Radio: 0
+		TV: 1
+	f=12658
+		Radio: 0
+		TV: 0
+	f=12678
+		Radio: 0
+		TV: 0
+	f=12679
+		Radio: 0
+		TV: 0
+	f=12682
+		Radio: 0
+		TV: 0
+	f=12682
+		Radio: 0
+		TV: 0
+	f=12684
+		Radio: 0
+		TV: 0
+	f=12688
+		Radio: 0
+		TV: 0
+	f=12692
+		Radio: 0
+		TV: 0
+	f=12696
+		Radio: 0
+		TV: 0
+	f=12696
+		Radio: 0
+		TV: 0
+	f=12699
+		Radio: 0
+		TV: 0
+	f=12699
+		Radio: 0
+		TV: 0
+	f=12701
+		Radio: 0
+		TV: 0
+	f=12701
+		Radio: 0
+		TV: 0
+	f=12704
+		Radio: 0
+		TV: 0
+	f=12708
+		Radio: 0
+		TV: 0
+	f=12711
+		Radio: 0
+		TV: 0
+	f=12711
+		Radio: 0
+		TV: 0
+	f=12715
+		Radio: 0
+		TV: 0
+	f=12720
+		Radio: 0
+		TV: 0
+	f=12722
+		Radio: 0
+		TV: 0
+	f=12728
+		Radio: 0
+		TV: 0
+	f=12729
+		Radio: 0
+		TV: 0
+	f=12731
+		Radio: 0
+		TV: 0
+	f=12735
+		Radio: 0
+		TV: 0
+	f=12738
+		Radio: 0
+		TV: 0
+	f=12739
+		Radio: 0
+		TV: 0
+	f=12740
+		Radio: 0
+		TV: 0
+	f=12740
+		Radio: 0
+		TV: 0
+	f=12744
+		Radio: 0
+		TV: 0
+Eutelsat Hot Bird 13C
+	f=10719
+		Radio: 0
+		TV: 16
+	f=10796
+		Radio: 0
+		TV: 17
+	f=10834
+		Radio: 0
+		TV: 16
+	f=10853
+		Radio: 0
+		TV: 7
+	f=10873
+		Radio: 13
+		TV: 10
+	f=10892
+		Radio: 0
+		TV: 17
+	f=10911
+		Radio: 0
+		TV: 14
+	f=10930
+		Radio: 7
+		TV: 12
+	f=11013
+		Radio: 0
+		TV: 7
+	f=11034
+		Radio: 4
+		TV: 14
+	f=11096
+		Radio: 0
+		TV: 23
+	f=11117
+		Radio: 0
+		TV: 6
+	f=11137
+		Radio: 0
+		TV: 8
+	f=11158
+		Radio: 0
+		TV: 14
+	f=11179
+		Radio: 0
+		TV: 19
+	f=11240
+		Radio: 0
+		TV: 5
+	f=11278
+		Radio: 0
+		TV: 26
+	f=11296
+		Radio: 0
+		TV: 13
+	f=11317
+		Radio: 0
+		TV: 4
+	f=11334
+		Radio: 0
+		TV: 5
+	f=11355
+		Radio: 0
+		TV: 0
+	f=11373
+		Radio: 0
+		TV: 10
+	f=11393
+		Radio: 0
+		TV: 17
+	f=11411
+		Radio: 0
+		TV: 14
+	f=11449
+		Radio: 0
+		TV: 12
+	f=11470
+		Radio: 0
+		TV: 7
+	f=11488
+		Radio: 0
+		TV: 8
+	f=11508
+		Radio: 0
+		TV: 7
+	f=11526
+		Radio: 18
+		TV: 4
+	f=11585
+		Radio: 0
+		TV: 5
+	f=11747
+		Radio: 1
+		TV: 10
+	f=11766
+		Radio: 3
+		TV: 6
+	f=11804
+		Radio: 8
+		TV: 9
+	f=11919
+		Radio: 0
+		TV: 15
+	f=12111
+		Radio: 12
+		TV: 11
+	f=12539
+		Radio: 0
+		TV: 1
+	f=12577
+		Radio: 0
+		TV: 11
+	f=12616
+		Radio: 0
+		TV: 9
+	f=12635
+		Radio: 0
+		TV: 14
+	f=12654
+		Radio: 18
+		TV: 11
+	f=12692
+		Radio: 0
+		TV: 18
+	f=12731
+		Radio: 0
+		TV: 16
+Eutelsat Hot Bird 13E
+	f=10727
+		Radio: 0
+		TV: 3
+	f=10775
+		Radio: 0
+		TV: 15
+	f=10992
+		Radio: 4
+		TV: 8
+	f=11219
+		Radio: 0
+		TV: 22
+	f=11258
+		Radio: 0
+		TV: 11
+	f=11432
+		Radio: 0
+		TV: 6
+	f=11623
+		Radio: 10
+		TV: 6
+	f=11642
+		Radio: 0
+		TV: 12
+	f=11662
+		Radio: 0
+		TV: 38
+	f=11681
+		Radio: 0
+		TV: 20
+	f=11977
+		Radio: 0
+		TV: 13
+	f=12520
+		Radio: 0
+		TV: 12
+	f=12558
+		Radio: 0
+		TV: 1
+	f=12597
+		Radio: 20
+		TV: 7
+Eutelsat Hot Bird 13B
+	f=10758
+		Radio: 0
+		TV: 28
+	f=10815
+		Radio: 2
+		TV: 7
+	f=10949
+		Radio: 6
+		TV: 8
+	f=10971
+		Radio: 0
+		TV: 4
+	f=11054
+		Radio: 6
+		TV: 8
+	f=11075
+		Radio: 0
+		TV: 3
+	f=11541
+		Radio: 20
+		TV: 7
+	f=11566
+		Radio: 0
+		TV: 10
+	f=11604
+		Radio: 12
+		TV: 5
+	f=11727
+		Radio: 0
+		TV: 2
+	f=11785
+		Radio: 0
+		TV: 9
+	f=11823
+		Radio: 4
+		TV: 10
+	f=11843
+		Radio: 0
+		TV: 10
+	f=11862
+		Radio: 0
+		TV: 13
+	f=11881
+		Radio: 0
+		TV: 1
+	f=11900
+		Radio: 0
+		TV: 10
+	f=11938
+		Radio: 1
+		TV: 12
+	f=11958
+		Radio: 0
+		TV: 12
+	f=11996
+		Radio: 0
+		TV: 9
+	f=12015
+		Radio: 0
+		TV: 20
+	f=12034
+		Radio: 0
+		TV: 14
+	f=12054
+		Radio: 0
+		TV: 17
+	f=12073
+		Radio: 0
+		TV: 16
+	f=12092
+		Radio: 0
+		TV: 1
+	f=12130
+		Radio: 0
+		TV: 8
+	f=12149
+		Radio: 11
+		TV: 14
+	f=12169
+		Radio: 5
+		TV: 12
+	f=12188
+		Radio: 0
+		TV: 20
+	f=12207
+		Radio: 0
+		TV: 3
+	f=12226
+		Radio: 32
+		TV: 9
+	f=12265
+		Radio: 0
+		TV: 11
+	f=12284
+		Radio: 9
+		TV: 11
+	f=12303
+		Radio: 0
+		TV: 11
+	f=12322
+		Radio: 9
+		TV: 8
+	f=12341
+		Radio: 0
+		TV: 10
+	f=12360
+		Radio: 0
+		TV: 8
+	f=12380
+		Radio: 10
+		TV: 0
+	f=12399
+		Radio: 10
+		TV: 6
+	f=12418
+		Radio: 0
+		TV: 10
+	f=12437
+		Radio: 0
+		TV: 15
+	f=12466
+		Radio: 0
+		TV: 8
+	f=12476
+		Radio: 0
+		TV: 13
+	f=12672
+		Radio: 0
+		TV: 1
+	f=12673
+		Radio: 0
+		TV: 6
+Eutelsat 16A
+	f=10720
+		Radio: 0
+		TV: 1
+	f=10721
+		Radio: 0
+		TV: 4
+	f=10762
+		Radio: 0
+		TV: 14
+	f=10804
+		Radio: 0
+		TV: 32
+	f=10804
+		Radio: 0
+		TV: 19
+	f=10845
+		Radio: 0
+		TV: 14
+	f=10887
+		Radio: 0
+		TV: 16
+	f=10928
+		Radio: 6
+		TV: 14
+	f=10928
+		Radio: 0
+		TV: 12
+	f=10972
+		Radio: 2
+		TV: 17
+	f=10977
+		Radio: 0
+		TV: 21
+	f=11001
+		Radio: 0
+		TV: 10
+	f=11011
+		Radio: 0
+		TV: 8
+	f=11040
+		Radio: 0
+		TV: 5
+	f=11046
+		Radio: 0
+		TV: 1
+	f=11056
+		Radio: 0
+		TV: 11
+	f=11070
+		Radio: 1
+		TV: 0
+	f=11073
+		Radio: 2
+		TV: 0
+	f=11092
+		Radio: 0
+		TV: 17
+	f=11131
+		Radio: 2
+		TV: 0
+	f=11151
+		Radio: 0
+		TV: 16
+	f=11157
+		Radio: 0
+		TV: 23
+	f=11178
+		Radio: 2
+		TV: 26
+	f=11188
+		Radio: 0
+		TV: 0
+	f=11221
+		Radio: 0
+		TV: 13
+	f=11231
+		Radio: 0
+		TV: 24
+	f=11262
+		Radio: 0
+		TV: 12
+	f=11262
+		Radio: 0
+		TV: 18
+	f=11283
+		Radio: 0
+		TV: 22
+	f=11324
+		Radio: 0
+		TV: 12
+	f=11356
+		Radio: 0
+		TV: 5
+	f=11365
+		Radio: 28
+		TV: 4
+	f=11366
+		Radio: 0
+		TV: 16
+	f=11387
+		Radio: 0
+		TV: 22
+	f=11426
+		Radio: 0
+		TV: 34
+	f=11471
+		Radio: 0
+		TV: 14
+	f=11471
+		Radio: 0
+		TV: 23
+	f=11512
+		Radio: 0
+		TV: 22
+	f=11512
+		Radio: 0
+		TV: 6
+	f=11512
+		Radio: 0
+		TV: 22
+	f=11553
+		Radio: 0
+		TV: 19
+	f=11554
+		Radio: 0
+		TV: 34
+	f=11595
+		Radio: 7
+		TV: 20
+	f=11595
+		Radio: 0
+		TV: 10
+	f=11596
+		Radio: 6
+		TV: 18
+	f=11637
+		Radio: 0
+		TV: 29
+	f=11637
+		Radio: 9
+		TV: 8
+	f=11678
+		Radio: 0
+		TV: 4
+	f=12524
+		Radio: 0
+		TV: 0
+	f=12540
+		Radio: 0
+		TV: 7
+	f=12562
+		Radio: 0
+		TV: 33
+	f=12565
+		Radio: 0
+		TV: 1
+	f=12569
+		Radio: 0
+		TV: 1
+	f=12572
+		Radio: 0
+		TV: 2
+	f=12593
+		Radio: 0
+		TV: 1
+	f=12597
+		Radio: 0
+		TV: 1
+	f=12605
+		Radio: 0
+		TV: 25
+	f=12639
+		Radio: 0
+		TV: 6
+	f=12643
+		Radio: 0
+		TV: 7
+	f=12654
+		Radio: 0
+		TV: 3
+	f=12660
+		Radio: 0
+		TV: 2
+	f=12687
+		Radio: 0
+		TV: 26
+	f=12688
+		Radio: 0
+		TV: 0
+	f=12690
+		Radio: 0
+		TV: 0
+	f=12693
+		Radio: 0
+		TV: 0
+	f=12694
+		Radio: 0
+		TV: 2
+	f=12701
+		Radio: 0
+		TV: 3
+	f=12717
+		Radio: 0
+		TV: 4
+	f=12734
+		Radio: 0
+		TV: 0
+	f=12737
+		Radio: 0
+		TV: 3
+	f=21534
+		Radio: 0
+		TV: 1
+	f=21536
+		Radio: 0
+		TV: 1
+	f=21538
+		Radio: 0
+		TV: 1
+	f=21540
+		Radio: 0
+		TV: 1
+	f=21542
+		Radio: 0
+		TV: 1
+	f=21543
+		Radio: 0
+		TV: 1
+	f=21545
+		Radio: 0
+		TV: 2
+	f=21547
+		Radio: 0
+		TV: 1
+	f=21562
+		Radio: 0
+		TV: 1
+	f=21571
+		Radio: 0
+		TV: 3
+	f=21577
+		Radio: 0
+		TV: 6
+	f=21599
+		Radio: 0
+		TV: 10
+	f=21607
+		Radio: 0
+		TV: 10
+Amos 17
+	f=4090
+		Radio: 0
+		TV: 16
+	f=11718
+		Radio: 0
+		TV: 15
+	f=12332
+		Radio: 0
+		TV: 20
+	f=12534
+		Radio: 0
+		TV: 7
+	f=12541
+		Radio: 0
+		TV: 17
+	f=12552
+		Radio: 0
+		TV: 4
+Astra 1KR
+	f=10714
+		Radio: 0
+		TV: 1
+	f=10714
+		Radio: 0
+		TV: 8
+	f=10729
+		Radio: 0
+		TV: 6
+	f=10788
+		Radio: 0
+		TV: 15
+	f=10803
+		Radio: 0
+		TV: 8
+	f=10891
+		Radio: 0
+		TV: 5
+	f=10906
+		Radio: 0
+		TV: 7
+	f=10921
+		Radio: 0
+		TV: 4
+	f=11009
+		Radio: 0
+		TV: 1
+	f=11023
+		Radio: 0
+		TV: 1
+	f=11126
+		Radio: 0
+		TV: 5
+	f=11156
+		Radio: 0
+		TV: 12
+	f=11171
+		Radio: 0
+		TV: 12
+	f=11186
+		Radio: 1
+		TV: 2
+	f=11229
+		Radio: 0
+		TV: 4
+	f=11244
+		Radio: 0
+		TV: 11
+	f=11273
+		Radio: 0
+		TV: 13
+	f=11303
+		Radio: 0
+		TV: 6
+	f=11318
+		Radio: 0
+		TV: 13
+	f=11362
+		Radio: 0
+		TV: 2
+	f=11391
+		Radio: 0
+		TV: 5
+	f=11436
+		Radio: 0
+		TV: 4
+	f=11509
+		Radio: 0
+		TV: 4
+	f=11671
+		Radio: 0
+		TV: 7
+	f=11686
+		Radio: 0
+		TV: 7
+Astra 1M
+	f=10758
+		Radio: 0
+		TV: 13
+	f=10773
+		Radio: 0
+		TV: 7
+	f=10818
+		Radio: 0
+		TV: 7
+	f=10832
+		Radio: 0
+		TV: 4
+	f=10847
+		Radio: 32
+		TV: 2
+	f=10876
+		Radio: 0
+		TV: 16
+	f=10936
+		Radio: 0
+		TV: 6
+	f=11464
+		Radio: 0
+		TV: 6
+	f=11612
+		Radio: 0
+		TV: 3
+	f=11627
+		Radio: 0
+		TV: 6
+	f=11656
+		Radio: 0
+		TV: 11
+	f=11720
+		Radio: 0
+		TV: 25
+	f=11739
+		Radio: 0
+		TV: 10
+	f=11759
+		Radio: 0
+		TV: 26
+	f=11778
+		Radio: 0
+		TV: 1
+	f=11798
+		Radio: 0
+		TV: 6
+	f=11817
+		Radio: 0
+		TV: 13
+	f=11856
+		Radio: 0
+		TV: 13
+	f=11895
+		Radio: 0
+		TV: 12
+	f=11934
+		Radio: 0
+		TV: 6
+	f=11973
+		Radio: 0
+		TV: 15
+	f=11993
+		Radio: 0
+		TV: 8
+	f=12012
+		Radio: 0
+		TV: 10
+	f=12090
+		Radio: 0
+		TV: 13
+	f=12110
+		Radio: 0
+		TV: 11
+	f=12168
+		Radio: 0
+		TV: 10
+	f=12188
+		Radio: 0
+		TV: 7
+	f=12226
+		Radio: 0
+		TV: 7
+	f=12266
+		Radio: 61
+		TV: 2
+	f=12344
+		Radio: 0
+		TV: 2
+	f=12383
+		Radio: 0
+		TV: 18
+	f=12422
+		Radio: 0
+		TV: 15
+	f=12460
+		Radio: 7
+		TV: 11
+	f=12480
+		Radio: 0
+		TV: 12
+Astra 1L
+	f=10964
+		Radio: 0
+		TV: 9
+	f=10979
+		Radio: 0
+		TV: 3
+	f=10994
+		Radio: 0
+		TV: 1
+	f=11038
+		Radio: 0
+		TV: 11
+	f=11053
+		Radio: 0
+		TV: 4
+	f=11068
+		Radio: 1
+		TV: 7
+	f=11082
+		Radio: 0
+		TV: 6
+	f=11097
+		Radio: 0
+		TV: 34
+	f=11112
+		Radio: 0
+		TV: 7
+	f=11259
+		Radio: 0
+		TV: 9
+	f=11288
+		Radio: 0
+		TV: 3
+	f=11347
+		Radio: 0
+		TV: 3
+	f=11377
+		Radio: 0
+		TV: 3
+	f=11421
+		Radio: 0
+		TV: 6
+	f=11494
+		Radio: 0
+		TV: 4
+	f=11538
+		Radio: 0
+		TV: 8
+	f=11553
+		Radio: 0
+		TV: 5
+	f=11568
+		Radio: 0
+		TV: 0
+	f=11582
+		Radio: 0
+		TV: 7
+	f=11597
+		Radio: 0
+		TV: 7
+	f=12515
+		Radio: 6
+		TV: 15
+	f=12545
+		Radio: 0
+		TV: 8
+	f=12574
+		Radio: 0
+		TV: 6
+	f=12633
+		Radio: 10
+		TV: 33
+	f=12728
+		Radio: 0
+		TV: 19
+	f=18556
+		Radio: 0
+		TV: 1
+	f=18766
+		Radio: 0
+		TV: 1
+Astra 1N
+	f=11836
+		Radio: 0
+		TV: 6
+	f=11915
+		Radio: 0
+		TV: 10
+	f=11954
+		Radio: 3
+		TV: 5
+	f=12032
+		Radio: 0
+		TV: 11
+	f=12051
+		Radio: 0
+		TV: 10
+	f=12071
+		Radio: 0
+		TV: 4
+	f=12129
+		Radio: 0
+		TV: 11
+	f=12148
+		Radio: 5
+		TV: 16
+	f=12207
+		Radio: 0
+		TV: 11
+	f=12246
+		Radio: 0
+		TV: 12
+	f=12285
+		Radio: 0
+		TV: 12
+	f=12305
+		Radio: 0
+		TV: 8
+	f=12324
+		Radio: 0
+		TV: 3
+	f=12363
+		Radio: 0
+		TV: 0
+	f=12402
+		Radio: 0
+		TV: 11
+	f=12441
+		Radio: 0
+		TV: 14
+	f=12552
+		Radio: 0
+		TV: 5
+	f=12604
+		Radio: 3
+		TV: 9
+	f=12663
+		Radio: 15
+		TV: 11
+	f=12692
+		Radio: 0
+		TV: 17
+Arabsat 5C
+	f=3708
+		Radio: 1
+		TV: 0
+	f=3710
+		Radio: 1
+		TV: 1
+	f=3716
+		Radio: 0
+		TV: 0
+	f=3719
+		Radio: 0
+		TV: 1
+	f=3796
+		Radio: 0
+		TV: 1
+	f=3883
+		Radio: 0
+		TV: 12
+	f=3934
+		Radio: 0
+		TV: 10
+	f=3964
+		Radio: 0
+		TV: 8
+	f=3973
+		Radio: 0
+		TV: 7
+Eutelsat 21B
+	f=10856
+		Radio: 0
+		TV: 18
+	f=10911
+		Radio: 0
+		TV: 6
+	f=11004
+		Radio: 1
+		TV: 0
+	f=11100
+		Radio: 0
+		TV: 1
+	f=11108
+		Radio: 0
+		TV: 0
+	f=11108
+		Radio: 0
+		TV: 0
+	f=11112
+		Radio: 0
+		TV: 0
+	f=11175
+		Radio: 0
+		TV: 1
+	f=11232
+		Radio: 0
+		TV: 1
+	f=11456
+		Radio: 0
+		TV: 1
+	f=11466
+		Radio: 0
+		TV: 0
+	f=11472
+		Radio: 0
+		TV: 1
+	f=11481
+		Radio: 0
+		TV: 1
+	f=11482
+		Radio: 0
+		TV: 1
+	f=11483
+		Radio: 0
+		TV: 1
+	f=11496
+		Radio: 0
+		TV: 1
+	f=11499
+		Radio: 0
+		TV: 1
+	f=11500
+		Radio: 0
+		TV: 0
+	f=11504
+		Radio: 0
+		TV: 0
+	f=11514
+		Radio: 0
+		TV: 1
+	f=11515
+		Radio: 0
+		TV: 1
+	f=11520
+		Radio: 0
+		TV: 1
+	f=11532
+		Radio: 0
+		TV: 1
+	f=11540
+		Radio: 0
+		TV: 0
+	f=11542
+		Radio: 0
+		TV: 1
+	f=11558
+		Radio: 0
+		TV: 1
+	f=11563
+		Radio: 0
+		TV: 0
+	f=11564
+		Radio: 0
+		TV: 1
+	f=11566
+		Radio: 0
+		TV: 1
+	f=11567
+		Radio: 0
+		TV: 1
+	f=11573
+		Radio: 0
+		TV: 1
+	f=11573
+		Radio: 0
+		TV: 0
+	f=11575
+		Radio: 0
+		TV: 1
+	f=11578
+		Radio: 0
+		TV: 0
+	f=11584
+		Radio: 0
+		TV: 1
+	f=11585
+		Radio: 0
+		TV: 1
+	f=11585
+		Radio: 0
+		TV: 0
+	f=11597
+		Radio: 0
+		TV: 1
+	f=11600
+		Radio: 0
+		TV: 1
+	f=11609
+		Radio: 0
+		TV: 1
+	f=11618
+		Radio: 0
+		TV: 13
+	f=11626
+		Radio: 0
+		TV: 1
+	f=11627
+		Radio: 0
+		TV: 4
+	f=11643
+		Radio: 0
+		TV: 0
+	f=11662
+		Radio: 0
+		TV: 1
+	f=11665
+		Radio: 0
+		TV: 0
+	f=11667
+		Radio: 0
+		TV: 1
+	f=11668
+		Radio: 0
+		TV: 1
+	f=11669
+		Radio: 0
+		TV: 1
+	f=11671
+		Radio: 0
+		TV: 1
+	f=11674
+		Radio: 0
+		TV: 1
+	f=11682
+		Radio: 0
+		TV: 1
+	f=11689
+		Radio: 0
+		TV: 1
+	f=12521
+		Radio: 0
+		TV: 0
+	f=12528
+		Radio: 0
+		TV: 0
+	f=12537
+		Radio: 0
+		TV: 0
+	f=12538
+		Radio: 0
+		TV: 1
+	f=12546
+		Radio: 0
+		TV: 0
+	f=12558
+		Radio: 0
+		TV: 0
+	f=12563
+		Radio: 0
+		TV: 0
+	f=12657
+		Radio: 0
+		TV: 1
+	f=12678
+		Radio: 0
+		TV: 0
+	f=12712
+		Radio: 0
+		TV: 0
+	f=12713
+		Radio: 0
+		TV: 0
+	f=12721
+		Radio: 0
+		TV: 0
+	f=12730
+		Radio: 0
+		TV: 0
+Astra 3B
+	f=11559
+		Radio: 0
+		TV: 0
+	f=11644
+		Radio: 1
+		TV: 0
+	f=11659
+		Radio: 0
+		TV: 0
+	f=11662
+		Radio: 0
+		TV: 0
+	f=11675
+		Radio: 8
+		TV: 0
+	f=11675
+		Radio: 0
+		TV: 0
+	f=11676
+		Radio: 8
+		TV: 0
+	f=11678
+		Radio: 24
+		TV: 0
+	f=11720
+		Radio: 0
+		TV: 48
+	f=11739
+		Radio: 5
+		TV: 26
+	f=11797
+		Radio: 0
+		TV: 22
+	f=11798
+		Radio: 0
+		TV: 33
+	f=11817
+		Radio: 0
+		TV: 5
+	f=11856
+		Radio: 2
+		TV: 16
+	f=11876
+		Radio: 0
+		TV: 11
+	f=11914
+		Radio: 0
+		TV: 22
+	f=11934
+		Radio: 0
+		TV: 26
+	f=11973
+		Radio: 1
+		TV: 15
+	f=12032
+		Radio: 0
+		TV: 6
+	f=12070
+		Radio: 2
+		TV: 7
+	f=12090
+		Radio: 0
+		TV: 19
+	f=12110
+		Radio: 0
+		TV: 12
+	f=12129
+		Radio: 4
+		TV: 27
+	f=12148
+		Radio: 0
+		TV: 0
+	f=12168
+		Radio: 0
+		TV: 10
+	f=12187
+		Radio: 12
+		TV: 21
+	f=12304
+		Radio: 0
+		TV: 0
+	f=12343
+		Radio: 11
+		TV: 10
+	f=12363
+		Radio: 1
+		TV: 12
+	f=12402
+		Radio: 0
+		TV: 44
+	f=12517
+		Radio: 0
+		TV: 7
+	f=12548
+		Radio: 6
+		TV: 0
+	f=12563
+		Radio: 0
+		TV: 0
+	f=12573
+		Radio: 0
+		TV: 0
+	f=12605
+		Radio: 0
+		TV: 0
+	f=12631
+		Radio: 0
+		TV: 0
+	f=12640
+		Radio: 2
+		TV: 0
+	f=12641
+		Radio: 1
+		TV: 0
+	f=12643
+		Radio: 4
+		TV: 0
+	f=12645
+		Radio: 1
+		TV: 0
+	f=12645
+		Radio: 0
+		TV: 0
+	f=12647
+		Radio: 1
+		TV: 0
+	f=12667
+		Radio: 0
+		TV: 0
+	f=12694
+		Radio: 0
+		TV: 0
+Es'hail 2
+	f=10730
+		Radio: 0
+		TV: 4
+	f=10730
+		Radio: 0
+		TV: 2
+	f=10873
+		Radio: 0
+		TV: 24
+	f=10930
+		Radio: 0
+		TV: 16
+	f=10970
+		Radio: 0
+		TV: 10
+	f=11310
+		Radio: 0
+		TV: 5
+Es'hail 1
+	f=10770
+		Radio: 0
+		TV: 4
+	f=10997
+		Radio: 0
+		TV: 8
+	f=11046
+		Radio: 0
+		TV: 3
+	f=11064
+		Radio: 0
+		TV: 9
+	f=11123
+		Radio: 0
+		TV: 7
+	f=11180
+		Radio: 0
+		TV: 5
+	f=11180
+		Radio: 0
+		TV: 2
+	f=11350
+		Radio: 0
+		TV: 7
+	f=11390
+		Radio: 0
+		TV: 6
+	f=11547
+		Radio: 0
+		TV: 7
+	f=11566
+		Radio: 0
+		TV: 8
+	f=11585
+		Radio: 0
+		TV: 7
+	f=11604
+		Radio: 0
+		TV: 7
+	f=11623
+		Radio: 0
+		TV: 5
+	f=11628
+		Radio: 0
+		TV: 0
+	f=11631
+		Radio: 0
+		TV: 0
+	f=11634
+		Radio: 0
+		TV: 0
+	f=11637
+		Radio: 0
+		TV: 0
+	f=11642
+		Radio: 0
+		TV: 7
+	f=11678
+		Radio: 0
+		TV: 7
+	f=12380
+		Radio: 0
+		TV: 2
+	f=12563
+		Radio: 0
+		TV: 13
+	f=21421
+		Radio: 0
+		TV: 2
+	f=21459
+		Radio: 0
+		TV: 0
+	f=21498
+		Radio: 0
+		TV: 0
+	f=21530
+		Radio: 0
+		TV: 3
+	f=21536
+		Radio: 0
+		TV: 0
+Badr 6
+	f=4100
+		Radio: 0
+		TV: 12
+	f=11727
+		Radio: 0
+		TV: 7
+	f=11747
+		Radio: 2
+		TV: 4
+	f=11785
+		Radio: 4
+		TV: 10
+	f=11804
+		Radio: 13
+		TV: 8
+	f=11823
+		Radio: 0
+		TV: 7
+	f=11843
+		Radio: 0
+		TV: 9
+	f=11862
+		Radio: 0
+		TV: 8
+	f=11900
+		Radio: 0
+		TV: 9
+	f=12341
+		Radio: 0
+		TV: 7
+	f=12360
+		Radio: 0
+		TV: 8
+	f=12361
+		Radio: 0
+		TV: 12
+	f=12399
+		Radio: 0
+		TV: 10
+	f=12437
+		Radio: 0
+		TV: 25
+	f=12456
+		Radio: 4
+		TV: 9
+	f=12476
+		Radio: 0
+		TV: 14
+Badr 5
+	f=10770
+		Radio: 0
+		TV: 4
+	f=10810
+		Radio: 0
+		TV: 0
+	f=11390
+		Radio: 0
+		TV: 3
+	f=11455
+		Radio: 0
+		TV: 0
+	f=11470
+		Radio: 0
+		TV: 0
+	f=11637
+		Radio: 0
+		TV: 7
+	f=11766
+		Radio: 0
+		TV: 9
+	f=11881
+		Radio: 0
+		TV: 32
+	f=11919
+		Radio: 0
+		TV: 8
+	f=12266
+		Radio: 0
+		TV: 8
+	f=12283
+		Radio: 0
+		TV: 11
+	f=12284
+		Radio: 0
+		TV: 13
+	f=12303
+		Radio: 0
+		TV: 47
+	f=12303
+		Radio: 0
+		TV: 5
+	f=12324
+		Radio: 0
+		TV: 10
+	f=12380
+		Radio: 0
+		TV: 16
+Badr 7
+	f=11010
+		Radio: 0
+		TV: 9
+	f=11017
+		Radio: 0
+		TV: 1
+	f=11230
+		Radio: 0
+		TV: 11
+	f=11230
+		Radio: 0
+		TV: 10
+	f=11270
+		Radio: 0
+		TV: 10
+	f=11270
+		Radio: 0
+		TV: 14
+	f=11270
+		Radio: 0
+		TV: 14
+	f=11350
+		Radio: 0
+		TV: 10
+Badr 4
+	f=11938
+		Radio: 7
+		TV: 11
+	f=11958
+		Radio: 0
+		TV: 7
+	f=11977
+		Radio: 0
+		TV: 9
+	f=11996
+		Radio: 7
+		TV: 11
+	f=12015
+		Radio: 6
+		TV: 0
+	f=12034
+		Radio: 0
+		TV: 11
+	f=12054
+		Radio: 6
+		TV: 9
+	f=12073
+		Radio: 0
+		TV: 7
+	f=12092
+		Radio: 5
+		TV: 4
+	f=12111
+		Radio: 0
+		TV: 6
+	f=12130
+		Radio: 0
+		TV: 8
+	f=12149
+		Radio: 0
+		TV: 10
+	f=12169
+		Radio: 8
+		TV: 3
+	f=12182
+		Radio: 0
+		TV: 1
+	f=12226
+		Radio: 0
+		TV: 7
+	f=12245
+		Radio: 1
+		TV: 4
+	f=12508
+		Radio: 0
+		TV: 0
+	f=12518
+		Radio: 0
+		TV: 0
+	f=12522
+		Radio: 6
+		TV: 0
+	f=12523
+		Radio: 0
+		TV: 14
+	f=12523
+		Radio: 0
+		TV: 9
+	f=12532
+		Radio: 0
+		TV: 0
+	f=12540
+		Radio: 0
+		TV: 0
+	f=12547
+		Radio: 0
+		TV: 0
+	f=12550
+		Radio: 0
+		TV: 0
+	f=12563
+		Radio: 0
+		TV: 11
+	f=12643
+		Radio: 0
+		TV: 8
+	f=12666
+		Radio: 0
+		TV: 2
+	f=12689
+		Radio: 0
+		TV: 0
+	f=12711
+		Radio: 0
+		TV: 0
+	f=12715
+		Radio: 0
+		TV: 0
+Astra 2E
+	f=10714
+		Radio: 0
+		TV: 3
+	f=10729
+		Radio: 1
+		TV: 2
+	f=10729
+		Radio: 0
+		TV: 2
+	f=10891
+		Radio: 0
+		TV: 4
+	f=10906
+		Radio: 1
+		TV: 9
+	f=11387
+		Radio: 0
+		TV: 4
+	f=11387
+		Radio: 0
+		TV: 4
+	f=11427
+		Radio: 0
+		TV: 5
+	f=11837
+		Radio: 4
+		TV: 20
+	f=11856
+		Radio: 0
+		TV: 4
+	f=11914
+		Radio: 0
+		TV: 12
+	f=11934
+		Radio: 0
+		TV: 14
+	f=11973
+		Radio: 0
+		TV: 1
+	f=12012
+		Radio: 0
+		TV: 9
+	f=12070
+		Radio: 0
+		TV: 8
+	f=12324
+		Radio: 0
+		TV: 5
+	f=12344
+		Radio: 0
+		TV: 8
+	f=12362
+		Radio: 0
+		TV: 10
+	f=12441
+		Radio: 0
+		TV: 2
+Astra 2G
+	f=10994
+		Radio: 0
+		TV: 2
+	f=11038
+		Radio: 0
+		TV: 5
+	f=11053
+		Radio: 0
+		TV: 3
+	f=11068
+		Radio: 0
+		TV: 4
+	f=11082
+		Radio: 0
+		TV: 16
+	f=11095
+		Radio: 0
+		TV: 25
+	f=11112
+		Radio: 0
+		TV: 17
+	f=11141
+		Radio: 0
+		TV: 10
+	f=11171
+		Radio: 0
+		TV: 10
+	f=11225
+		Radio: 0
+		TV: 3
+	f=11264
+		Radio: 0
+		TV: 5
+	f=11265
+		Radio: 0
+		TV: 8
+	f=11464
+		Radio: 0
+		TV: 15
+	f=11479
+		Radio: 0
+		TV: 15
+	f=11494
+		Radio: 0
+		TV: 4
+	f=11509
+		Radio: 0
+		TV: 2
+	f=11538
+		Radio: 0
+		TV: 17
+	f=11553
+		Radio: 0
+		TV: 18
+	f=11568
+		Radio: 0
+		TV: 15
+	f=11582
+		Radio: 1
+		TV: 17
+	f=11595
+		Radio: 0
+		TV: 26
+	f=11597
+		Radio: 0
+		TV: 15
+	f=11627
+		Radio: 0
+		TV: 9
+	f=11641
+		Radio: 0
+		TV: 1
+	f=11656
+		Radio: 0
+		TV: 7
+	f=11671
+		Radio: 0
+		TV: 3
+	f=11686
+		Radio: 0
+		TV: 1
+Astra 2F
+	f=11307
+		Radio: 0
+		TV: 16
+	f=11307
+		Radio: 1
+		TV: 0
+	f=11343
+		Radio: 0
+		TV: 17
+	f=11344
+		Radio: 0
+		TV: 21
+	f=11635
+		Radio: 0
+		TV: 26
+	f=11720
+		Radio: 0
+		TV: 9
+	f=12110
+		Radio: 0
+		TV: 10
+	f=12129
+		Radio: 0
+		TV: 17
+	f=12148
+		Radio: 0
+		TV: 15
+	f=12168
+		Radio: 0
+		TV: 9
+	f=12188
+		Radio: 0
+		TV: 10
+	f=12207
+		Radio: 0
+		TV: 25
+	f=12226
+		Radio: 0
+		TV: 2
+	f=12246
+		Radio: 0
+		TV: 7
+	f=12266
+		Radio: 0
+		TV: 12
+	f=12285
+		Radio: 0
+		TV: 9
+	f=12324
+		Radio: 0
+		TV: 3
+	f=12382
+		Radio: 0
+		TV: 13
+	f=12605
+		Radio: 0
+		TV: 14
+Arabsat 5A
+	f=3869
+		Radio: 0
+		TV: 0
+	f=3873
+		Radio: 0
+		TV: 0
+	f=3878
+		Radio: 0
+		TV: 0
+	f=3884
+		Radio: 0
+		TV: 0
+	f=3900
+		Radio: 0
+		TV: 0
+	f=3908
+		Radio: 0
+		TV: 1
+	f=3920
+		Radio: 0
+		TV: 5
+	f=4000
+		Radio: 0
+		TV: 1
+	f=4000
+		Radio: 1
+		TV: 1
+	f=4010
+		Radio: 0
+		TV: 0
+	f=4013
+		Radio: 0
+		TV: 1
+	f=4043
+		Radio: 0
+		TV: 0
+	f=4049
+		Radio: 0
+		TV: 0
+	f=4055
+		Radio: 0
+		TV: 0
+	f=4061
+		Radio: 0
+		TV: 1
+	f=4068
+		Radio: 0
+		TV: 0
+	f=4091
+		Radio: 3
+		TV: 0
+	f=4115
+		Radio: 0
+		TV: 0
+	f=4140
+		Radio: 0
+		TV: 0
+	f=4196
+		Radio: 1
+		TV: 1
+	f=10716
+		Radio: 0
+		TV: 1
+	f=10727
+		Radio: 0
+		TV: 0
+	f=10758
+		Radio: 1
+		TV: 0
+	f=10766
+		Radio: 0
+		TV: 0
+	f=10771
+		Radio: 0
+		TV: 0
+	f=10780
+		Radio: 0
+		TV: 1
+	f=10795
+		Radio: 0
+		TV: 2
+	f=10796
+		Radio: 0
+		TV: 1
+	f=10800
+		Radio: 0
+		TV: 1
+	f=10817
+		Radio: 0
+		TV: 1
+	f=10824
+		Radio: 0
+		TV: 1
+	f=10842
+		Radio: 0
+		TV: 1
+	f=10923
+		Radio: 0
+		TV: 7
+	f=10937
+		Radio: 0
+		TV: 1
+	f=10941
+		Radio: 0
+		TV: 1
+	f=10945
+		Radio: 0
+		TV: 1
+	f=12034
+		Radio: 0
+		TV: 11
+	f=12506
+		Radio: 0
+		TV: 0
+	f=12511
+		Radio: 0
+		TV: 0
+	f=12520
+		Radio: 0
+		TV: 2
+	f=12520
+		Radio: 0
+		TV: 1
+	f=12521
+		Radio: 0
+		TV: 1
+	f=12523
+		Radio: 0
+		TV: 0
+	f=12524
+		Radio: 0
+		TV: 1
+	f=12529
+		Radio: 0
+		TV: 1
+	f=12530
+		Radio: 0
+		TV: 1
+	f=12533
+		Radio: 0
+		TV: 1
+	f=12535
+		Radio: 0
+		TV: 0
+	f=12538
+		Radio: 0
+		TV: 0
+	f=12540
+		Radio: 0
+		TV: 0
+	f=12548
+		Radio: 2
+		TV: 1
+	f=12558
+		Radio: 3
+		TV: 1
+	f=12561
+		Radio: 1
+		TV: 1
+	f=12564
+		Radio: 1
+		TV: 1
+	f=12568
+		Radio: 0
+		TV: 0
+	f=12569
+		Radio: 0
+		TV: 1
+	f=12570
+		Radio: 0
+		TV: 0
+	f=12571
+		Radio: 0
+		TV: 0
+	f=12572
+		Radio: 0
+		TV: 1
+	f=12575
+		Radio: 0
+		TV: 0
+	f=12578
+		Radio: 2
+		TV: 1
+	f=12588
+		Radio: 0
+		TV: 0
+	f=12592
+		Radio: 0
+		TV: 0
+	f=12594
+		Radio: 0
+		TV: 1
+	f=12595
+		Radio: 0
+		TV: 0
+	f=12600
+		Radio: 0
+		TV: 0
+	f=12601
+		Radio: 0
+		TV: 0
+	f=12603
+		Radio: 0
+		TV: 1
+	f=12604
+		Radio: 0
+		TV: 0
+	f=12606
+		Radio: 0
+		TV: 0
+	f=12607
+		Radio: 0
+		TV: 0
+	f=12607
+		Radio: 0
+		TV: 0
+	f=12608
+		Radio: 0
+		TV: 1
+	f=12610
+		Radio: 0
+		TV: 1
+	f=12614
+		Radio: 0
+		TV: 1
+	f=12616
+		Radio: 0
+		TV: 0
+	f=12623
+		Radio: 0
+		TV: 1
+	f=12624
+		Radio: 0
+		TV: 1
+	f=12625
+		Radio: 0
+		TV: 0
+	f=12630
+		Radio: 0
+		TV: 1
+	f=12630
+		Radio: 0
+		TV: 1
+	f=12634
+		Radio: 0
+		TV: 1
+	f=12634
+		Radio: 0
+		TV: 0
+	f=12636
+		Radio: 0
+		TV: 0
+	f=12639
+		Radio: 0
+		TV: 1
+	f=12640
+		Radio: 0
+		TV: 1
+	f=12644
+		Radio: 0
+		TV: 0
+	f=12646
+		Radio: 0
+		TV: 1
+	f=12652
+		Radio: 0
+		TV: 0
+	f=12654
+		Radio: 0
+		TV: 1
+	f=12655
+		Radio: 0
+		TV: 1
+	f=12656
+		Radio: 0
+		TV: 1
+	f=12658
+		Radio: 3
+		TV: 1
+	f=12661
+		Radio: 0
+		TV: 0
+	f=12662
+		Radio: 0
+		TV: 1
+	f=12667
+		Radio: 0
+		TV: 0
+	f=12670
+		Radio: 0
+		TV: 0
+	f=12679
+		Radio: 0
+		TV: 1
+	f=12686
+		Radio: 0
+		TV: 0
+	f=12686
+		Radio: 0
+		TV: 0
+	f=12687
+		Radio: 0
+		TV: 1
+	f=12691
+		Radio: 0
+		TV: 0
+	f=12693
+		Radio: 0
+		TV: 1
+	f=12693
+		Radio: 0
+		TV: 0
+	f=12697
+		Radio: 0
+		TV: 1
+	f=12703
+		Radio: 2
+		TV: 1
+	f=12709
+		Radio: 0
+		TV: 0
+	f=12712
+		Radio: 0
+		TV: 1
+	f=12716
+		Radio: 0
+		TV: 1
+	f=12724
+		Radio: 0
+		TV: 1
+	f=12725
+		Radio: 0
+		TV: 2
+	f=12726
+		Radio: 0
+		TV: 1
+	f=12728
+		Radio: 0
+		TV: 0
+	f=12729
+		Radio: 0
+		TV: 1
+	f=12730
+		Radio: 0
+		TV: 0
+	f=12731
+		Radio: 0
+		TV: 1
+	f=12732
+		Radio: 0
+		TV: 0
+	f=12733
+		Radio: 0
+		TV: 0
+	f=12736
+		Radio: 0
+		TV: 2
+	f=12739
+		Radio: 0
+		TV: 0
+	f=12744
+		Radio: 0
+		TV: 0
+Astra 5B
+	f=10954
+		Radio: 0
+		TV: 1
+	f=11758
+		Radio: 1
+		TV: 1
+	f=11817
+		Radio: 0
+		TV: 3
+	f=11823
+		Radio: 0
+		TV: 12
+	f=11876
+		Radio: 0
+		TV: 0
+	f=11915
+		Radio: 0
+		TV: 0
+	f=11954
+		Radio: 0
+		TV: 23
+	f=11973
+		Radio: 0
+		TV: 32
+	f=12012
+		Radio: 0
+		TV: 17
+	f=12071
+		Radio: 0
+		TV: 16
+	f=12090
+		Radio: 0
+		TV: 15
+	f=12110
+		Radio: 0
+		TV: 9
+	f=12169
+		Radio: 0
+		TV: 16
+	f=12246
+		Radio: 0
+		TV: 17
+	f=12266
+		Radio: 0
+		TV: 16
+	f=12324
+		Radio: 0
+		TV: 16
+	f=12402
+		Radio: 0
+		TV: 17
+	f=12480
+		Radio: 0
+		TV: 17
+Arabsat 6A
+	f=11024
+		Radio: 0
+		TV: 1
+	f=11074
+		Radio: 0
+		TV: 1
+	f=11076
+		Radio: 0
+		TV: 1
+	f=11122
+		Radio: 0
+		TV: 1
+	f=11429
+		Radio: 0
+		TV: 10
+	f=11766
+		Radio: 0
+		TV: 10
+	f=12091
+		Radio: 0
+		TV: 11
+Eutelsat 33E
+	f=10758
+		Radio: 0
+		TV: 13
+	f=11027
+		Radio: 0
+		TV: 0
+	f=11350
+		Radio: 0
+		TV: 0
+	f=12562
+		Radio: 0
+		TV: 4
+	f=12598
+		Radio: 0
+		TV: 3
+	f=12646
+		Radio: 0
+		TV: 6
+	f=12646
+		Radio: 0
+		TV: 0
+	f=12722
+		Radio: 12
+		TV: 12
+Intelsat 28
+	f=10975
+		Radio: 0
+		TV: 16
+	f=11015
+		Radio: 0
+		TV: 20
+Galaxy 25
+	f=11780
+		Radio: 0
+		TV: 0
+	f=11895
+		Radio: 0
+		TV: 1
+	f=11904
+		Radio: 0
+		TV: 1
+	f=11915
+		Radio: 0
+		TV: 1
+	f=11993
+		Radio: 0
+		TV: 0
+	f=11996
+		Radio: 0
+		TV: 1
+	f=12000
+		Radio: 0
+		TV: 0
+Eutelsat 36B
+	f=11212
+		Radio: 0
+		TV: 5
+	f=11230
+		Radio: 0
+		TV: 7
+	f=11346
+		Radio: 0
+		TV: 12
+	f=11439
+		Radio: 0
+		TV: 1
+	f=11546
+		Radio: 0
+		TV: 1
+	f=11586
+		Radio: 0
+		TV: 1
+	f=11645
+		Radio: 0
+		TV: 1
+	f=11667
+		Radio: 0
+		TV: 1
+	f=11684
+		Radio: 0
+		TV: 5
+	f=11727
+		Radio: 0
+		TV: 12
+	f=11747
+		Radio: 0
+		TV: 1
+	f=11747
+		Radio: 2
+		TV: 12
+	f=11766
+		Radio: 0
+		TV: 7
+	f=11785
+		Radio: 0
+		TV: 33
+	f=11804
+		Radio: 0
+		TV: 28
+	f=11823
+		Radio: 0
+		TV: 9
+	f=11823
+		Radio: 0
+		TV: 12
+	f=11843
+		Radio: 0
+		TV: 14
+	f=11843
+		Radio: 0
+		TV: 22
+	f=11862
+		Radio: 0
+		TV: 12
+	f=11881
+		Radio: 0
+		TV: 21
+	f=11881
+		Radio: 1
+		TV: 6
+	f=11900
+		Radio: 0
+		TV: 15
+	f=11900
+		Radio: 0
+		TV: 30
+	f=11919
+		Radio: 0
+		TV: 5
+	f=11919
+		Radio: 0
+		TV: 8
+	f=11938
+		Radio: 0
+		TV: 5
+	f=11940
+		Radio: 0
+		TV: 9
+	f=11958
+		Radio: 0
+		TV: 4
+	f=11958
+		Radio: 1
+		TV: 13
+	f=11977
+		Radio: 0
+		TV: 23
+	f=11977
+		Radio: 0
+		TV: 7
+	f=11996
+		Radio: 28
+		TV: 21
+	f=11996
+		Radio: 0
+		TV: 6
+	f=12015
+		Radio: 0
+		TV: 8
+	f=12015
+		Radio: 0
+		TV: 13
+	f=12034
+		Radio: 6
+		TV: 15
+	f=12034
+		Radio: 0
+		TV: 8
+	f=12054
+		Radio: 0
+		TV: 12
+	f=12073
+		Radio: 0
+		TV: 12
+	f=12073
+		Radio: 0
+		TV: 15
+	f=12092
+		Radio: 0
+		TV: 1
+	f=12149
+		Radio: 0
+		TV: 23
+	f=12169
+		Radio: 0
+		TV: 14
+	f=12245
+		Radio: 0
+		TV: 12
+	f=12360
+		Radio: 6
+		TV: 10
+	f=12360
+		Radio: 0
+		TV: 4
+	f=12380
+		Radio: 0
+		TV: 15
+	f=12399
+		Radio: 0
+		TV: 8
+	f=12437
+		Radio: 0
+		TV: 9
+	f=12476
+		Radio: 0
+		TV: 12
+	f=12476
+		Radio: 0
+		TV: 13
+	f=12511
+		Radio: 0
+		TV: 1
+	f=12520
+		Radio: 0
+		TV: 1
+	f=12542
+		Radio: 0
+		TV: 1
+	f=12569
+		Radio: 0
+		TV: 1
+	f=12628
+		Radio: 0
+		TV: 0
+	f=12715
+		Radio: 0
+		TV: 1
+Express AMU1
+	f=11727
+		Radio: 0
+		TV: 30
+	f=12054
+		Radio: 0
+		TV: 3
+	f=12111
+		Radio: 0
+		TV: 30
+	f=12169
+		Radio: 0
+		TV: 1
+	f=12175
+		Radio: 0
+		TV: 1
+	f=12190
+		Radio: 0
+		TV: 15
+	f=12207
+		Radio: 0
+		TV: 7
+	f=12226
+		Radio: 0
+		TV: 11
+	f=12245
+		Radio: 0
+		TV: 31
+	f=12265
+		Radio: 1
+		TV: 17
+	f=12284
+		Radio: 0
+		TV: 41
+	f=12303
+		Radio: 5
+		TV: 16
+	f=12322
+		Radio: 0
+		TV: 23
+	f=12341
+		Radio: 0
+		TV: 17
+	f=12360
+		Radio: 9
+		TV: 6
+	f=12418
+		Radio: 0
+		TV: 8
+	f=12437
+		Radio: 0
+		TV: 30
+	f=12456
+		Radio: 0
+		TV: 19
+	f=19726
+		Radio: 0
+		TV: 0
+	f=19764
+		Radio: 0
+		TV: 0
+	f=19818
+		Radio: 0
+		TV: 0
+	f=19818
+		Radio: 0
+		TV: 0
+	f=19916
+		Radio: 0
+		TV: 0
+	f=19960
+		Radio: 0
+		TV: 0
+Paksat-1R
+	f=3719
+		Radio: 0
+		TV: 4
+	f=3737
+		Radio: 0
+		TV: 6
+	f=3755
+		Radio: 0
+		TV: 4
+	f=3761
+		Radio: 0
+		TV: 2
+	f=3771
+		Radio: 0
+		TV: 5
+	f=3778
+		Radio: 0
+		TV: 2
+	f=3782
+		Radio: 0
+		TV: 1
+	f=3785
+		Radio: 0
+		TV: 1
+	f=3794
+		Radio: 0
+		TV: 1
+	f=3798
+		Radio: 0
+		TV: 2
+	f=3800
+		Radio: 0
+		TV: 4
+	f=3809
+		Radio: 0
+		TV: 4
+	f=3818
+		Radio: 0
+		TV: 7
+	f=3824
+		Radio: 0
+		TV: 1
+	f=3825
+		Radio: 0
+		TV: 3
+	f=3831
+		Radio: 0
+		TV: 1
+	f=3834
+		Radio: 0
+		TV: 3
+	f=3852
+		Radio: 0
+		TV: 4
+	f=3957
+		Radio: 0
+		TV: 25
+	f=3959
+		Radio: 0
+		TV: 2
+	f=3979
+		Radio: 0
+		TV: 1
+	f=4003
+		Radio: 0
+		TV: 5
+	f=4017
+		Radio: 0
+		TV: 1
+	f=4023
+		Radio: 0
+		TV: 1
+	f=4029
+		Radio: 0
+		TV: 1
+	f=4033
+		Radio: 0
+		TV: 1
+	f=4038
+		Radio: 0
+		TV: 23
+	f=4038
+		Radio: 0
+		TV: 1
+	f=4042
+		Radio: 0
+		TV: 1
+	f=4047
+		Radio: 0
+		TV: 25
+	f=4054
+		Radio: 0
+		TV: 1
+	f=4073
+		Radio: 0
+		TV: 3
+	f=4086
+		Radio: 0
+		TV: 1
+	f=4089
+		Radio: 0
+		TV: 1
+	f=4093
+		Radio: 0
+		TV: 1
+	f=4101
+		Radio: 0
+		TV: 2
+	f=4114
+		Radio: 0
+		TV: 3
+	f=4125
+		Radio: 0
+		TV: 4
+	f=4133
+		Radio: 0
+		TV: 1
+	f=4138
+		Radio: 0
+		TV: 1
+	f=4144
+		Radio: 0
+		TV: 1
+	f=4157
+		Radio: 0
+		TV: 5
+	f=4184
+		Radio: 0
+		TV: 1
+	f=12604
+		Radio: 0
+		TV: 2
+Paksat-MM 1
+	f=3842
+		Radio: 0
+		TV: 1
+	f=3845
+		Radio: 0
+		TV: 28
+	f=3900
+		Radio: 0
+		TV: 23
+HellasSat 4
+	f=10730
+		Radio: 0
+		TV: 10
+	f=10769
+		Radio: 0
+		TV: 37
+	f=11011
+		Radio: 0
+		TV: 14
+	f=11160
+		Radio: 0
+		TV: 0
+HellasSat 3
+	f=11474
+		Radio: 0
+		TV: 1
+	f=11514
+		Radio: 0
+		TV: 1
+	f=12117
+		Radio: 0
+		TV: 43
+	f=12137
+		Radio: 0
+		TV: 48
+	f=12175
+		Radio: 0
+		TV: 17
+	f=12194
+		Radio: 1
+		TV: 19
+	f=12214
+		Radio: 0
+		TV: 16
+	f=12223
+		Radio: 6
+		TV: 5
+	f=12242
+		Radio: 0
+		TV: 4
+	f=12271
+		Radio: 0
+		TV: 19
+	f=12290
+		Radio: 0
+		TV: 14
+	f=12310
+		Radio: 0
+		TV: 51
+	f=12328
+		Radio: 0
+		TV: 9
+	f=12367
+		Radio: 0
+		TV: 9
+	f=12406
+		Radio: 0
+		TV: 20
+	f=12424
+		Radio: 0
+		TV: 1
+	f=12441
+		Radio: 4
+		TV: 2
+	f=12458
+		Radio: 0
+		TV: 1
+	f=12463
+		Radio: 0
+		TV: 17
+	f=12482
+		Radio: 1
+		TV: 19
+	f=12524
+		Radio: 0
+		TV: 20
+	f=12565
+		Radio: 0
+		TV: 15
+	f=12602
+		Radio: 0
+		TV: 3
+	f=12647
+		Radio: 0
+		TV: 26
+	f=12655
+		Radio: 0
+		TV: 7
+	f=12688
+		Radio: 0
+		TV: 18
+	f=12747
+		Radio: 0
+		TV: 0
+	f=18819
+		Radio: 0
+		TV: 3
+Express AM7
+	f=3543
+		Radio: 0
+		TV: 1
+	f=3558
+		Radio: 0
+		TV: 1
+	f=3558
+		Radio: 0
+		TV: 2
+	f=3565
+		Radio: 0
+		TV: 3
+	f=3566
+		Radio: 0
+		TV: 1
+	f=3566
+		Radio: 0
+		TV: 3
+	f=3573
+		Radio: 0
+		TV: 1
+	f=3573
+		Radio: 0
+		TV: 3
+	f=3579
+		Radio: 0
+		TV: 1
+	f=3579
+		Radio: 0
+		TV: 2
+	f=3584
+		Radio: 0
+		TV: 2
+	f=3588
+		Radio: 0
+		TV: 2
+	f=3590
+		Radio: 0
+		TV: 1
+	f=3592
+		Radio: 0
+		TV: 3
+	f=3593
+		Radio: 0
+		TV: 2
+	f=3609
+		Radio: 0
+		TV: 2
+	f=3610
+		Radio: 0
+		TV: 3
+	f=3615
+		Radio: 0
+		TV: 3
+	f=3622
+		Radio: 0
+		TV: 3
+	f=3629
+		Radio: 0
+		TV: 3
+	f=3634
+		Radio: 0
+		TV: 3
+	f=3638
+		Radio: 0
+		TV: 2
+	f=3643
+		Radio: 0
+		TV: 2
+	f=3665
+		Radio: 0
+		TV: 10
+	f=3675
+		Radio: 1
+		TV: 7
+	f=3685
+		Radio: 0
+		TV: 10
+	f=3722
+		Radio: 0
+		TV: 3
+	f=3725
+		Radio: 0
+		TV: 9
+	f=3728
+		Radio: 0
+		TV: 3
+	f=3740
+		Radio: 0
+		TV: 1
+	f=3765
+		Radio: 0
+		TV: 3
+	f=3785
+		Radio: 0
+		TV: 3
+	f=3792
+		Radio: 0
+		TV: 2
+	f=3808
+		Radio: 0
+		TV: 2
+	f=3828
+		Radio: 0
+		TV: 3
+	f=3833
+		Radio: 0
+		TV: 2
+	f=3835
+		Radio: 0
+		TV: 2
+	f=3844
+		Radio: 0
+		TV: 2
+	f=3892
+		Radio: 0
+		TV: 3
+	f=3927
+		Radio: 0
+		TV: 2
+	f=3929
+		Radio: 0
+		TV: 3
+	f=3933
+		Radio: 0
+		TV: 2
+	f=3942
+		Radio: 0
+		TV: 3
+	f=3979
+		Radio: 0
+		TV: 3
+	f=3985
+		Radio: 0
+		TV: 3
+	f=3992
+		Radio: 0
+		TV: 3
+Turksat 3A
+	f=10963
+		Radio: 0
+		TV: 6
+	f=11012
+		Radio: 23
+		TV: 16
+	f=11022
+		Radio: 1
+		TV: 0
+	f=11045
+		Radio: 0
+		TV: 2
+	f=11053
+		Radio: 0
+		TV: 2
+	f=11054
+		Radio: 0
+		TV: 9
+	f=11061
+		Radio: 0
+		TV: 3
+	f=11062
+		Radio: 0
+		TV: 1
+	f=11096
+		Radio: 12
+		TV: 12
+	f=11096
+		Radio: 0
+		TV: 4
+	f=11141
+		Radio: 0
+		TV: 1
+	f=11152
+		Radio: 0
+		TV: 0
+	f=11160
+		Radio: 0
+		TV: 0
+	f=11163
+		Radio: 0
+		TV: 0
+	f=11165
+		Radio: 0
+		TV: 0
+	f=11173
+		Radio: 0
+		TV: 0
+	f=11180
+		Radio: 0
+		TV: 14
+	f=11181
+		Radio: 0
+		TV: 0
+	f=11196
+		Radio: 0
+		TV: 0
+	f=11480
+		Radio: 0
+		TV: 0
+	f=11496
+		Radio: 0
+		TV: 0
+	f=11500
+		Radio: 0
+		TV: 0
+	f=11509
+		Radio: 0
+		TV: 2
+	f=11517
+		Radio: 0
+		TV: 0
+	f=11540
+		Radio: 0
+		TV: 0
+	f=11545
+		Radio: 0
+		TV: 0
+	f=11556
+		Radio: 0
+		TV: 9
+	f=11558
+		Radio: 0
+		TV: 3
+	f=11563
+		Radio: 0
+		TV: 0
+	f=11594
+		Radio: 0
+		TV: 5
+	f=11627
+		Radio: 0
+		TV: 1
+	f=11650
+		Radio: 0
+		TV: 4
+	f=11676
+		Radio: 0
+		TV: 12
+	f=12514
+		Radio: 0
+		TV: 1
+	f=12515
+		Radio: 0
+		TV: 3
+	f=12519
+		Radio: 0
+		TV: 0
+	f=12524
+		Radio: 0
+		TV: 6
+	f=12540
+		Radio: 7
+		TV: 8
+	f=12559
+		Radio: 0
+		TV: 5
+	f=12588
+		Radio: 0
+		TV: 8
+	f=12605
+		Radio: 0
+		TV: 6
+	f=12605
+		Radio: 0
+		TV: 0
+	f=12610
+		Radio: 0
+		TV: 9
+	f=12641
+		Radio: 0
+		TV: 9
+	f=12668
+		Radio: 0
+		TV: 0
+	f=12685
+		Radio: 0
+		TV: 27
+	f=12685
+		Radio: 0
+		TV: 21
+	f=12697
+		Radio: 0
+		TV: 6
+	f=12699
+		Radio: 0
+		TV: 4
+	f=12728
+		Radio: 0
+		TV: 6
+	f=12729
+		Radio: 0
+		TV: 16
+	f=12729
+		Radio: 0
+		TV: 23
+Turksat 4A
+	f=11775
+		Radio: 0
+		TV: 2
+	f=11789
+		Radio: 0
+		TV: 11
+	f=11793
+		Radio: 0
+		TV: 5
+	f=11794
+		Radio: 0
+		TV: 1
+	f=11797
+		Radio: 0
+		TV: 6
+	f=11806
+		Radio: 0
+		TV: 5
+	f=11824
+		Radio: 0
+		TV: 4
+	f=11853
+		Radio: 0
+		TV: 9
+	f=11855
+		Radio: 0
+		TV: 3
+	f=11880
+		Radio: 0
+		TV: 6
+	f=11883
+		Radio: 0
+		TV: 2
+	f=11916
+		Radio: 0
+		TV: 7
+	f=11958
+		Radio: 0
+		TV: 11
+	f=11977
+		Radio: 0
+		TV: 19
+	f=11986
+		Radio: 2
+		TV: 2
+	f=11999
+		Radio: 0
+		TV: 3
+	f=12009
+		Radio: 1
+		TV: 1
+	f=12015
+		Radio: 0
+		TV: 9
+	f=12034
+		Radio: 0
+		TV: 22
+	f=12054
+		Radio: 0
+		TV: 7
+	f=12073
+		Radio: 0
+		TV: 13
+	f=12079
+		Radio: 0
+		TV: 1
+	f=12095
+		Radio: 0
+		TV: 2
+	f=12103
+		Radio: 0
+		TV: 2
+	f=12188
+		Radio: 0
+		TV: 2
+	f=12188
+		Radio: 0
+		TV: 12
+	f=12196
+		Radio: 0
+		TV: 1
+	f=12213
+		Radio: 0
+		TV: 1
+	f=12220
+		Radio: 0
+		TV: 1
+	f=12220
+		Radio: 0
+		TV: 1
+	f=12228
+		Radio: 0
+		TV: 3
+	f=12238
+		Radio: 0
+		TV: 3
+	f=12245
+		Radio: 0
+		TV: 13
+	f=12265
+		Radio: 0
+		TV: 30
+	f=12294
+		Radio: 0
+		TV: 3
+	f=12303
+		Radio: 0
+		TV: 12
+	f=12310
+		Radio: 0
+		TV: 3
+	f=12329
+		Radio: 0
+		TV: 1
+	f=12336
+		Radio: 0
+		TV: 1
+	f=12345
+		Radio: 0
+		TV: 3
+	f=12346
+		Radio: 0
+		TV: 2
+	f=12356
+		Radio: 0
+		TV: 2
+	f=12379
+		Radio: 0
+		TV: 4
+	f=12380
+		Radio: 0
+		TV: 5
+	f=12380
+		Radio: 0
+		TV: 11
+	f=12422
+		Radio: 0
+		TV: 10
+	f=12422
+		Radio: 0
+		TV: 6
+	f=12442
+		Radio: 0
+		TV: 1
+	f=12455
+		Radio: 0
+		TV: 3
+	f=12458
+		Radio: 0
+		TV: 6
+	f=12461
+		Radio: 0
+		TV: 6
+	f=12589
+		Radio: 0
+		TV: 2
+	f=18668
+		Radio: 0
+		TV: 7
+	f=18669
+		Radio: 0
+		TV: 7
+	f=18773
+		Radio: 0
+		TV: 4
+Nigcomsat 1R
+	f=12518
+		Radio: 0
+		TV: 47
+Thuraya 2
+	f=5777
+		Radio: 0
+		TV: 0
+Azerspace 2
+	f=11155
+		Radio: 0
+		TV: 14
+	f=11475
+		Radio: 0
+		TV: 24
+	f=11495
+		Radio: 0
+		TV: 14
+	f=11515
+		Radio: 0
+		TV: 12
+	f=11555
+		Radio: 0
+		TV: 1
+	f=11555
+		Radio: 0
+		TV: 37
+	f=11556
+		Radio: 0
+		TV: 19
+	f=11575
+		Radio: 0
+		TV: 1
+	f=11594
+		Radio: 0
+		TV: 1
+	f=11635
+		Radio: 0
+		TV: 41
+	f=11635
+		Radio: 0
+		TV: 1
+	f=12510
+		Radio: 0
+		TV: 6
+	f=12520
+		Radio: 0
+		TV: 30
+	f=12560
+		Radio: 0
+		TV: 44
+	f=12600
+		Radio: 0
+		TV: 11
+	f=12692
+		Radio: 0
+		TV: 5
+Azerspace
+	f=3725
+		Radio: 0
+		TV: 1
+	f=3732
+		Radio: 0
+		TV: 2
+	f=3780
+		Radio: 0
+		TV: 1
+	f=3840
+		Radio: 0
+		TV: 1
+	f=3905
+		Radio: 0
+		TV: 2
+	f=3908
+		Radio: 0
+		TV: 1
+	f=3931
+		Radio: 0
+		TV: 3
+	f=3961
+		Radio: 0
+		TV: 2
+	f=3990
+		Radio: 0
+		TV: 1
+	f=4080
+		Radio: 0
+		TV: 0
+	f=4092
+		Radio: 0
+		TV: 1
+	f=4104
+		Radio: 0
+		TV: 1
+	f=4112
+		Radio: 0
+		TV: 1
+	f=4117
+		Radio: 0
+		TV: 1
+	f=4120
+		Radio: 0
+		TV: 1
+	f=4125
+		Radio: 0
+		TV: 1
+	f=4127
+		Radio: 0
+		TV: 1
+	f=4130
+		Radio: 0
+		TV: 1
+	f=4137
+		Radio: 0
+		TV: 1
+	f=4139
+		Radio: 0
+		TV: 1
+	f=4147
+		Radio: 0
+		TV: 1
+	f=10998
+		Radio: 7
+		TV: 0
+	f=11025
+		Radio: 1
+		TV: 3
+	f=11095
+		Radio: 4
+		TV: 26
+	f=11104
+		Radio: 0
+		TV: 10
+	f=11135
+		Radio: 5
+		TV: 7
+	f=11175
+		Radio: 10
+		TV: 9
+Eutelsat 48D
+	f=11231
+		Radio: 0
+		TV: 9
+	f=11293
+		Radio: 0
+		TV: 16
+Insat 4CR
+	f=11470
+		Radio: 0
+		TV: 20
+	f=11470
+		Radio: 0
+		TV: 26
+	f=11501
+		Radio: 0
+		TV: 14
+	f=11523
+		Radio: 0
+		TV: 0
+	f=11528
+		Radio: 0
+		TV: 1
+	f=11578
+		Radio: 0
+		TV: 4
+	f=11592
+		Radio: 0
+		TV: 0
+	f=11597
+		Radio: 0
+		TV: 0
+	f=11598
+		Radio: 0
+		TV: 0
+	f=11604
+		Radio: 0
+		TV: 0
+	f=11607
+		Radio: 0
+		TV: 0
+	f=11630
+		Radio: 10
+		TV: 36
+	f=11630
+		Radio: 0
+		TV: 21
+	f=11685
+		Radio: 0
+		TV: 0
+Yamal 601
+	f=3590
+		Radio: 1
+		TV: 1
+	f=3635
+		Radio: 2
+		TV: 7
+	f=3635
+		Radio: 1
+		TV: 3
+	f=3644
+		Radio: 2
+		TV: 0
+	f=3660
+		Radio: 1
+		TV: 0
+	f=3704
+		Radio: 0
+		TV: 10
+	f=3704
+		Radio: 0
+		TV: 3
+	f=3743
+		Radio: 3
+		TV: 7
+	f=3752
+		Radio: 1
+		TV: 1
+	f=3788
+		Radio: 0
+		TV: 3
+	f=3908
+		Radio: 1
+		TV: 0
+	f=3936
+		Radio: 1
+		TV: 1
+	f=3961
+		Radio: 3
+		TV: 2
+	f=3977
+		Radio: 0
+		TV: 10
+	f=4183
+		Radio: 0
+		TV: 15
+Turksat 4B
+	f=2021
+		Radio: 1
+		TV: 0
+BELINTERSAT-1
+	f=3706
+		Radio: 0
+		TV: 3
+	f=3723
+		Radio: 0
+		TV: 1
+	f=3727
+		Radio: 0
+		TV: 1
+	f=3790
+		Radio: 0
+		TV: 1
+	f=3818
+		Radio: 0
+		TV: 7
+	f=3835
+		Radio: 0
+		TV: 1
+	f=3930
+		Radio: 0
+		TV: 1
+	f=10970
+		Radio: 0
+		TV: 26
+	f=11010
+		Radio: 0
+		TV: 5
+	f=11049
+		Radio: 0
+		TV: 27
+	f=11089
+		Radio: 0
+		TV: 30
+	f=11130
+		Radio: 0
+		TV: 24
+	f=11170
+		Radio: 0
+		TV: 22
+	f=11290
+		Radio: 0
+		TV: 43
+	f=11350
+		Radio: 0
+		TV: 10
+TurkmenAlem
+	f=10720
+		Radio: 0
+		TV: 23
+	f=10721
+		Radio: 0
+		TV: 2
+	f=10804
+		Radio: 0
+		TV: 21
+	f=10845
+		Radio: 0
+		TV: 38
+	f=10887
+		Radio: 0
+		TV: 19
+	f=12226
+		Radio: 0
+		TV: 29
+	f=12265
+		Radio: 4
+		TV: 4
+	f=12303
+		Radio: 0
+		TV: 3
+	f=12342
+		Radio: 0
+		TV: 12
+	f=12380
+		Radio: 0
+		TV: 12
+	f=12438
+		Radio: 0
+		TV: 6
+	f=12456
+		Radio: 0
+		TV: 1
+	f=12476
+		Radio: 0
+		TV: 5
+Express AM6
+	f=3615
+		Radio: 0
+		TV: 8
+	f=3635
+		Radio: 0
+		TV: 9
+	f=3635
+		Radio: 0
+		TV: 3
+	f=3638
+		Radio: 0
+		TV: 2
+	f=3643
+		Radio: 0
+		TV: 3
+	f=3675
+		Radio: 0
+		TV: 1
+	f=3722
+		Radio: 0
+		TV: 3
+	f=3732
+		Radio: 0
+		TV: 3
+	f=3736
+		Radio: 0
+		TV: 10
+	f=3765
+		Radio: 0
+		TV: 3
+	f=3770
+		Radio: 0
+		TV: 3
+	f=3772
+		Radio: 0
+		TV: 3
+	f=3858
+		Radio: 0
+		TV: 3
+	f=3865
+		Radio: 0
+		TV: 3
+	f=3872
+		Radio: 0
+		TV: 3
+	f=3876
+		Radio: 0
+		TV: 2
+	f=10974
+		Radio: 0
+		TV: 1
+	f=11002
+		Radio: 0
+		TV: 1
+	f=11044
+		Radio: 8
+		TV: 0
+	f=11161
+		Radio: 0
+		TV: 1
+	f=11262
+		Radio: 0
+		TV: 0
+	f=11465
+		Radio: 0
+		TV: 1
+	f=11467
+		Radio: 0
+		TV: 1
+	f=11501
+		Radio: 0
+		TV: 3
+	f=11506
+		Radio: 0
+		TV: 1
+	f=11524
+		Radio: 0
+		TV: 1
+	f=11559
+		Radio: 0
+		TV: 2
+	f=11584
+		Radio: 0
+		TV: 5
+	f=11669
+		Radio: 0
+		TV: 26
+	f=12509
+		Radio: 0
+		TV: 0
+	f=12512
+		Radio: 0
+		TV: 1
+	f=12545
+		Radio: 3
+		TV: 1
+	f=12576
+		Radio: 0
+		TV: 9
+	f=12594
+		Radio: 0
+		TV: 18
+	f=12596
+		Radio: 0
+		TV: 10
+	f=12632
+		Radio: 1
+		TV: 1
+	f=12639
+		Radio: 0
+		TV: 2
+	f=12645
+		Radio: 0
+		TV: 2
+	f=12648
+		Radio: 0
+		TV: 5
+	f=12658
+		Radio: 0
+		TV: 4
+	f=12662
+		Radio: 0
+		TV: 10
+	f=12667
+		Radio: 0
+		TV: 1
+	f=12675
+		Radio: 0
+		TV: 1
+	f=12720
+		Radio: 0
+		TV: 9
+Al Yah 1
+	f=11747
+		Radio: 0
+		TV: 9
+	f=11766
+		Radio: 0
+		TV: 21
+	f=11785
+		Radio: 0
+		TV: 13
+	f=11843
+		Radio: 0
+		TV: 5
+	f=11881
+		Radio: 0
+		TV: 19
+	f=11900
+		Radio: 0
+		TV: 8
+	f=11938
+		Radio: 0
+		TV: 2
+	f=11958
+		Radio: 0
+		TV: 22
+	f=11977
+		Radio: 0
+		TV: 6
+	f=11996
+		Radio: 0
+		TV: 10
+	f=12015
+		Radio: 0
+		TV: 21
+	f=12034
+		Radio: 0
+		TV: 17
+	f=12054
+		Radio: 0
+		TV: 12
+	f=12073
+		Radio: 0
+		TV: 17
+	f=12149
+		Radio: 0
+		TV: 11
+	f=12169
+		Radio: 0
+		TV: 13
+Yamal 402
+	f=10980
+		Radio: 0
+		TV: 8
+	f=11008
+		Radio: 0
+		TV: 2
+	f=11045
+		Radio: 0
+		TV: 9
+	f=11265
+		Radio: 0
+		TV: 8
+	f=11345
+		Radio: 0
+		TV: 13
+	f=12129
+		Radio: 0
+		TV: 2
+	f=12522
+		Radio: 0
+		TV: 1
+Express AT1
+	f=11881
+		Radio: 0
+		TV: 5
+	f=11919
+		Radio: 0
+		TV: 27
+	f=11958
+		Radio: 0
+		TV: 8
+	f=11996
+		Radio: 0
+		TV: 11
+	f=12034
+		Radio: 0
+		TV: 9
+	f=12054
+		Radio: 0
+		TV: 7
+	f=12073
+		Radio: 0
+		TV: 8
+	f=12111
+		Radio: 0
+		TV: 28
+	f=12149
+		Radio: 0
+		TV: 24
+	f=12188
+		Radio: 0
+		TV: 28
+	f=12207
+		Radio: 0
+		TV: 15
+	f=12226
+		Radio: 0
+		TV: 4
+	f=12245
+		Radio: 0
+		TV: 26
+	f=12265
+		Radio: 0
+		TV: 26
+	f=12303
+		Radio: 0
+		TV: 33
+	f=12322
+		Radio: 0
+		TV: 28
+	f=12341
+		Radio: 0
+		TV: 4
+	f=12360
+		Radio: 0
+		TV: 28
+	f=12399
+		Radio: 0
+		TV: 26
+	f=12437
+		Radio: 0
+		TV: 33
+	f=12475
+		Radio: 0
+		TV: 7
+NSS 12
+	f=3641
+		Radio: 0
+		TV: 1
+	f=3660
+		Radio: 0
+		TV: 1
+	f=3662
+		Radio: 0
+		TV: 3
+	f=3665
+		Radio: 0
+		TV: 1
+	f=3679
+		Radio: 0
+		TV: 1
+	f=3683
+		Radio: 0
+		TV: 0
+	f=3738
+		Radio: 0
+		TV: 1
+	f=3771
+		Radio: 0
+		TV: 11
+	f=3800
+		Radio: 0
+		TV: 8
+	f=3900
+		Radio: 0
+		TV: 7
+	f=3912
+		Radio: 0
+		TV: 1
+	f=3925
+		Radio: 0
+		TV: 1
+	f=3964
+		Radio: 0
+		TV: 6
+	f=3977
+		Radio: 0
+		TV: 2
+	f=4029
+		Radio: 0
+		TV: 2
+	f=4055
+		Radio: 30
+		TV: 0
+	f=4060
+		Radio: 0
+		TV: 2
+	f=4061
+		Radio: 0
+		TV: 0
+	f=4065
+		Radio: 0
+		TV: 0
+	f=4070
+		Radio: 0
+		TV: 0
+	f=4078
+		Radio: 0
+		TV: 0
+	f=4081
+		Radio: 0
+		TV: 0
+	f=4092
+		Radio: 0
+		TV: 3
+	f=4096
+		Radio: 0
+		TV: 39
+	f=4107
+		Radio: 0
+		TV: 11
+	f=4132
+		Radio: 0
+		TV: 18
+	f=10180
+		Radio: 0
+		TV: 2
+	f=10973
+		Radio: 0
+		TV: 7
+	f=11009
+		Radio: 0
+		TV: 1
+	f=11026
+		Radio: 11
+		TV: 6
+	f=11041
+		Radio: 0
+		TV: 5
+	f=11063
+		Radio: 0
+		TV: 0
+	f=11105
+		Radio: 0
+		TV: 30
+	f=11126
+		Radio: 0
+		TV: 1
+	f=11136
+		Radio: 0
+		TV: 1
+	f=11143
+		Radio: 0
+		TV: 0
+	f=11165
+		Radio: 0
+		TV: 26
+	f=11170
+		Radio: 0
+		TV: 0
+	f=11174
+		Radio: 0
+		TV: 1
+	f=11174
+		Radio: 1
+		TV: 0
+	f=11177
+		Radio: 0
+		TV: 0
+	f=11181
+		Radio: 0
+		TV: 1
+	f=11184
+		Radio: 0
+		TV: 1
+	f=11186
+		Radio: 0
+		TV: 1
+	f=11188
+		Radio: 0
+		TV: 1
+	f=11461
+		Radio: 0
+		TV: 1
+	f=11464
+		Radio: 0
+		TV: 0
+	f=11469
+		Radio: 0
+		TV: 0
+	f=11473
+		Radio: 0
+		TV: 0
+	f=11499
+		Radio: 0
+		TV: 0
+	f=11503
+		Radio: 0
+		TV: 0
+	f=11509
+		Radio: 0
+		TV: 0
+	f=11510
+		Radio: 0
+		TV: 1
+	f=11554
+		Radio: 0
+		TV: 2
+	f=11566
+		Radio: 0
+		TV: 6
+	f=11567
+		Radio: 0
+		TV: 1
+	f=11568
+		Radio: 2
+		TV: 0
+	f=11569
+		Radio: 0
+		TV: 1
+	f=11587
+		Radio: 0
+		TV: 13
+	f=11604
+		Radio: 0
+		TV: 28
+	f=11616
+		Radio: 0
+		TV: 2
+	f=12308
+		Radio: 0
+		TV: 1
+	f=12422
+		Radio: 0
+		TV: 1
+	f=12435
+		Radio: 0
+		TV: 1
+Kazsat 3
+	f=10720
+		Radio: 0
+		TV: 29
+	f=10762
+		Radio: 0
+		TV: 35
+	f=10804
+		Radio: 0
+		TV: 25
+	f=10845
+		Radio: 0
+		TV: 6
+	f=10887
+		Radio: 0
+		TV: 42
+	f=10928
+		Radio: 0
+		TV: 9
+	f=10929
+		Radio: 0
+		TV: 13
+	f=11294
+		Radio: 0
+		TV: 24
+	f=12594
+		Radio: 0
+		TV: 64
+	f=12656
+		Radio: 0
+		TV: 29
+	f=12719
+		Radio: 0
+		TV: 52
+Intelsat 33e
+	f=3737
+		Radio: 0
+		TV: 1
+	f=3751
+		Radio: 0
+		TV: 15
+	f=3764
+		Radio: 0
+		TV: 2
+	f=3764
+		Radio: 0
+		TV: 1
+	f=3767
+		Radio: 0
+		TV: 1
+	f=3772
+		Radio: 0
+		TV: 2
+	f=3778
+		Radio: 0
+		TV: 8
+	f=3785
+		Radio: 0
+		TV: 10
+	f=3786
+		Radio: 0
+		TV: 6
+	f=11085
+		Radio: 0
+		TV: 1
+	f=11490
+		Radio: 3
+		TV: 1
+	f=11498
+		Radio: 0
+		TV: 9
+	f=11503
+		Radio: 0
+		TV: 1
+	f=11521
+		Radio: 0
+		TV: 1
+ABS-4
+	f=12214
+		Radio: 0
+		TV: 0
+	f=12238
+		Radio: 0
+		TV: 0
+Intelsat 39
+	f=3714
+		Radio: 0
+		TV: 3
+	f=3725
+		Radio: 0
+		TV: 1
+	f=3725
+		Radio: 0
+		TV: 1
+	f=3765
+		Radio: 0
+		TV: 1
+	f=3878
+		Radio: 0
+		TV: 5
+	f=3925
+		Radio: 0
+		TV: 2
+	f=10988
+		Radio: 0
+		TV: 2
+	f=10991
+		Radio: 0
+		TV: 2
+	f=10993
+		Radio: 0
+		TV: 2
+	f=10994
+		Radio: 4
+		TV: 0
+	f=11004
+		Radio: 0
+		TV: 2
+	f=11008
+		Radio: 0
+		TV: 5
+	f=11018
+		Radio: 3
+		TV: 3
+	f=11019
+		Radio: 0
+		TV: 4
+	f=11022
+		Radio: 0
+		TV: 2
+	f=11025
+		Radio: 0
+		TV: 3
+	f=11555
+		Radio: 0
+		TV: 42
+Intelsat 906
+	f=274
+		Radio: 2
+		TV: 3
+	f=3654
+		Radio: 4
+		TV: 2
+	f=3715
+		Radio: 4
+		TV: 1
+	f=3760
+		Radio: 0
+		TV: 0
+	f=3763
+		Radio: 0
+		TV: 0
+	f=3765
+		Radio: 0
+		TV: 0
+	f=3768
+		Radio: 0
+		TV: 1
+	f=3773
+		Radio: 0
+		TV: 1
+	f=3776
+		Radio: 0
+		TV: 1
+	f=3884
+		Radio: 2
+		TV: 1
+	f=3893
+		Radio: 3
+		TV: 0
+	f=3900
+		Radio: 1
+		TV: 1
+	f=3906
+		Radio: 0
+		TV: 1
+	f=3922
+		Radio: 0
+		TV: 3
+	f=4039
+		Radio: 0
+		TV: 1
+	f=4094
+		Radio: 3
+		TV: 3
+	f=4136
+		Radio: 0
+		TV: 9
+	f=4185
+		Radio: 0
+		TV: 0
+Amos 4
+	f=10735
+		Radio: 0
+		TV: 12
+	f=10789
+		Radio: 0
+		TV: 26
+	f=10860
+		Radio: 0
+		TV: 34
+	f=10914
+		Radio: 0
+		TV: 10
+	f=11235
+		Radio: 0
+		TV: 53
+	f=11236
+		Radio: 0
+		TV: 39
+	f=11290
+		Radio: 0
+		TV: 18
+	f=11360
+		Radio: 0
+		TV: 14
+	f=12660
+		Radio: 0
+		TV: 11
+	f=12715
+		Radio: 0
+		TV: 8
+Intelsat 17
+	f=3845
+		Radio: 0
+		TV: 16
+	f=3845
+		Radio: 0
+		TV: 4
+	f=3876
+		Radio: 0
+		TV: 18
+	f=3885
+		Radio: 0
+		TV: 20
+	f=3895
+		Radio: 0
+		TV: 19
+	f=3914
+		Radio: 0
+		TV: 4
+	f=3925
+		Radio: 0
+		TV: 13
+	f=3932
+		Radio: 0
+		TV: 8
+	f=3966
+		Radio: 0
+		TV: 7
+	f=3968
+		Radio: 0
+		TV: 9
+	f=3980
+		Radio: 0
+		TV: 5
+	f=3984
+		Radio: 0
+		TV: 6
+	f=4006
+		Radio: 0
+		TV: 18
+	f=4015
+		Radio: 0
+		TV: 26
+	f=4024
+		Radio: 0
+		TV: 20
+	f=4095
+		Radio: 0
+		TV: 3
+	f=4122
+		Radio: 0
+		TV: 2
+	f=11010
+		Radio: 0
+		TV: 0
+	f=11498
+		Radio: 0
+		TV: 1
+	f=11517
+		Radio: 0
+		TV: 0
+	f=11671
+		Radio: 0
+		TV: 0
+	f=12585
+		Radio: 0
+		TV: 1
+	f=12596
+		Radio: 1
+		TV: 2
+	f=12601
+		Radio: 7
+		TV: 0
+	f=12605
+		Radio: 0
+		TV: 1
+	f=12608
+		Radio: 0
+		TV: 2
+	f=12613
+		Radio: 0
+		TV: 1
+	f=12613
+		Radio: 0
+		TV: 0
+	f=12614
+		Radio: 0
+		TV: 4
+	f=12631
+		Radio: 0
+		TV: 0
+	f=12647
+		Radio: 0
+		TV: 0
+	f=12652
+		Radio: 0
+		TV: 0
+	f=12658
+		Radio: 1
+		TV: 2
+Intelsat 20
+	f=3715
+		Radio: 0
+		TV: 1
+	f=3723
+		Radio: 0
+		TV: 9
+	f=3732
+		Radio: 0
+		TV: 7
+	f=3739
+		Radio: 0
+		TV: 12
+	f=3740
+		Radio: 0
+		TV: 10
+	f=3742
+		Radio: 0
+		TV: 8
+	f=3752
+		Radio: 0
+		TV: 12
+	f=3777
+		Radio: 0
+		TV: 2
+	f=3787
+		Radio: 0
+		TV: 1
+	f=3790
+		Radio: 0
+		TV: 8
+	f=3796
+		Radio: 0
+		TV: 1
+	f=3802
+		Radio: 0
+		TV: 5
+	f=3830
+		Radio: 0
+		TV: 8
+	f=3837
+		Radio: 0
+		TV: 3
+	f=3840
+		Radio: 0
+		TV: 4
+	f=3850
+		Radio: 0
+		TV: 4
+	f=3869
+		Radio: 0
+		TV: 7
+	f=3870
+		Radio: 0
+		TV: 10
+	f=3887
+		Radio: 0
+		TV: 1
+	f=3889
+		Radio: 0
+		TV: 2
+	f=3891
+		Radio: 0
+		TV: 1
+	f=3895
+		Radio: 0
+		TV: 0
+	f=3900
+		Radio: 0
+		TV: 10
+	f=3913
+		Radio: 0
+		TV: 1
+	f=3930
+		Radio: 0
+		TV: 7
+	f=3936
+		Radio: 0
+		TV: 5
+	f=3974
+		Radio: 0
+		TV: 8
+	f=3974
+		Radio: 0
+		TV: 4
+	f=3993
+		Radio: 0
+		TV: 3
+	f=4000
+		Radio: 0
+		TV: 4
+	f=4003
+		Radio: 0
+		TV: 6
+	f=4006
+		Radio: 0
+		TV: 1
+	f=4011
+		Radio: 0
+		TV: 1
+	f=4013
+		Radio: 0
+		TV: 10
+	f=4013
+		Radio: 0
+		TV: 2
+	f=4034
+		Radio: 0
+		TV: 7
+	f=4036
+		Radio: 0
+		TV: 13
+	f=4054
+		Radio: 0
+		TV: 1
+	f=4059
+		Radio: 0
+		TV: 1
+	f=4064
+		Radio: 0
+		TV: 2
+	f=4064
+		Radio: 8
+		TV: 5
+	f=4070
+		Radio: 1
+		TV: 1
+	f=4075
+		Radio: 0
+		TV: 1
+	f=4085
+		Radio: 31
+		TV: 0
+	f=4090
+		Radio: 0
+		TV: 12
+	f=4092
+		Radio: 0
+		TV: 1
+	f=4103
+		Radio: 0
+		TV: 3
+	f=4117
+		Radio: 0
+		TV: 11
+	f=4130
+		Radio: 0
+		TV: 3
+	f=4150
+		Radio: 0
+		TV: 3
+	f=4155
+		Radio: 0
+		TV: 5
+	f=4158
+		Radio: 0
+		TV: 3
+	f=4163
+		Radio: 0
+		TV: 3
+	f=4184
+		Radio: 0
+		TV: 23
+	f=10968
+		Radio: 0
+		TV: 0
+	f=10970
+		Radio: 6
+		TV: 9
+	f=10970
+		Radio: 2
+		TV: 9
+	f=10980
+		Radio: 0
+		TV: 0
+	f=10984
+		Radio: 0
+		TV: 0
+	f=11010
+		Radio: 1
+		TV: 5
+	f=11010
+		Radio: 3
+		TV: 14
+	f=11050
+		Radio: 7
+		TV: 10
+	f=11079
+		Radio: 0
+		TV: 1
+	f=11081
+		Radio: 0
+		TV: 1
+	f=11085
+		Radio: 0
+		TV: 1
+	f=11090
+		Radio: 3
+		TV: 13
+	f=11130
+		Radio: 43
+		TV: 9
+	f=11170
+		Radio: 19
+		TV: 3
+	f=11463
+		Radio: 0
+		TV: 0
+	f=11466
+		Radio: 0
+		TV: 0
+	f=11474
+		Radio: 0
+		TV: 5
+	f=11475
+		Radio: 0
+		TV: 0
+	f=11514
+		Radio: 0
+		TV: 1
+	f=11567
+		Radio: 0
+		TV: 1
+	f=11594
+		Radio: 4
+		TV: 11
+	f=11625
+		Radio: 0
+		TV: 1
+	f=11666
+		Radio: 0
+		TV: 0
+	f=11674
+		Radio: 22
+		TV: 8
+	f=12522
+		Radio: 0
+		TV: 1
+	f=12522
+		Radio: 1
+		TV: 16
+	f=12543
+		Radio: 0
+		TV: 2
+	f=12562
+		Radio: 0
+		TV: 33
+	f=12575
+		Radio: 3
+		TV: 3
+	f=12602
+		Radio: 1
+		TV: 17
+	f=12602
+		Radio: 0
+		TV: 13
+	f=12628
+		Radio: 0
+		TV: 1
+	f=12634
+		Radio: 0
+		TV: 8
+	f=12638
+		Radio: 0
+		TV: 2
+	f=12657
+		Radio: 1
+		TV: 1
+	f=12682
+		Radio: 1
+		TV: 22
+	f=12682
+		Radio: 1
+		TV: 25
+	f=12722
+		Radio: 8
+		TV: 15
+Intelsat 36
+	f=11728
+		Radio: 0
+		TV: 1
+	f=11808
+		Radio: 0
+		TV: 1
+	f=11848
+		Radio: 0
+		TV: 1
+	f=11888
+		Radio: 0
+		TV: 1
+Eutelsat 70B
+	f=11094
+		Radio: 0
+		TV: 16
+	f=11096
+		Radio: 0
+		TV: 11
+	f=11177
+		Radio: 0
+		TV: 0
+	f=11180
+		Radio: 0
+		TV: 0
+	f=11209
+		Radio: 0
+		TV: 1
+	f=11213
+		Radio: 0
+		TV: 8
+	f=11222
+		Radio: 0
+		TV: 1
+	f=11251
+		Radio: 0
+		TV: 1
+	f=11294
+		Radio: 0
+		TV: 8
+	f=11356
+		Radio: 0
+		TV: 20
+	f=11490
+		Radio: 0
+		TV: 1
+	f=11493
+		Radio: 0
+		TV: 1
+	f=11520
+		Radio: 0
+		TV: 1
+	f=11600
+		Radio: 0
+		TV: 1
+	f=11603
+		Radio: 0
+		TV: 0
+	f=11606
+		Radio: 0
+		TV: 0
+	f=11637
+		Radio: 0
+		TV: 0
+	f=11642
+		Radio: 0
+		TV: 0
+	f=11663
+		Radio: 0
+		TV: 0
+	f=11666
+		Radio: 0
+		TV: 0
+	f=11670
+		Radio: 0
+		TV: 0
+	f=12509
+		Radio: 0
+		TV: 1
+	f=12513
+		Radio: 0
+		TV: 1
+	f=12523
+		Radio: 0
+		TV: 1
+	f=12526
+		Radio: 0
+		TV: 1
+	f=12528
+		Radio: 0
+		TV: 1
+	f=12548
+		Radio: 0
+		TV: 6
+	f=12616
+		Radio: 0
+		TV: 11
+	f=12647
+		Radio: 0
+		TV: 0
+	f=12654
+		Radio: 0
+		TV: 0
+	f=12658
+		Radio: 0
+		TV: 0
+	f=12682
+		Radio: 0
+		TV: 1
+	f=12690
+		Radio: 0
+		TV: 12
+	f=12703
+		Radio: 0
+		TV: 1
+	f=12741
+		Radio: 0
+		TV: 0
+Intelsat 22
+	f=226
+		Radio: 0
+		TV: 7
+	f=3671
+		Radio: 0
+		TV: 3
+	f=3724
+		Radio: 0
+		TV: 20
+	f=3740
+		Radio: 0
+		TV: 1
+	f=3778
+		Radio: 0
+		TV: 0
+	f=3779
+		Radio: 0
+		TV: 1
+	f=3832
+		Radio: 0
+		TV: 20
+	f=3981
+		Radio: 0
+		TV: 1
+	f=4020
+		Radio: 0
+		TV: 8
+	f=12262
+		Radio: 0
+		TV: 0
+	f=12511
+		Radio: 0
+		TV: 1
+	f=12547
+		Radio: 0
+		TV: 1
+	f=12616
+		Radio: 0
+		TV: 0
+	f=12645
+		Radio: 0
+		TV: 1
+GSAT 18
+	f=3888
+		Radio: 0
+		TV: 2
+ABS-2
+	f=3590
+		Radio: 0
+		TV: 1
+	f=3642
+		Radio: 0
+		TV: 4
+	f=3649
+		Radio: 0
+		TV: 50
+	f=3652
+		Radio: 0
+		TV: 33
+	f=3700
+		Radio: 0
+		TV: 15
+	f=3740
+		Radio: 0
+		TV: 15
+	f=3791
+		Radio: 0
+		TV: 2
+	f=3942
+		Radio: 0
+		TV: 11
+	f=3978
+		Radio: 0
+		TV: 9
+	f=4008
+		Radio: 0
+		TV: 1
+	f=4014
+		Radio: 0
+		TV: 1
+	f=4020
+		Radio: 0
+		TV: 13
+	f=4074
+		Radio: 0
+		TV: 6
+	f=4123
+		Radio: 0
+		TV: 3
+	f=12523
+		Radio: 0
+		TV: 5
+ABS-2A
+	f=10985
+		Radio: 0
+		TV: 16
+	f=11045
+		Radio: 0
+		TV: 27
+	f=11473
+		Radio: 0
+		TV: 18
+	f=11490
+		Radio: 0
+		TV: 2
+	f=11531
+		Radio: 0
+		TV: 7
+	f=11559
+		Radio: 0
+		TV: 7
+	f=11596
+		Radio: 0
+		TV: 4
+	f=11605
+		Radio: 5
+		TV: 15
+	f=11665
+		Radio: 0
+		TV: 20
+	f=11740
+		Radio: 0
+		TV: 42
+	f=11800
+		Radio: 0
+		TV: 9
+	f=11860
+		Radio: 0
+		TV: 45
+	f=11920
+		Radio: 0
+		TV: 51
+	f=11980
+		Radio: 0
+		TV: 12
+	f=12040
+		Radio: 0
+		TV: 26
+	f=12100
+		Radio: 0
+		TV: 27
+	f=12160
+		Radio: 0
+		TV: 29
+	f=12533
+		Radio: 0
+		TV: 16
+	f=12653
+		Radio: 0
+		TV: 18
+APSTAR 7
+	f=3638
+		Radio: 0
+		TV: 1
+	f=3638
+		Radio: 0
+		TV: 1
+	f=3661
+		Radio: 0
+		TV: 1
+	f=3685
+		Radio: 0
+		TV: 1
+	f=3720
+		Radio: 0
+		TV: 6
+	f=3740
+		Radio: 0
+		TV: 2
+	f=3746
+		Radio: 0
+		TV: 1
+	f=3749
+		Radio: 0
+		TV: 1
+	f=3749
+		Radio: 0
+		TV: 1
+	f=3757
+		Radio: 0
+		TV: 1
+	f=3769
+		Radio: 0
+		TV: 7
+	f=3780
+		Radio: 0
+		TV: 21
+	f=3789
+		Radio: 0
+		TV: 4
+	f=3793
+		Radio: 0
+		TV: 1
+	f=3800
+		Radio: 1
+		TV: 3
+	f=3800
+		Radio: 0
+		TV: 4
+	f=3805
+		Radio: 0
+		TV: 1
+	f=3830
+		Radio: 0
+		TV: 6
+	f=3841
+		Radio: 0
+		TV: 4
+	f=3846
+		Radio: 0
+		TV: 3
+	f=3920
+		Radio: 0
+		TV: 17
+	f=4022
+		Radio: 0
+		TV: 1
+	f=4026
+		Radio: 0
+		TV: 1
+	f=4031
+		Radio: 0
+		TV: 1
+	f=4034
+		Radio: 0
+		TV: 1
+	f=4040
+		Radio: 0
+		TV: 3
+	f=4044
+		Radio: 0
+		TV: 1
+	f=4055
+		Radio: 0
+		TV: 1
+	f=4092
+		Radio: 0
+		TV: 1
+	f=4111
+		Radio: 0
+		TV: 1
+	f=4117
+		Radio: 0
+		TV: 1
+	f=4129
+		Radio: 0
+		TV: 1
+	f=4136
+		Radio: 0
+		TV: 1
+	f=12521
+		Radio: 0
+		TV: 6
+	f=12638
+		Radio: 0
+		TV: 17
+Thaicom 6
+	f=3408
+		Radio: 0
+		TV: 1
+	f=3414
+		Radio: 0
+		TV: 1
+	f=3422
+		Radio: 0
+		TV: 0
+	f=3441
+		Radio: 0
+		TV: 1
+	f=3448
+		Radio: 0
+		TV: 2
+	f=3454
+		Radio: 0
+		TV: 3
+	f=3457
+		Radio: 0
+		TV: 2
+	f=3465
+		Radio: 0
+		TV: 1
+	f=3480
+		Radio: 0
+		TV: 15
+	f=3491
+		Radio: 0
+		TV: 1
+	f=3505
+		Radio: 0
+		TV: 16
+	f=3520
+		Radio: 10
+		TV: 11
+	f=3545
+		Radio: 2
+		TV: 20
+	f=3563
+		Radio: 0
+		TV: 3
+	f=3585
+		Radio: 4
+		TV: 23
+	f=3600
+		Radio: 2
+		TV: 8
+	f=3609
+		Radio: 0
+		TV: 0
+	f=3625
+		Radio: 0
+		TV: 10
+	f=3640
+		Radio: 12
+		TV: 6
+	f=3666
+		Radio: 0
+		TV: 1
+	f=3695
+		Radio: 0
+		TV: 1
+	f=3696
+		Radio: 2
+		TV: 1
+	f=3701
+		Radio: 0
+		TV: 0
+	f=3709
+		Radio: 0
+		TV: 8
+	f=3711
+		Radio: 0
+		TV: 17
+	f=3715
+		Radio: 0
+		TV: 1
+	f=3719
+		Radio: 0
+		TV: 1
+	f=3723
+		Radio: 0
+		TV: 0
+	f=3731
+		Radio: 0
+		TV: 26
+	f=3745
+		Radio: 0
+		TV: 1
+	f=3756
+		Radio: 0
+		TV: 0
+	f=3758
+		Radio: 0
+		TV: 1
+	f=3763
+		Radio: 0
+		TV: 1
+	f=3774
+		Radio: 0
+		TV: 1
+	f=3800
+		Radio: 0
+		TV: 24
+	f=3800
+		Radio: 0
+		TV: 1
+	f=3840
+		Radio: 0
+		TV: 22
+	f=3840
+		Radio: 0
+		TV: 9
+	f=3880
+		Radio: 0
+		TV: 19
+	f=3881
+		Radio: 0
+		TV: 14
+	f=3885
+		Radio: 0
+		TV: 1
+	f=3890
+		Radio: 0
+		TV: 0
+	f=3920
+		Radio: 0
+		TV: 13
+	f=3920
+		Radio: 0
+		TV: 2
+	f=3933
+		Radio: 0
+		TV: 1
+	f=3950
+		Radio: 0
+		TV: 2
+	f=4013
+		Radio: 0
+		TV: 2
+	f=4014
+		Radio: 0
+		TV: 0
+	f=4031
+		Radio: 0
+		TV: 9
+	f=4037
+		Radio: 0
+		TV: 1
+	f=4040
+		Radio: 0
+		TV: 26
+	f=4040
+		Radio: 0
+		TV: 6
+	f=4058
+		Radio: 0
+		TV: 3
+	f=4104
+		Radio: 0
+		TV: 0
+	f=4107
+		Radio: 0
+		TV: 0
+	f=4110
+		Radio: 0
+		TV: 1
+	f=4113
+		Radio: 0
+		TV: 12
+	f=4116
+		Radio: 0
+		TV: 0
+	f=4120
+		Radio: 0
+		TV: 9
+	f=4120
+		Radio: 0
+		TV: 1
+	f=4126
+		Radio: 0
+		TV: 0
+	f=4130
+		Radio: 0
+		TV: 0
+	f=4132
+		Radio: 0
+		TV: 10
+	f=4133
+		Radio: 0
+		TV: 1
+	f=4136
+		Radio: 0
+		TV: 1
+	f=4152
+		Radio: 0
+		TV: 0
+	f=4154
+		Radio: 0
+		TV: 1
+	f=4157
+		Radio: 0
+		TV: 1
+	f=4160
+		Radio: 1
+		TV: 2
+	f=4160
+		Radio: 0
+		TV: 20
+	f=4168
+		Radio: 0
+		TV: 10
+	f=4168
+		Radio: 0
+		TV: 0
+	f=4170
+		Radio: 0
+		TV: 10
+	f=12255
+		Radio: 0
+		TV: 0
+	f=12272
+		Radio: 0
+		TV: 13
+	f=12355
+		Radio: 0
+		TV: 13
+	f=12355
+		Radio: 0
+		TV: 4
+	f=12438
+		Radio: 15
+		TV: 7
+	f=12479
+		Radio: 16
+		TV: 11
+	f=12521
+		Radio: 0
+		TV: 14
+	f=12562
+		Radio: 0
+		TV: 8
+	f=12562
+		Radio: 0
+		TV: 18
+	f=12604
+		Radio: 0
+		TV: 13
+	f=12657
+		Radio: 0
+		TV: 11
+	f=12720
+		Radio: 0
+		TV: 8
+Thaicom 8
+	f=12272
+		Radio: 0
+		TV: 18
+	f=12313
+		Radio: 4
+		TV: 17
+Thaicom 5
+	f=12272
+		Radio: 0
+		TV: 22
+GSAT 10
+	f=3762
+		Radio: 0
+		TV: 1
+	f=3766
+		Radio: 0
+		TV: 1
+	f=3832
+		Radio: 0
+		TV: 2
+	f=3885
+		Radio: 0
+		TV: 9
+	f=4122
+		Radio: 0
+		TV: 10
+	f=10970
+		Radio: 0
+		TV: 14
+	f=10970
+		Radio: 0
+		TV: 44
+	f=10972
+		Radio: 0
+		TV: 1
+	f=11010
+		Radio: 0
+		TV: 28
+	f=11010
+		Radio: 0
+		TV: 31
+	f=11050
+		Radio: 0
+		TV: 17
+	f=11050
+		Radio: 0
+		TV: 29
+	f=11052
+		Radio: 0
+		TV: 1
+	f=11090
+		Radio: 0
+		TV: 20
+	f=11093
+		Radio: 0
+		TV: 1
+	f=11130
+		Radio: 0
+		TV: 44
+	f=11130
+		Radio: 0
+		TV: 21
+	f=11132
+		Radio: 0
+		TV: 1
+	f=11170
+		Radio: 0
+		TV: 34
+	f=11170
+		Radio: 0
+		TV: 24
+	f=11173
+		Radio: 0
+		TV: 1
+	f=11470
+		Radio: 0
+		TV: 28
+	f=11470
+		Radio: 0
+		TV: 28
+	f=11510
+		Radio: 0
+		TV: 37
+	f=11510
+		Radio: 0
+		TV: 19
+	f=11550
+		Radio: 0
+		TV: 15
+	f=11550
+		Radio: 0
+		TV: 32
+	f=11590
+		Radio: 0
+		TV: 23
+	f=11590
+		Radio: 0
+		TV: 45
+	f=11630
+		Radio: 0
+		TV: 15
+	f=11630
+		Radio: 0
+		TV: 13
+	f=11670
+		Radio: 0
+		TV: 21
+	f=11670
+		Radio: 0
+		TV: 35
+Insat 4B
+	f=3725
+		Radio: 0
+		TV: 10
+	f=3756
+		Radio: 0
+		TV: 12
+	f=3767
+		Radio: 0
+		TV: 2
+	f=3777
+		Radio: 0
+		TV: 10
+	f=3805
+		Radio: 0
+		TV: 36
+	f=3841
+		Radio: 0
+		TV: 5
+	f=3898
+		Radio: 0
+		TV: 2
+	f=3925
+		Radio: 0
+		TV: 11
+	f=3925
+		Radio: 0
+		TV: 27
+	f=3949
+		Radio: 0
+		TV: 8
+	f=3958
+		Radio: 0
+		TV: 10
+	f=3987
+		Radio: 0
+		TV: 1
+	f=3990
+		Radio: 0
+		TV: 2
+	f=3990
+		Radio: 0
+		TV: 0
+	f=4004
+		Radio: 0
+		TV: 12
+	f=4024
+		Radio: 0
+		TV: 0
+	f=4030
+		Radio: 0
+		TV: 2
+	f=4040
+		Radio: 0
+		TV: 7
+	f=4054
+		Radio: 0
+		TV: 19
+	f=4065
+		Radio: 0
+		TV: 1
+	f=4072
+		Radio: 0
+		TV: 1
+	f=4084
+		Radio: 0
+		TV: 0
+	f=4090
+		Radio: 0
+		TV: 4
+	f=4096
+		Radio: 0
+		TV: 2
+	f=4100
+		Radio: 2
+		TV: 1
+	f=4115
+		Radio: 0
+		TV: 4
+	f=4134
+		Radio: 0
+		TV: 13
+	f=4143
+		Radio: 0
+		TV: 0
+	f=4157
+		Radio: 0
+		TV: 6
+	f=4170
+		Radio: 0
+		TV: 1
+	f=4175
+		Radio: 0
+		TV: 1
+	f=4180
+		Radio: 0
+		TV: 1
+	f=6920
+		Radio: 0
+		TV: 2
+Intelsat 15
+	f=10968
+		Radio: 0
+		TV: 0
+	f=10987
+		Radio: 0
+		TV: 1
+	f=10995
+		Radio: 0
+		TV: 1
+	f=11019
+		Radio: 0
+		TV: 0
+	f=11108
+		Radio: 0
+		TV: 0
+	f=11466
+		Radio: 0
+		TV: 1
+	f=11473
+		Radio: 0
+		TV: 0
+	f=11482
+		Radio: 0
+		TV: 1
+	f=11525
+		Radio: 0
+		TV: 0
+	f=11559
+		Radio: 0
+		TV: 0
+	f=11566
+		Radio: 0
+		TV: 0
+	f=11577
+		Radio: 0
+		TV: 0
+	f=11592
+		Radio: 0
+		TV: 0
+	f=11599
+		Radio: 0
+		TV: 0
+	f=11605
+		Radio: 0
+		TV: 0
+	f=11625
+		Radio: 0
+		TV: 0
+	f=11720
+		Radio: 0
+		TV: 11
+	f=11900
+		Radio: 0
+		TV: 9
+	f=12505
+		Radio: 0
+		TV: 0
+	f=12511
+		Radio: 0
+		TV: 0
+	f=12515
+		Radio: 0
+		TV: 2
+	f=12526
+		Radio: 1
+		TV: 0
+	f=12560
+		Radio: 0
+		TV: 14
+	f=12600
+		Radio: 0
+		TV: 14
+	f=12640
+		Radio: 0
+		TV: 18
+	f=12668
+		Radio: 0
+		TV: 0
+	f=12682
+		Radio: 0
+		TV: 1
+Horizons 2
+	f=11525
+		Radio: 0
+		TV: 1
+	f=11760
+		Radio: 0
+		TV: 19
+	f=11800
+		Radio: 0
+		TV: 9
+	f=11838
+		Radio: 0
+		TV: 10
+	f=11840
+		Radio: 0
+		TV: 23
+	f=11880
+		Radio: 0
+		TV: 13
+	f=11920
+		Radio: 0
+		TV: 23
+	f=11960
+		Radio: 0
+		TV: 18
+	f=12000
+		Radio: 6
+		TV: 12
+	f=12040
+		Radio: 1
+		TV: 9
+	f=12080
+		Radio: 1
+		TV: 32
+	f=12120
+		Radio: 0
+		TV: 19
+	f=12160
+		Radio: 0
+		TV: 2
+Kazsat 2
+	f=11495
+		Radio: 0
+		TV: 8
+	f=11504
+		Radio: 0
+		TV: 6
+	f=11632
+		Radio: 0
+		TV: 1
+	f=11643
+		Radio: 0
+		TV: 1
+	f=11645
+		Radio: 0
+		TV: 1
+	f=11647
+		Radio: 0
+		TV: 1
+	f=11649
+		Radio: 0
+		TV: 1
+	f=11650
+		Radio: 0
+		TV: 1
+	f=11651
+		Radio: 0
+		TV: 1
+	f=11653
+		Radio: 0
+		TV: 1
+	f=11654
+		Radio: 0
+		TV: 1
+	f=11656
+		Radio: 0
+		TV: 2
+	f=11658
+		Radio: 0
+		TV: 1
+	f=11659
+		Radio: 0
+		TV: 1
+	f=11669
+		Radio: 0
+		TV: 21
+	f=11686
+		Radio: 0
+		TV: 24
+ST 2
+	f=3629
+		Radio: 0
+		TV: 1
+	f=3632
+		Radio: 0
+		TV: 5
+	f=3671
+		Radio: 2
+		TV: 2
+	f=3689
+		Radio: 0
+		TV: 1
+	f=3775
+		Radio: 0
+		TV: 1
+	f=4032
+		Radio: 0
+		TV: 1
+	f=4140
+		Radio: 0
+		TV: 13
+	f=10955
+		Radio: 0
+		TV: 0
+	f=10956
+		Radio: 0
+		TV: 1
+	f=10966
+		Radio: 0
+		TV: 3
+	f=10977
+		Radio: 0
+		TV: 1
+	f=10984
+		Radio: 0
+		TV: 1
+	f=10993
+		Radio: 0
+		TV: 1
+	f=11049
+		Radio: 0
+		TV: 21
+	f=11074
+		Radio: 0
+		TV: 1
+	f=11081
+		Radio: 0
+		TV: 6
+	f=11086
+		Radio: 0
+		TV: 0
+	f=11124
+		Radio: 0
+		TV: 1
+	f=11483
+		Radio: 0
+		TV: 4
+	f=12642
+		Radio: 0
+		TV: 7
+	f=12645
+		Radio: 1
+		TV: 3
+	f=12673
+		Radio: 0
+		TV: 4
+Chinasat 12
+	f=3757
+		Radio: 0
+		TV: 5
+	f=4181
+		Radio: 0
+		TV: 1
+Yamal 401
+	f=3588
+		Radio: 0
+		TV: 1
+	f=3600
+		Radio: 0
+		TV: 2
+	f=3603
+		Radio: 0
+		TV: 1
+	f=3605
+		Radio: 0
+		TV: 1
+	f=3645
+		Radio: 0
+		TV: 6
+	f=3674
+		Radio: 0
+		TV: 3
+	f=3675
+		Radio: 3
+		TV: 2
+	f=3683
+		Radio: 0
+		TV: 3
+	f=3786
+		Radio: 0
+		TV: 10
+	f=3818
+		Radio: 0
+		TV: 3
+	f=3826
+		Radio: 0
+		TV: 3
+	f=3837
+		Radio: 0
+		TV: 1
+	f=3912
+		Radio: 1
+		TV: 0
+	f=3918
+		Radio: 1
+		TV: 1
+	f=3922
+		Radio: 2
+		TV: 1
+	f=3969
+		Radio: 0
+		TV: 1
+	f=3981
+		Radio: 0
+		TV: 2
+	f=4000
+		Radio: 0
+		TV: 2
+	f=4026
+		Radio: 0
+		TV: 10
+	f=4038
+		Radio: 0
+		TV: 2
+	f=4043
+		Radio: 0
+		TV: 2
+	f=4046
+		Radio: 0
+		TV: 10
+	f=4052
+		Radio: 0
+		TV: 2
+	f=4059
+		Radio: 0
+		TV: 1
+	f=4073
+		Radio: 0
+		TV: 1
+	f=4074
+		Radio: 0
+		TV: 1
+	f=4106
+		Radio: 0
+		TV: 10
+	f=4124
+		Radio: 0
+		TV: 8
+	f=10907
+		Radio: 0
+		TV: 1
+	f=10933
+		Radio: 0
+		TV: 1
+	f=10972
+		Radio: 6
+		TV: 6
+	f=11018
+		Radio: 0
+		TV: 1
+	f=11162
+		Radio: 0
+		TV: 0
+	f=11239
+		Radio: 0
+		TV: 1
+	f=11265
+		Radio: 0
+		TV: 15
+	f=11305
+		Radio: 0
+		TV: 1
+	f=11385
+		Radio: 0
+		TV: 11
+	f=11481
+		Radio: 0
+		TV: 1
+	f=11485
+		Radio: 0
+		TV: 7
+	f=11491
+		Radio: 0
+		TV: 0
+	f=11495
+		Radio: 0
+		TV: 4
+	f=11504
+		Radio: 0
+		TV: 1
+	f=11525
+		Radio: 0
+		TV: 0
+	f=11535
+		Radio: 0
+		TV: 2
+	f=11562
+		Radio: 0
+		TV: 0
+	f=11598
+		Radio: 0
+		TV: 0
+	f=11649
+		Radio: 0
+		TV: 1
+	f=11668
+		Radio: 0
+		TV: 5
+	f=11674
+		Radio: 1
+		TV: 0
+	f=12505
+		Radio: 0
+		TV: 1
+	f=12718
+		Radio: 0
+		TV: 3
+Measat 3
+	f=3423
+		Radio: 0
+		TV: 1
+	f=3425
+		Radio: 0
+		TV: 1
+	f=3708
+		Radio: 0
+		TV: 1
+	f=3721
+		Radio: 7
+		TV: 1
+	f=3805
+		Radio: 0
+		TV: 1
+	f=3814
+		Radio: 0
+		TV: 1
+	f=3840
+		Radio: 0
+		TV: 4
+	f=3887
+		Radio: 3
+		TV: 0
+	f=3920
+		Radio: 0
+		TV: 9
+	f=10982
+		Radio: 0
+		TV: 15
+	f=11062
+		Radio: 0
+		TV: 12
+	f=11102
+		Radio: 0
+		TV: 14
+	f=11482
+		Radio: 0
+		TV: 14
+	f=11522
+		Radio: 0
+		TV: 5
+	f=11562
+		Radio: 0
+		TV: 13
+	f=11642
+		Radio: 0
+		TV: 12
+	f=11682
+		Radio: 0
+		TV: 12
+	f=11833
+		Radio: 0
+		TV: 8
+	f=11957
+		Radio: 0
+		TV: 11
+	f=12109
+		Radio: 0
+		TV: 7
+	f=12276
+		Radio: 0
+		TV: 1
+	f=12315
+		Radio: 0
+		TV: 2
+	f=12316
+		Radio: 0
+		TV: 16
+	f=12333
+		Radio: 0
+		TV: 14
+	f=12414
+		Radio: 0
+		TV: 12
+	f=12437
+		Radio: 0
+		TV: 34
+	f=12493
+		Radio: 0
+		TV: 11
+	f=12523
+		Radio: 0
+		TV: 26
+	f=12523
+		Radio: 0
+		TV: 10
+	f=12563
+		Radio: 0
+		TV: 37
+	f=12563
+		Radio: 1
+		TV: 23
+	f=12597
+		Radio: 0
+		TV: 15
+	f=12603
+		Radio: 0
+		TV: 30
+	f=12603
+		Radio: 0
+		TV: 21
+	f=12643
+		Radio: 0
+		TV: 29
+	f=12643
+		Radio: 0
+		TV: 25
+Measat 3A
+	f=3918
+		Radio: 0
+		TV: 11
+	f=4040
+		Radio: 0
+		TV: 6
+	f=4164
+		Radio: 0
+		TV: 2
+ChinaSat 9
+	f=11840
+		Radio: 8
+		TV: 11
+	f=11880
+		Radio: 11
+		TV: 12
+	f=11920
+		Radio: 12
+		TV: 11
+	f=11960
+		Radio: 11
+		TV: 10
+	f=12140
+		Radio: 0
+		TV: 2
+GSAT 17
+	f=3830
+		Radio: 0
+		TV: 1
+	f=4020
+		Radio: 0
+		TV: 1
+	f=4051
+		Radio: 0
+		TV: 2
+	f=4077
+		Radio: 0
+		TV: 22
+	f=4148
+		Radio: 0
+		TV: 2
+	f=4174
+		Radio: 0
+		TV: 3
+	f=4175
+		Radio: 0
+		TV: 2
+GSAT 15
+	f=10971
+		Radio: 0
+		TV: 24
+	f=11010
+		Radio: 0
+		TV: 26
+	f=11050
+		Radio: 0
+		TV: 23
+	f=11090
+		Radio: 7
+		TV: 18
+	f=11130
+		Radio: 0
+		TV: 26
+	f=11170
+		Radio: 1
+		TV: 19
+	f=11460
+		Radio: 0
+		TV: 9
+	f=11470
+		Radio: 0
+		TV: 20
+	f=11470
+		Radio: 0
+		TV: 19
+	f=11479
+		Radio: 0
+		TV: 8
+	f=11510
+		Radio: 0
+		TV: 17
+	f=11510
+		Radio: 0
+		TV: 25
+	f=11550
+		Radio: 0
+		TV: 17
+	f=11550
+		Radio: 0
+		TV: 18
+	f=11590
+		Radio: 0
+		TV: 17
+	f=11590
+		Radio: 0
+		TV: 16
+	f=11630
+		Radio: 0
+		TV: 15
+	f=11630
+		Radio: 0
+		TV: 2
+	f=11630
+		Radio: 0
+		TV: 21
+	f=11670
+		Radio: 0
+		TV: 16
+	f=11670
+		Radio: 0
+		TV: 17
+SES 12
+	f=10990
+		Radio: 0
+		TV: 13
+	f=11106
+		Radio: 1
+		TV: 1
+	f=11106
+		Radio: 0
+		TV: 0
+	f=11130
+		Radio: 0
+		TV: 1
+	f=11139
+		Radio: 0
+		TV: 2
+	f=11144
+		Radio: 0
+		TV: 0
+	f=11456
+		Radio: 0
+		TV: 0
+	f=11462
+		Radio: 0
+		TV: 0
+	f=11463
+		Radio: 0
+		TV: 0
+	f=11475
+		Radio: 0
+		TV: 0
+	f=11483
+		Radio: 0
+		TV: 0
+	f=11494
+		Radio: 0
+		TV: 0
+	f=11503
+		Radio: 0
+		TV: 0
+	f=11520
+		Radio: 0
+		TV: 0
+	f=11542
+		Radio: 0
+		TV: 2
+	f=11597
+		Radio: 0
+		TV: 0
+	f=11610
+		Radio: 0
+		TV: 0
+	f=11634
+		Radio: 0
+		TV: 1
+	f=11651
+		Radio: 0
+		TV: 0
+	f=11661
+		Radio: 0
+		TV: 0
+	f=11671
+		Radio: 0
+		TV: 0
+	f=11676
+		Radio: 0
+		TV: 11
+	f=11681
+		Radio: 0
+		TV: 0
+	f=11685
+		Radio: 0
+		TV: 0
+	f=11689
+		Radio: 0
+		TV: 0
+	f=11690
+		Radio: 0
+		TV: 1
+	f=12736
+		Radio: 0
+		TV: 1
+SES 8
+	f=11635
+		Radio: 0
+		TV: 14
+	f=12050
+		Radio: 0
+		TV: 38
+	f=12170
+		Radio: 0
+		TV: 15
+	f=12403
+		Radio: 0
+		TV: 24
+	f=12464
+		Radio: 0
+		TV: 28
+	f=12535
+		Radio: 0
+		TV: 19
+	f=12550
+		Radio: 0
+		TV: 0
+	f=12595
+		Radio: 0
+		TV: 17
+	f=12595
+		Radio: 0
+		TV: 20
+	f=12595
+		Radio: 4
+		TV: 0
+	f=12605
+		Radio: 0
+		TV: 1
+	f=12638
+		Radio: 0
+		TV: 5
+	f=12647
+		Radio: 0
+		TV: 22
+	f=12647
+		Radio: 0
+		TV: 40
+	f=12648
+		Radio: 0
+		TV: 1
+	f=12683
+		Radio: 0
+		TV: 18
+	f=12688
+		Radio: 0
+		TV: 18
+	f=12688
+		Radio: 0
+		TV: 36
+	f=12729
+		Radio: 0
+		TV: 18
+	f=12729
+		Radio: 0
+		TV: 11
+	f=12730
+		Radio: 0
+		TV: 10
+Express AM33
+	f=3675
+		Radio: 0
+		TV: 1
+	f=3758
+		Radio: 1
+		TV: 1
+	f=3817
+		Radio: 1
+		TV: 0
+	f=3838
+		Radio: 2
+		TV: 0
+	f=4108
+		Radio: 1
+		TV: 0
+	f=4114
+		Radio: 1
+		TV: 0
+	f=10980
+		Radio: 2
+		TV: 0
+	f=11000
+		Radio: 0
+		TV: 2
+	f=11020
+		Radio: 0
+		TV: 1
+	f=11045
+		Radio: 0
+		TV: 1
+	f=11117
+		Radio: 2
+		TV: 0
+	f=11137
+		Radio: 0
+		TV: 1
+	f=11194
+		Radio: 1
+		TV: 1
+	f=11500
+		Radio: 1
+		TV: 0
+Chinasat 11
+	f=12500
+		Radio: 0
+		TV: 42
+	f=12560
+		Radio: 0
+		TV: 43
+AsiaSat 5
+	f=3660
+		Radio: 5
+		TV: 4
+	f=3675
+		Radio: 0
+		TV: 0
+	f=3684
+		Radio: 0
+		TV: 0
+	f=3688
+		Radio: 0
+		TV: 0
+	f=3694
+		Radio: 0
+		TV: 0
+	f=3696
+		Radio: 0
+		TV: 0
+	f=3700
+		Radio: 0
+		TV: 5
+	f=3714
+		Radio: 0
+		TV: 0
+	f=3714
+		Radio: 0
+		TV: 0
+	f=3720
+		Radio: 0
+		TV: 0
+	f=3732
+		Radio: 0
+		TV: 1
+	f=3744
+		Radio: 0
+		TV: 0
+	f=3753
+		Radio: 0
+		TV: 0
+	f=3760
+		Radio: 0
+		TV: 7
+	f=3773
+		Radio: 0
+		TV: 0
+	f=3798
+		Radio: 0
+		TV: 1
+	f=3817
+		Radio: 0
+		TV: 1
+	f=3820
+		Radio: 15
+		TV: 11
+	f=3840
+		Radio: 0
+		TV: 5
+	f=3860
+		Radio: 0
+		TV: 0
+	f=3888
+		Radio: 0
+		TV: 0
+	f=3896
+		Radio: 0
+		TV: 0
+	f=3905
+		Radio: 0
+		TV: 0
+	f=3905
+		Radio: 0
+		TV: 0
+	f=3914
+		Radio: 0
+		TV: 0
+	f=3940
+		Radio: 0
+		TV: 0
+	f=3960
+		Radio: 0
+		TV: 21
+	f=3980
+		Radio: 0
+		TV: 7
+	f=4040
+		Radio: 0
+		TV: 7
+	f=4050
+		Radio: 0
+		TV: 0
+	f=4060
+		Radio: 0
+		TV: 0
+	f=4067
+		Radio: 0
+		TV: 0
+	f=4072
+		Radio: 0
+		TV: 0
+	f=4075
+		Radio: 0
+		TV: 0
+	f=4080
+		Radio: 0
+		TV: 1
+	f=4091
+		Radio: 0
+		TV: 0
+	f=4094
+		Radio: 0
+		TV: 0
+	f=4104
+		Radio: 0
+		TV: 0
+	f=4118
+		Radio: 0
+		TV: 0
+	f=4132
+		Radio: 12
+		TV: 3
+	f=4142
+		Radio: 0
+		TV: 0
+	f=4148
+		Radio: 0
+		TV: 7
+	f=4149
+		Radio: 0
+		TV: 0
+	f=4153
+		Radio: 0
+		TV: 0
+	f=4161
+		Radio: 0
+		TV: 0
+	f=4165
+		Radio: 0
+		TV: 0
+	f=4175
+		Radio: 0
+		TV: 0
+	f=4179
+		Radio: 0
+		TV: 0
+	f=4182
+		Radio: 0
+		TV: 0
+	f=4191
+		Radio: 0
+		TV: 0
+	f=12323
+		Radio: 0
+		TV: 3
+	f=12522
+		Radio: 0
+		TV: 31
+	f=12582
+		Radio: 0
+		TV: 14
+	f=12617
+		Radio: 0
+		TV: 4
+	f=12691
+		Radio: 0
+		TV: 2
+	f=12702
+		Radio: 0
+		TV: 17
+Express AM3
+	f=3610
+		Radio: 11
+		TV: 0
+	f=3675
+		Radio: 7
+		TV: 8
+	f=4084
+		Radio: 3
+		TV: 8
+Asiastar 1
+	f=1473
+		Radio: 5
+		TV: 0
+	f=1475
+		Radio: 24
+		TV: 0
+	f=1478
+		Radio: 25
+		TV: 0
+	f=1480
+		Radio: 12
+		TV: 0
+	f=1488
+		Radio: 14
+		TV: 0
+	f=1490
+		Radio: 28
+		TV: 0
+Asiasat 7
+	f=3653
+		Radio: 0
+		TV: 9
+	f=3664
+		Radio: 0
+		TV: 1
+	f=3669
+		Radio: 0
+		TV: 1
+	f=3675
+		Radio: 0
+		TV: 13
+	f=3715
+		Radio: 0
+		TV: 3
+	f=3725
+		Radio: 0
+		TV: 6
+	f=3732
+		Radio: 0
+		TV: 2
+	f=3734
+		Radio: 0
+		TV: 1
+	f=3745
+		Radio: 0
+		TV: 1
+	f=3751
+		Radio: 0
+		TV: 8
+	f=3760
+		Radio: 2
+		TV: 16
+	f=3780
+		Radio: 0
+		TV: 8
+	f=3800
+		Radio: 0
+		TV: 7
+	f=3820
+		Radio: 0
+		TV: 12
+	f=3840
+		Radio: 0
+		TV: 10
+	f=3860
+		Radio: 0
+		TV: 22
+	f=3880
+		Radio: 0
+		TV: 8
+	f=3890
+		Radio: 0
+		TV: 5
+	f=3902
+		Radio: 0
+		TV: 7
+	f=3906
+		Radio: 0
+		TV: 1
+	f=3913
+		Radio: 0
+		TV: 8
+	f=3914
+		Radio: 0
+		TV: 1
+	f=3915
+		Radio: 0
+		TV: 23
+	f=3940
+		Radio: 0
+		TV: 13
+	f=3960
+		Radio: 1
+		TV: 9
+	f=3980
+		Radio: 0
+		TV: 11
+	f=3981
+		Radio: 0
+		TV: 9
+	f=3985
+		Radio: 0
+		TV: 9
+	f=4000
+		Radio: 0
+		TV: 9
+	f=4040
+		Radio: 13
+		TV: 8
+	f=4060
+		Radio: 0
+		TV: 10
+	f=4066
+		Radio: 0
+		TV: 19
+	f=4070
+		Radio: 0
+		TV: 7
+	f=4072
+		Radio: 0
+		TV: 7
+	f=4073
+		Radio: 0
+		TV: 1
+	f=4078
+		Radio: 0
+		TV: 2
+	f=4080
+		Radio: 0
+		TV: 1
+	f=4082
+		Radio: 0
+		TV: 5
+	f=4086
+		Radio: 0
+		TV: 1
+	f=4087
+		Radio: 0
+		TV: 1
+	f=4100
+		Radio: 0
+		TV: 10
+	f=4120
+		Radio: 0
+		TV: 6
+	f=4132
+		Radio: 0
+		TV: 3
+	f=4140
+		Radio: 0
+		TV: 9
+	f=4146
+		Radio: 0
+		TV: 20
+	f=4147
+		Radio: 0
+		TV: 12
+	f=4155
+		Radio: 0
+		TV: 1
+	f=4165
+		Radio: 0
+		TV: 8
+	f=4176
+		Radio: 0
+		TV: 9
+	f=4180
+		Radio: 0
+		TV: 13
+	f=12402
+		Radio: 0
+		TV: 0
+	f=12495
+		Radio: 0
+		TV: 0
+	f=12511
+		Radio: 0
+		TV: 0
+	f=12635
+		Radio: 0
+		TV: 0
+	f=12696
+		Radio: 0
+		TV: 0
+	f=58008
+		Radio: 0
+		TV: 1
+SES 7
+	f=2156
+		Radio: 4
+		TV: 14
+	f=2536
+		Radio: 4
+		TV: 14
+	f=2566
+		Radio: 4
+		TV: 14
+	f=2566
+		Radio: 0
+		TV: 11
+	f=2596
+		Radio: 6
+		TV: 12
+	f=2596
+		Radio: 0
+		TV: 7
+	f=2626
+		Radio: 0
+		TV: 13
+	f=2626
+		Radio: 0
+		TV: 12
+	f=2656
+		Radio: 0
+		TV: 7
+	f=3720
+		Radio: 0
+		TV: 38
+	f=3745
+		Radio: 0
+		TV: 6
+	f=11480
+		Radio: 0
+		TV: 12
+	f=11480
+		Radio: 0
+		TV: 37
+	f=11483
+		Radio: 0
+		TV: 45
+	f=11520
+		Radio: 0
+		TV: 34
+	f=11521
+		Radio: 0
+		TV: 2
+	f=11560
+		Radio: 0
+		TV: 1
+	f=11560
+		Radio: 0
+		TV: 40
+	f=11680
+		Radio: 0
+		TV: 17
+SES 9
+	f=12385
+		Radio: 0
+		TV: 1
+	f=12411
+		Radio: 0
+		TV: 5
+	f=12418
+		Radio: 0
+		TV: 4
+	f=12421
+		Radio: 0
+		TV: 1
+	f=12427
+		Radio: 0
+		TV: 0
+	f=12431
+		Radio: 0
+		TV: 14
+	f=12471
+		Radio: 0
+		TV: 16
+	f=12511
+		Radio: 8
+		TV: 12
+	f=12531
+		Radio: 0
+		TV: 16
+	f=12551
+		Radio: 0
+		TV: 12
+	f=12611
+		Radio: 0
+		TV: 15
+	f=12651
+		Radio: 0
+		TV: 36
+	f=12671
+		Radio: 0
+		TV: 3
+	f=12691
+		Radio: 0
+		TV: 15
+ChinaSat 10
+	f=3520
+		Radio: 0
+		TV: 26
+	f=3897
+		Radio: 0
+		TV: 1
+	f=4013
+		Radio: 0
+		TV: 0
+	f=4035
+		Radio: 0
+		TV: 1
+	f=4135
+		Radio: 0
+		TV: 0
+	f=4144
+		Radio: 0
+		TV: 1
+Chinasat 16
+	f=3560
+		Radio: 0
+		TV: 28
+N-SAT-110
+	f=12291
+		Radio: 0
+		TV: 3
+	f=12331
+		Radio: 0
+		TV: 7
+	f=12371
+		Radio: 0
+		TV: 8
+	f=12411
+		Radio: 0
+		TV: 1
+	f=12451
+		Radio: 0
+		TV: 4
+	f=12491
+		Radio: 0
+		TV: 8
+	f=12531
+		Radio: 0
+		TV: 5
+	f=12551
+		Radio: 0
+		TV: 2
+	f=12571
+		Radio: 0
+		TV: 7
+	f=12611
+		Radio: 0
+		TV: 2
+	f=12651
+		Radio: 0
+		TV: 6
+	f=12691
+		Radio: 0
+		TV: 9
+	f=12731
+		Radio: 0
+		TV: 6
+Palapa D
+	f=3747
+		Radio: 0
+		TV: 1
+	f=3763
+		Radio: 0
+		TV: 1
+	f=3774
+		Radio: 1
+		TV: 1
+	f=3786
+		Radio: 0
+		TV: 1
+	f=3860
+		Radio: 0
+		TV: 1
+	f=3912
+		Radio: 0
+		TV: 0
+	f=3918
+		Radio: 0
+		TV: 0
+	f=3926
+		Radio: 0
+		TV: 1
+	f=3935
+		Radio: 0
+		TV: 1
+	f=3946
+		Radio: 0
+		TV: 4
+	f=3980
+		Radio: 0
+		TV: 8
+	f=3984
+		Radio: 0
+		TV: 1
+	f=4000
+		Radio: 1
+		TV: 1
+	f=4043
+		Radio: 0
+		TV: 1
+	f=4047
+		Radio: 0
+		TV: 1
+	f=4055
+		Radio: 0
+		TV: 1
+	f=4080
+		Radio: 6
+		TV: 12
+	f=4100
+		Radio: 0
+		TV: 1
+	f=4111
+		Radio: 0
+		TV: 5
+	f=4131
+		Radio: 0
+		TV: 3
+	f=4141
+		Radio: 0
+		TV: 3
+	f=4184
+		Radio: 0
+		TV: 1
+	f=12590
+		Radio: 0
+		TV: 8
+Koreasat 5
+	f=4051
+		Radio: 0
+		TV: 1
+	f=12430
+		Radio: 0
+		TV: 1
+	f=12490
+		Radio: 0
+		TV: 8
+	f=12530
+		Radio: 0
+		TV: 13
+	f=12575
+		Radio: 0
+		TV: 1
+	f=12601
+		Radio: 0
+		TV: 1
+	f=12606
+		Radio: 0
+		TV: 0
+	f=12621
+		Radio: 0
+		TV: 6
+	f=12665
+		Radio: 0
+		TV: 1
+	f=12731
+		Radio: 0
+		TV: 12
+ChinaSat 6B
+	f=3600
+		Radio: 0
+		TV: 8
+	f=3640
+		Radio: 0
+		TV: 10
+	f=3680
+		Radio: 0
+		TV: 8
+	f=3710
+		Radio: 2
+		TV: 1
+	f=3740
+		Radio: 0
+		TV: 7
+	f=3750
+		Radio: 4
+		TV: 2
+	f=3770
+		Radio: 0
+		TV: 2
+	f=3796
+		Radio: 6
+		TV: 1
+	f=3807
+		Radio: 4
+		TV: 1
+	f=3808
+		Radio: 3
+		TV: 2
+	f=3825
+		Radio: 8
+		TV: 1
+	f=3834
+		Radio: 6
+		TV: 1
+	f=3840
+		Radio: 0
+		TV: 7
+	f=3846
+		Radio: 1
+		TV: 1
+	f=3854
+		Radio: 4
+		TV: 1
+	f=3861
+		Radio: 2
+		TV: 1
+	f=3871
+		Radio: 6
+		TV: 2
+	f=3880
+		Radio: 0
+		TV: 6
+	f=3885
+		Radio: 0
+		TV: 1
+	f=3892
+		Radio: 4
+		TV: 1
+	f=3902
+		Radio: 0
+		TV: 2
+	f=3910
+		Radio: 3
+		TV: 1
+	f=3920
+		Radio: 0
+		TV: 5
+	f=3929
+		Radio: 3
+		TV: 1
+	f=3940
+		Radio: 5
+		TV: 1
+	f=3950
+		Radio: 0
+		TV: 3
+	f=3951
+		Radio: 2
+		TV: 2
+	f=3971
+		Radio: 13
+		TV: 2
+	f=3980
+		Radio: 0
+		TV: 10
+	f=4000
+		Radio: 0
+		TV: 2
+	f=4020
+		Radio: 0
+		TV: 9
+	f=4040
+		Radio: 0
+		TV: 8
+	f=4060
+		Radio: 0
+		TV: 10
+	f=4080
+		Radio: 0
+		TV: 9
+	f=4100
+		Radio: 0
+		TV: 3
+	f=4115
+		Radio: 0
+		TV: 7
+	f=4140
+		Radio: 0
+		TV: 10
+	f=4147
+		Radio: 1
+		TV: 1
+	f=4158
+		Radio: 4
+		TV: 2
+	f=4171
+		Radio: 2
+		TV: 2
+	f=4175
+		Radio: 16
+		TV: 0
+	f=4192
+		Radio: 5
+		TV: 0
+Koreasat 6
+	f=11747
+		Radio: 0
+		TV: 10
+	f=11785
+		Radio: 0
+		TV: 11
+	f=11823
+		Radio: 0
+		TV: 10
+	f=11862
+		Radio: 0
+		TV: 12
+	f=11900
+		Radio: 0
+		TV: 5
+	f=11938
+		Radio: 0
+		TV: 10
+	f=12330
+		Radio: 0
+		TV: 15
+	f=12350
+		Radio: 0
+		TV: 6
+	f=12410
+		Radio: 0
+		TV: 3
+	f=12430
+		Radio: 0
+		TV: 10
+	f=12450
+		Radio: 0
+		TV: 12
+	f=12490
+		Radio: 30
+		TV: 13
+	f=12523
+		Radio: 0
+		TV: 2
+	f=12530
+		Radio: 0
+		TV: 12
+	f=12570
+		Radio: 0
+		TV: 15
+	f=12670
+		Radio: 0
+		TV: 10
+	f=12730
+		Radio: 0
+		TV: 16
+ABS-7
+	f=12316
+		Radio: 0
+		TV: 0
+	f=12337
+		Radio: 0
+		TV: 0
+	f=12398
+		Radio: 0
+		TV: 0
+	f=12426
+		Radio: 0
+		TV: 0
+	f=12435
+		Radio: 0
+		TV: 0
+	f=12460
+		Radio: 0
+		TV: 0
+	f=12557
+		Radio: 0
+		TV: 0
+	f=12575
+		Radio: 0
+		TV: 0
+	f=12696
+		Radio: 0
+		TV: 0
+	f=12750
+		Radio: 0
+		TV: 1
+Telkom 3S
+	f=3404
+		Radio: 0
+		TV: 1
+	f=3415
+		Radio: 0
+		TV: 1
+	f=3444
+		Radio: 0
+		TV: 1
+	f=3448
+		Radio: 0
+		TV: 1
+	f=3464
+		Radio: 0
+		TV: 1
+	f=3499
+		Radio: 1
+		TV: 0
+	f=3533
+		Radio: 0
+		TV: 1
+	f=3540
+		Radio: 0
+		TV: 1
+	f=3547
+		Radio: 0
+		TV: 1
+	f=3567
+		Radio: 0
+		TV: 1
+	f=3570
+		Radio: 0
+		TV: 1
+	f=3574
+		Radio: 0
+		TV: 1
+	f=3587
+		Radio: 0
+		TV: 1
+	f=3600
+		Radio: 0
+		TV: 1
+	f=3614
+		Radio: 0
+		TV: 2
+	f=3622
+		Radio: 0
+		TV: 1
+	f=3766
+		Radio: 0
+		TV: 1
+	f=3773
+		Radio: 0
+		TV: 1
+	f=3887
+		Radio: 1
+		TV: 0
+	f=3951
+		Radio: 0
+		TV: 1
+	f=4185
+		Radio: 0
+		TV: 2
+	f=4192
+		Radio: 0
+		TV: 1
+	f=4196
+		Radio: 0
+		TV: 1
+	f=12560
+		Radio: 0
+		TV: 1
+Bangabandhu-1
+	f=4520
+		Radio: 0
+		TV: 10
+	f=4545
+		Radio: 0
+		TV: 4
+	f=4575
+		Radio: 0
+		TV: 1
+	f=4600
+		Radio: 0
+		TV: 9
+	f=4640
+		Radio: 0
+		TV: 16
+	f=4650
+		Radio: 0
+		TV: 1
+	f=4680
+		Radio: 0
+		TV: 2
+	f=4720
+		Radio: 0
+		TV: 12
+	f=10724
+		Radio: 0
+		TV: 1
+	f=10725
+		Radio: 0
+		TV: 23
+	f=10765
+		Radio: 0
+		TV: 1
+	f=10765
+		Radio: 0
+		TV: 28
+	f=10805
+		Radio: 0
+		TV: 20
+	f=10845
+		Radio: 0
+		TV: 40
+	f=10885
+		Radio: 0
+		TV: 33
+	f=10925
+		Radio: 0
+		TV: 14
+	f=11725
+		Radio: 0
+		TV: 4
+Asiasat 6
+	f=3900
+		Radio: 0
+		TV: 3
+	f=3940
+		Radio: 0
+		TV: 3
+	f=4060
+		Radio: 0
+		TV: 2
+	f=4100
+		Radio: 0
+		TV: 1
+	f=4140
+		Radio: 0
+		TV: 3
+	f=4180
+		Radio: 0
+		TV: 3
+Asiasat 9
+	f=3644
+		Radio: 0
+		TV: 3
+	f=3916
+		Radio: 0
+		TV: 7
+	f=4014
+		Radio: 0
+		TV: 5
+	f=4035
+		Radio: 0
+		TV: 13
+	f=4120
+		Radio: 0
+		TV: 1
+	f=4156
+		Radio: 10
+		TV: 0
+	f=4159
+		Radio: 0
+		TV: 1
+	f=12415
+		Radio: 1
+		TV: 12
+	f=12655
+		Radio: 0
+		TV: 36
+JCSat 4B
+	f=12282
+		Radio: 0
+		TV: 23
+	f=12322
+		Radio: 0
+		TV: 17
+	f=12340
+		Radio: 0
+		TV: 24
+ChinaSat 6A
+	f=3720
+		Radio: 0
+		TV: 3
+	f=3740
+		Radio: 0
+		TV: 3
+	f=3760
+		Radio: 0
+		TV: 3
+	f=3780
+		Radio: 0
+		TV: 3
+	f=3800
+		Radio: 0
+		TV: 3
+	f=3820
+		Radio: 0
+		TV: 2
+	f=3845
+		Radio: 11
+		TV: 4
+	f=3857
+		Radio: 0
+		TV: 2
+	f=3885
+		Radio: 6
+		TV: 1
+	f=3888
+		Radio: 0
+		TV: 1
+	f=3893
+		Radio: 8
+		TV: 1
+	f=3909
+		Radio: 6
+		TV: 2
+	f=3912
+		Radio: 0
+		TV: 1
+	f=3922
+		Radio: 5
+		TV: 1
+	f=3933
+		Radio: 1
+		TV: 1
+	f=3940
+		Radio: 0
+		TV: 3
+	f=3951
+		Radio: 0
+		TV: 1
+	f=3970
+		Radio: 0
+		TV: 1
+	f=3972
+		Radio: 0
+		TV: 1
+	f=3989
+		Radio: 5
+		TV: 2
+	f=3993
+		Radio: 0
+		TV: 3
+	f=3993
+		Radio: 0
+		TV: 1
+	f=3999
+		Radio: 0
+		TV: 1
+	f=4006
+		Radio: 5
+		TV: 1
+	f=4013
+		Radio: 0
+		TV: 1
+	f=4040
+		Radio: 0
+		TV: 2
+	f=4060
+		Radio: 0
+		TV: 2
+	f=4070
+		Radio: 0
+		TV: 1
+	f=4080
+		Radio: 0
+		TV: 1
+	f=4120
+		Radio: 6
+		TV: 7
+	f=4149
+		Radio: 0
+		TV: 1
+	f=4160
+		Radio: 0
+		TV: 1
+	f=4173
+		Radio: 0
+		TV: 1
+LAOSat 1
+	f=3462
+		Radio: 0
+		TV: 1
+JCSat 3A
+	f=3960
+		Radio: 40
+		TV: 10
+	f=4000
+		Radio: 1
+		TV: 13
+	f=4055
+		Radio: 0
+		TV: 2
+	f=4120
+		Radio: 0
+		TV: 13
+	f=4154
+		Radio: 0
+		TV: 0
+	f=12268
+		Radio: 1
+		TV: 4
+	f=12348
+		Radio: 0
+		TV: 4
+	f=12368
+		Radio: 0
+		TV: 6
+	f=12408
+		Radio: 0
+		TV: 7
+	f=12428
+		Radio: 0
+		TV: 6
+	f=12453
+		Radio: 0
+		TV: 0
+	f=12508
+		Radio: 0
+		TV: 10
+	f=12523
+		Radio: 0
+		TV: 6
+	f=12538
+		Radio: 0
+		TV: 6
+	f=12553
+		Radio: 0
+		TV: 5
+	f=12568
+		Radio: 0
+		TV: 6
+	f=12583
+		Radio: 0
+		TV: 5
+	f=12598
+		Radio: 0
+		TV: 5
+	f=12613
+		Radio: 0
+		TV: 7
+	f=12628
+		Radio: 100
+		TV: 0
+	f=12643
+		Radio: 0
+		TV: 6
+	f=12658
+		Radio: 0
+		TV: 3
+	f=12673
+		Radio: 0
+		TV: 5
+	f=12688
+		Radio: 0
+		TV: 9
+	f=12703
+		Radio: 0
+		TV: 6
+	f=12718
+		Radio: 0
+		TV: 5
+	f=12733
+		Radio: 0
+		TV: 0
+Vinasat 1
+	f=3413
+		Radio: 0
+		TV: 0
+	f=3529
+		Radio: 0
+		TV: 1
+	f=10968
+		Radio: 0
+		TV: 8
+	f=11008
+		Radio: 4
+		TV: 17
+	f=11050
+		Radio: 0
+		TV: 18
+	f=11088
+		Radio: 3
+		TV: 20
+	f=11121
+		Radio: 0
+		TV: 10
+	f=11135
+		Radio: 0
+		TV: 9
+	f=11456
+		Radio: 0
+		TV: 1
+	f=11472
+		Radio: 0
+		TV: 24
+	f=11517
+		Radio: 0
+		TV: 1
+	f=11549
+		Radio: 3
+		TV: 19
+	f=11588
+		Radio: 0
+		TV: 17
+	f=11630
+		Radio: 0
+		TV: 18
+	f=11670
+		Radio: 0
+		TV: 8
+JCSat 5A
+	f=12257
+		Radio: 0
+		TV: 1
+	f=12288
+		Radio: 0
+		TV: 0
+	f=12320
+		Radio: 0
+		TV: 0
+	f=12340
+		Radio: 0
+		TV: 0
+	f=12400
+		Radio: 0
+		TV: 0
+	f=12408
+		Radio: 0
+		TV: 0
+	f=12420
+		Radio: 0
+		TV: 0
+	f=12746
+		Radio: 0
+		TV: 1
+APSTAR 6C
+	f=12269
+		Radio: 16
+		TV: 0
+	f=12395
+		Radio: 0
+		TV: 3
+	f=12435
+		Radio: 0
+		TV: 12
+	f=12515
+		Radio: 0
+		TV: 7
+	f=12595
+		Radio: 0
+		TV: 9
+	f=12675
+		Radio: 0
+		TV: 3
+JCSat 6
+	f=12283
+		Radio: 0
+		TV: 5
+	f=12298
+		Radio: 0
+		TV: 10
+	f=12313
+		Radio: 0
+		TV: 9
+	f=12343
+		Radio: 0
+		TV: 9
+	f=12358
+		Radio: 0
+		TV: 10
+	f=12373
+		Radio: 0
+		TV: 9
+	f=12388
+		Radio: 0
+		TV: 9
+	f=12403
+		Radio: 0
+		TV: 1
+	f=12418
+		Radio: 0
+		TV: 8
+	f=12432
+		Radio: 0
+		TV: 9
+	f=12493
+		Radio: 0
+		TV: 8
+	f=12508
+		Radio: 0
+		TV: 6
+	f=12523
+		Radio: 0
+		TV: 4
+	f=12538
+		Radio: 0
+		TV: 5
+	f=12553
+		Radio: 0
+		TV: 6
+	f=12568
+		Radio: 0
+		TV: 4
+	f=12583
+		Radio: 0
+		TV: 4
+	f=12598
+		Radio: 0
+		TV: 6
+	f=12613
+		Radio: 0
+		TV: 5
+	f=12628
+		Radio: 0
+		TV: 5
+	f=12643
+		Radio: 0
+		TV: 5
+	f=12658
+		Radio: 0
+		TV: 2
+	f=12673
+		Radio: 0
+		TV: 3
+	f=12688
+		Radio: 0
+		TV: 8
+	f=12703
+		Radio: 0
+		TV: 1
+	f=12718
+		Radio: 0
+		TV: 5
+	f=12733
+		Radio: 0
+		TV: 5
+Telstar 18
+	f=3660
+		Radio: 0
+		TV: 15
+	f=3872
+		Radio: 0
+		TV: 2
+	f=4124
+		Radio: 14
+		TV: 0
+	f=12292
+		Radio: 0
+		TV: 19
+	f=12354
+		Radio: 0
+		TV: 48
+	f=12416
+		Radio: 0
+		TV: 20
+	f=12472
+		Radio: 0
+		TV: 20
+	f=12538
+		Radio: 0
+		TV: 22
+	f=12598
+		Radio: 0
+		TV: 13
+	f=12660
+		Radio: 0
+		TV: 21
+	f=12690
+		Radio: 0
+		TV: 3
+	f=12720
+		Radio: 0
+		TV: 12
+	f=12721
+		Radio: 0
+		TV: 22
+	f=12721
+		Radio: 0
+		TV: 11
+Express AM5
+	f=3565
+		Radio: 0
+		TV: 3
+	f=3571
+		Radio: 0
+		TV: 1
+	f=3577
+		Radio: 1
+		TV: 0
+	f=3584
+		Radio: 0
+		TV: 1
+	f=3623
+		Radio: 0
+		TV: 1
+	f=3627
+		Radio: 0
+		TV: 0
+	f=3632
+		Radio: 2
+		TV: 0
+	f=3660
+		Radio: 0
+		TV: 3
+	f=3666
+		Radio: 0
+		TV: 3
+	f=3673
+		Radio: 0
+		TV: 3
+	f=4184
+		Radio: 0
+		TV: 1
+	f=10981
+		Radio: 1
+		TV: 28
+	f=11023
+		Radio: 0
+		TV: 0
+	f=11064
+		Radio: 0
+		TV: 0
+	f=11082
+		Radio: 0
+		TV: 0
+	f=11124
+		Radio: 0
+		TV: 4
+	f=11262
+		Radio: 0
+		TV: 24
+	f=11387
+		Radio: 0
+		TV: 35
+	f=11471
+		Radio: 0
+		TV: 0
+	f=11530
+		Radio: 0
+		TV: 17
+	f=11557
+		Radio: 0
+		TV: 17
+	f=11665
+		Radio: 0
+		TV: 16
+	f=11681
+		Radio: 0
+		TV: 5
+Express AT2
+	f=12188
+		Radio: 0
+		TV: 3
+	f=12226
+		Radio: 0
+		TV: 7
+	f=12245
+		Radio: 0
+		TV: 33
+	f=12303
+		Radio: 0
+		TV: 15
+	f=12322
+		Radio: 0
+		TV: 25
+	f=12380
+		Radio: 0
+		TV: 15
+	f=12399
+		Radio: 0
+		TV: 29
+	f=12456
+		Radio: 0
+		TV: 7
+	f=12476
+		Radio: 0
+		TV: 7
+APSTAR 9
+	f=5767
+		Radio: 0
+		TV: 1
+Optus D2
+	f=12519
+		Radio: 5
+		TV: 9
+	f=12546
+		Radio: 11
+		TV: 

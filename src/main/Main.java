@@ -1,5 +1,7 @@
 package main;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.file.FileSystems;
@@ -10,18 +12,33 @@ import java.util.ArrayList;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 
+import aggregations.AGGREGATE_Satellite_Transponder_Count_Channels;
+import aggregations.CompositeContainer;
+import aggregations.IAggregate;
 import model.Satellite;
 import model.Transponder;
 
 public class Main {
 
-	public static void main(String[] args) throws Exception {
+	private FileWriter fileWriter;
 
+	public Main() {
+		try {
+			this.fileWriter = new FileWriter("out.dat");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		StringBuffer fileContent = new StringBuffer();
 
 		Path path = FileSystems.getDefault().getPath("", "data.json");
 
-		InputStream inputStream = Files.newInputStream(path);
+		InputStream inputStream = null;
+		try {
+			inputStream = Files.newInputStream(path);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		JsonReader reader = new JsonReader(new InputStreamReader(inputStream));
 
 		Gson gson = new Gson();
@@ -42,15 +59,34 @@ public class Main {
 				satellitesList.add(new Satellite(t));
 		}
 
-		int x = 5;
+		IAggregate aggregate = new AGGREGATE_Satellite_Transponder_Count_Channels();
+		CompositeContainer compositeContainer = aggregate.aggregate(satellitesList);
 
-//		ArrayList<Satellite> distinctSatellites = new ArrayList<Satellite>();
-//
-//		for (Satellite satellite : s) {
-//			if (distinctSatellites.isEmpty()) {
-//
-//			}
-//		}
+		try {
+			printCompositum(compositeContainer, -1);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
+	}
+
+	public void printCompositum(CompositeContainer c, int level) throws Exception {
+
+		for (int i = 0; i < level; i++) {
+			// System.out.print("\t");
+			this.fileWriter.write("\t");
+		}
+
+		// System.out.println(c.getData());
+		this.fileWriter.write(c.getData() + "\n");
+
+		for (CompositeContainer comp : c.getCompositums()) {
+			printCompositum(comp, level + 1);
+		}
+
+	}
+
+	public static void main(String[] args) throws Exception {
+		new Main();
 	}
 }

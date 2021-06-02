@@ -8,5 +8,26 @@ public class Channel {
 	public String getLanguage() {
 		return this.a_pid.split(" ")[1];
 	}
+	
+	/**
+	 * @return the type
+	 */
+	public String getType() {
+		return type;
+	}
+
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+
+	/**
+	 * @return the a_pid
+	 */
+	public String getA_pid() {
+		return a_pid;
+	}
 
 }

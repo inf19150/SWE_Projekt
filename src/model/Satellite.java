@@ -31,4 +31,8 @@ public class Satellite {
 		return sat;
 	}
 
+	public ArrayList<Transponder> getTransponders() {
+		return transponders;
+	}
+	
 }
