@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 
+import aggregations.AGGREGATE_Satellite_Ger_Channel;
 import aggregations.AGGREGATE_Satellite_Transponder_Count_Channels;
 import aggregations.CompositeContainer;
 import aggregations.IAggregate;
@@ -59,7 +60,7 @@ public class Main {
 				satellitesList.add(new Satellite(t));
 		}
 
-		IAggregate aggregate = new AGGREGATE_Satellite_Transponder_Count_Channels();
+		IAggregate aggregate = new AGGREGATE_Satellite_Ger_Channel();
 		CompositeContainer compositeContainer = aggregate.aggregate(satellitesList);
 
 		try {

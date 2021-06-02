@@ -6,7 +6,7 @@ public class Channel {
 	private String type, name, res, a_pid, compression;
 
 	public String getLanguage() {
-		return this.a_pid.split(" ")[1];
+		return this.a_pid;
 	}
 	
 	/**
