@@ -59,10 +59,19 @@ public class Main {
 				satellitesList.add(new Satellite(t));
 		}
 
-		IAggregate aggregate = new AGGREGATE_Satellite_Transponder_Count_Channels();
-		CompositeContainerHead compositeContainer = aggregate.aggregate(satellitesList);
-		
-		new SimpleFileWriter("simpleFileWriter.txt").output(compositeContainer);	
+		ExtensionLoader<IAggregate> loader = new ExtensionLoader<IAggregate>();
+		IAggregate aggregateTest = null;
+
+		try {
+			aggregateTest = loader.LoadClass("/test", "AGGREGATE_extention", IAggregate.class);
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+
+//		IAggregate aggregate = new AGGREGATE_Satellite_Transponder_Count_Channels();
+		CompositeContainerHead compositeContainer = aggregateTest.aggregate(satellitesList);
+
+		new SimpleFileWriter("simpleFileWriter.txt").output(compositeContainer);
 		new JSONFileWriter("JSONFileWriter.txt").output(compositeContainer);
 
 	}
