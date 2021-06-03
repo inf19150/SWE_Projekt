@@ -1,4 +1,4 @@
-package output;
+package view.output;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -44,5 +44,10 @@ public class SimpleFileWriter implements IOutput {
 			printCompositum(comp, level + 1);
 		}
 
+	}
+
+	@Override
+	public String getName() {
+		return "Simple File Writer";
 	}
 }

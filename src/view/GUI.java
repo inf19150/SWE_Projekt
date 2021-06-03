@@ -19,7 +19,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 
 import controller.Controller;
 import model.aggregations.IAggregate;
-import output.IOutput;
+import view.output.IOutput;
 
 /**
  * GUI class inherits {@link JFrame} and implements {@link ActionListener} for
@@ -36,8 +36,8 @@ public class GUI extends JFrame implements ActionListener {
 	private static final long serialVersionUID = 732987927918732005L;
 
 	private Controller controller;
-	private JComboBox comboBoxAggregation;
-	private JComboBox comboBoxOutput;
+	private JComboBox<IAggregate> comboBoxAggregation;
+	private JComboBox<IOutput> comboBoxOutput;
 	private JButton btnAggregate;
 
 	/**
@@ -81,7 +81,7 @@ public class GUI extends JFrame implements ActionListener {
 
 		panelMenu.add(panel);
 
-		comboBoxAggregation = new JComboBox();
+		comboBoxAggregation = new JComboBox<IAggregate>();
 		comboBoxAggregation.setBounds(10, 139, 293, 31);
 		getContentPane().add(comboBoxAggregation);
 
@@ -95,7 +95,7 @@ public class GUI extends JFrame implements ActionListener {
 		lblOutput.setBounds(210, 56, 168, 33);
 		getContentPane().add(lblOutput);
 
-		comboBoxOutput = new JComboBox();
+		comboBoxOutput = new JComboBox<IOutput>();
 		comboBoxOutput.setBounds(210, 89, 256, 31);
 		getContentPane().add(comboBoxOutput);
 
@@ -112,10 +112,12 @@ public class GUI extends JFrame implements ActionListener {
 		for (IAggregate iAggregate : aggregationModules) {
 			this.comboBoxAggregation.addItem(iAggregate);
 		}
+		this.comboBoxAggregation.setRenderer(new ComboBoxRenderer());
 
 		for (IOutput iOutput : outputModules) {
 			this.comboBoxOutput.addItem(iOutput);
 		}
+		this.comboBoxOutput.setRenderer(new ComboBoxRenderer());
 	}
 
 	public IOutput getSelectedOutput() {
@@ -127,7 +129,7 @@ public class GUI extends JFrame implements ActionListener {
 	}
 	
 	/**
-	 * Initialized Windowo
+	 * Initialized Windows
 	 */
 	private void initialize() {
 		setBounds(100, 100, 496, 333);

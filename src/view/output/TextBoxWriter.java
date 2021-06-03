@@ -1,4 +1,4 @@
-package output;
+package view.output;
 
 import java.awt.BorderLayout;
 
@@ -14,6 +14,7 @@ import java.awt.event.WindowEvent;
 
 public class TextBoxWriter extends JFrame implements IOutput {
 	
+	private static final long serialVersionUID = 1L;
 	private StringBuilder builder;
 	private JTextArea textArea;
 
@@ -54,6 +55,10 @@ public class TextBoxWriter extends JFrame implements IOutput {
 		for (CompositeContainer comp : c.getCompositums()) {
 			this.printCompositum(comp, level + 1);
 		}
-
+	}
+	
+	@Override
+	public String getName() {
+		return "Text Box Writer";
 	}
 }

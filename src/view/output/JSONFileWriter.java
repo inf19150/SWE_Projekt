@@ -1,4 +1,4 @@
-package output;
+package view.output;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -51,8 +51,10 @@ public class JSONFileWriter implements IOutput {
 			}
 
 			printCompositum(comp);
-
 		}
-
+	}
+	@Override
+	public String getName() {
+		return "JSON File Writer";
 	}
 }

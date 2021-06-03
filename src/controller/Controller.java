@@ -17,10 +17,10 @@ import model.aggregations.AGGREGATE_Satellite_Ger_Channel;
 import model.aggregations.AGGREGATE_Satellite_Transponder_Count_Channels;
 import model.aggregations.IAggregate;
 import model.containers.CompositeContainerHead;
-import output.IOutput;
-import output.SimpleFileWriter;
-import output.TextBoxWriter;
 import view.GUI;
+import view.output.IOutput;
+import view.output.SimpleFileWriter;
+import view.output.TextBoxWriter;
 
 public class Controller {
 
@@ -44,7 +44,7 @@ public class Controller {
 		IOutput selectedOutput = this.gui.getSelectedOutput();
 		CompositeContainerHead aggregationResult = selectedAggregation.aggregate(satellitesList);
 		selectedOutput.output(aggregationResult);
-		
+
 //		this.gui.getSelectedOutput().output(this.gui.getSelectedAggregation().aggregate(this.satellitesList));
 	}
 
@@ -77,27 +77,13 @@ public class Controller {
 	}
 
 	private void loadAggregationModules() {
-		this.aggregationModules.add(new AGGREGATE_Lang_Satellite());
-		this.aggregationModules.add(new AGGREGATE_Satellite_Ger_Channel());
-		this.aggregationModules.add(new AGGREGATE_Satellite_Transponder_Count_Channels());
-
-//		ExtensionLoader<IAggregate> loader = new ExtensionLoader<IAggregate>();
-
-//		IAggregate aggregateTest = null;
-
-//		try {
-//			aggregateTest = loader.LoadClass("/test", "AGGREGATE_extention", IAggregate.class);
-//		} catch (ClassNotFoundException e) {
-//			e.printStackTrace();
-//		}
-
-//		IAggregate aggregateCount = new AGGREGATE_Satellite_Transponder_Count_Channels();
-//		CompositeContainerHead compositeContainer = aggregateTest.aggregate(satellitesList);
+		ExtensionLoader<IAggregate> loader = new ExtensionLoader<IAggregate>();
+		this.aggregationModules = loader.LoadClasses("/Aggregation_Modules", IAggregate.class);
 	}
-	
+
 	private void loadOutputModules() {
-		this.outputModules.add(new SimpleFileWriter());
-		this.outputModules.add(new TextBoxWriter());
+		ExtensionLoader<IOutput> loader = new ExtensionLoader<IOutput>();
+		this.outputModules = loader.LoadClasses("/Output_Modules", IOutput.class);
 	}
 
 	public static void main(String[] args) {

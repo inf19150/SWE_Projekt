@@ -32,6 +32,11 @@ public class AGGREGATE_Satellite_Ger_Channel implements IAggregate {
 		}
 		return topContainer;
 	}
+
+	@Override
+	public String getName() {
+		return "German Channels per Satellite";
+	}
 }
 
 

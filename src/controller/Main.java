@@ -11,13 +11,13 @@ public class Main {
 
 	public Main() {
 
-		Reflections reflections = new Reflections("model.aggregations.AGGREGATE_Satellite_Transponder_Count_Channels");
-		Set<Class<? extends IAggregate>> classes = reflections.getSubTypesOf(IAggregate.class);
-
-		model.aggregations.AGGREGATE_Satellite_Transponder_Count_Channels test;
-
-		System.out.println(classes);
-
+//		Reflections reflections = new Reflections("model.aggregations.AGGREGATE_Satellite_Transponder_Count_Channels");
+//		Set<Class<? extends IAggregate>> classes = reflections.getSubTypesOf(IAggregate.class);
+//
+//		model.aggregations.AGGREGATE_Satellite_Transponder_Count_Channels test;
+//
+//		System.out.println(classes);
+//
 //		InputStream inputStream = null;
 //		try {
 //			inputStream = Files.newInputStream(FileSystems.getDefault().getPath("", "data.json"));

@@ -8,7 +8,7 @@ public class Channel {
 	public String getLanguage() {
 		return this.a_pid;
 	}
-	
+
 	/**
 	 * @return the type
 	 */

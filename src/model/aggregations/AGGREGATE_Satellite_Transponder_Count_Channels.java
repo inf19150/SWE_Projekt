@@ -36,4 +36,9 @@ public class AGGREGATE_Satellite_Transponder_Count_Channels implements IAggregat
 		return topContainer;
 	}
 
+	@Override
+	public String getName() {
+		return "Count Channel per Transponder";
+	}
+
 }
