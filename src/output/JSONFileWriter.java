@@ -40,7 +40,7 @@ public class JSONFileWriter implements IOutput {
 
 		this.sampleObject = new JSONObject();
 		this.sampleObject.put(c.getKey(), c.getData());
-		
+
 		JSONArray messages = new JSONArray();
 		for (CompositeContainer comp : c.getCompositums()) {
 			if (comp.getSize() > 1) {
@@ -49,9 +49,9 @@ public class JSONFileWriter implements IOutput {
 				}
 				this.sampleObject.put("records", messages);
 			}
-		
+
 			printCompositum(comp);
-		
+
 		}
 
 	}

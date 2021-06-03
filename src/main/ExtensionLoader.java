@@ -7,13 +7,16 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
 
+//https://stackabuse.com/example-loading-a-java-class-at-runtime
 public class ExtensionLoader<C> {
-	
+
 	public C LoadClass(String directory, String classpath, Class<C> parentClass) throws ClassNotFoundException {
 		File pluginsDir = new File(System.getProperty("user.dir") + directory);
 		for (File jar : pluginsDir.listFiles()) {
 			try {
-				ClassLoader loader = URLClassLoader.newInstance(new URL[] { jar.toURL() }, getClass().getClassLoader());
+
+				ClassLoader loader = URLClassLoader.newInstance(new URL[] { jar.toURI().toURL() },
+						getClass().getClassLoader());
 				Class<?> clazz = Class.forName(classpath, true, loader);
 				Class<? extends C> newClass = clazz.asSubclass(parentClass);
 				// Apparently its bad to use Class.newInstance, so we use
