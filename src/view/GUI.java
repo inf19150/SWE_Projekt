@@ -20,6 +20,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 import controller.Controller;
 import model.aggregations.IAggregate;
 import view.output.IOutput;
+import java.awt.Toolkit;
 
 /**
  * GUI class inherits {@link JFrame} and implements {@link ActionListener} for
@@ -47,7 +48,7 @@ public class GUI extends JFrame implements ActionListener {
 	 */
 	public GUI(Controller controller) {
 		super();
-		setType(Type.UTILITY);
+		setIconImage(Toolkit.getDefaultToolkit().getImage(GUI.class.getResource("/assets/logo.png")));
 		setResizable(false);
 		this.controller = controller;
 
@@ -62,46 +63,34 @@ public class GUI extends JFrame implements ActionListener {
 		getContentPane().setLayout(null);
 
 		JPanel panelMenu = new JPanel();
-		panelMenu.setBounds(0, 0, 741, 45);
+		panelMenu.setBounds(0, 0, 534, 45);
 		FlowLayout flowLayout_1 = (FlowLayout) panelMenu.getLayout();
 		flowLayout_1.setHgap(0);
 		flowLayout_1.setAlignment(FlowLayout.LEFT);
 		panelMenu.setBackground(Color.DARK_GRAY);
 		getContentPane().add(panelMenu);
 
-		JPanel panel = new JPanel();
-		panel.setBackground(Color.DARK_GRAY);
-		panel.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
-
-		JMenuBar menuBar = new JMenuBar();
-		menuBar.setBorderPainted(false);
-		menuBar.setComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
-		menuBar.setBackground(Color.DARK_GRAY);
-		panel.add(menuBar);
-
-		panelMenu.add(panel);
-
 		comboBoxAggregation = new JComboBox<IAggregate>();
-		comboBoxAggregation.setBounds(10, 139, 293, 31);
+		comboBoxAggregation.setBounds(20, 100, 200, 30);
 		getContentPane().add(comboBoxAggregation);
 
 		JLabel lblAggregation = new JLabel("Aggregationsmodules");
 		lblAggregation.setFont(new Font("Tahoma", Font.BOLD, 15));
-		lblAggregation.setBounds(10, 56, 168, 33);
+		lblAggregation.setBounds(20, 56, 168, 33);
 		getContentPane().add(lblAggregation);
 
 		JLabel lblOutput = new JLabel("Outputmodules");
 		lblOutput.setFont(new Font("Tahoma", Font.BOLD, 15));
-		lblOutput.setBounds(210, 56, 168, 33);
+		lblOutput.setBounds(300, 56, 168, 33);
 		getContentPane().add(lblOutput);
 
 		comboBoxOutput = new JComboBox<IOutput>();
-		comboBoxOutput.setBounds(210, 89, 256, 31);
+		comboBoxOutput.setBounds(300, 100, 200, 30);
 		getContentPane().add(comboBoxOutput);
 
 		btnAggregate = new JButton("Aggregate!");
 		btnAggregate.setFont(new Font("Tahoma", Font.BOLD, 17));
-		btnAggregate.setBounds(210, 170, 157, 80);
+		btnAggregate.setBounds(195, 180, 150, 80);
 		this.btnAggregate.addActionListener(this);
 		getContentPane().add(btnAggregate);
 		this.initialize();
@@ -132,7 +121,7 @@ public class GUI extends JFrame implements ActionListener {
 	 * Initialized Windows
 	 */
 	private void initialize() {
-		setBounds(100, 100, 496, 333);
+		setBounds(100, 100, 527, 320);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);
 	}
