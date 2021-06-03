@@ -1,6 +1,6 @@
 package output;
 
-import aggregations.CompositeContainerHead;
+import model.containers.CompositeContainerHead;
 
 public interface IOutput {
 

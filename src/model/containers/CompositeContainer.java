@@ -1,4 +1,4 @@
-package aggregations;
+package model.containers;
 
 public class CompositeContainer extends CompositeContainerHead {
 

@@ -3,8 +3,8 @@ package output;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import aggregations.CompositeContainer;
-import aggregations.CompositeContainerHead;
+import model.containers.CompositeContainer;
+import model.containers.CompositeContainerHead;
 
 public class SimpleFileWriter implements IOutput {
 
@@ -17,6 +17,10 @@ public class SimpleFileWriter implements IOutput {
 			e.printStackTrace();
 		}
 	}
+	
+	public SimpleFileWriter() {
+		this("simpleOutput.txt");
+	}
 
 	@Override
 	public void output(CompositeContainerHead container) {
@@ -24,7 +28,7 @@ public class SimpleFileWriter implements IOutput {
 			for (CompositeContainer comp : container.getCompositums()) {
 				printCompositum(comp, 0);
 			}
-			this.fw.close();
+			
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

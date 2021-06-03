@@ -1,4 +1,4 @@
-package aggregations;
+package model.containers;
 
 import java.util.ArrayList;
 

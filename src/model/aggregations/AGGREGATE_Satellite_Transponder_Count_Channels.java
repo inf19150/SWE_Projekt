@@ -1,9 +1,11 @@
-package aggregations;
+package model.aggregations;
 
 import java.util.ArrayList;
 
 import model.Satellite;
 import model.Transponder;
+import model.containers.CompositeContainer;
+import model.containers.CompositeContainerHead;
 
 public class AGGREGATE_Satellite_Transponder_Count_Channels implements IAggregate {
 

@@ -6,8 +6,8 @@ import java.io.IOException;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import aggregations.CompositeContainer;
-import aggregations.CompositeContainerHead;
+import model.containers.CompositeContainer;
+import model.containers.CompositeContainerHead;
 
 public class JSONFileWriter implements IOutput {
 

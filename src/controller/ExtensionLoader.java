@@ -1,4 +1,4 @@
-package main;
+package controller;
 
 import java.io.File;
 import java.lang.reflect.Constructor;
