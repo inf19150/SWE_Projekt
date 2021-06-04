@@ -24,19 +24,23 @@ public class Controller {
 
 	private ArrayList<Satellite> satellitesList;
 
-	private ArrayList<IAggregate> aggregationModules = new ArrayList<IAggregate>();
-	private ArrayList<IOutput> outputModules = new ArrayList<IOutput>();
+	private ArrayList<IAggregate> aggregationModules; 
+	private ArrayList<IOutput> outputModules;
 
 	public Controller(String file) {
 		this.gui = new GUI(this);
 		this.loadJsonData(file);
-		this.loadAggregationModules();
-		this.loadOutputModules();
-		this.gui.setModules(aggregationModules, outputModules);
+		this.initModules();
 	}
 
 	public Controller() {
 		this(getSourceFile());
+	}
+
+	public void initModules() {
+		this.loadAggregationModules();
+		this.loadOutputModules();
+		this.gui.setModules(aggregationModules, outputModules);
 	}
 
 	private static String getSourceFile() {
@@ -54,8 +58,6 @@ public class Controller {
 		IOutput selectedOutput = this.gui.getSelectedOutput();
 		CompositeContainerHead aggregationResult = selectedAggregation.aggregate(satellitesList);
 		selectedOutput.output(aggregationResult);
-
-//		this.gui.getSelectedOutput().output(this.gui.getSelectedAggregation().aggregate(this.satellitesList));
 	}
 
 	private void loadJsonData(String file) {
