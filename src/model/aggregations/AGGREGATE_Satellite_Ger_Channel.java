@@ -2,11 +2,12 @@ package model.aggregations;
 
 import java.util.ArrayList;
 
+import model.Channel;
 import model.Satellite;
 import model.Transponder;
+import model.aggregations.IAggregate;
 import model.containers.CompositeContainer;
 import model.containers.CompositeContainerHead;
-import model.Channel;
 
 public class AGGREGATE_Satellite_Ger_Channel implements IAggregate {
 	@Override

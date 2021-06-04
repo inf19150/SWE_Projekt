@@ -21,10 +21,10 @@ import view.output.IOutput;
 public class Controller {
 
 	private GUI gui;
-
+	
 	private ArrayList<Satellite> satellitesList;
 
-	private ArrayList<IAggregate> aggregationModules; 
+	private ArrayList<IAggregate> aggregationModules;
 	private ArrayList<IOutput> outputModules;
 
 	public Controller(String file) {

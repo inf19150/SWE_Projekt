@@ -1,5 +1,4 @@
 package view.output;
-
 import java.awt.BorderLayout;
 
 import javax.swing.JFrame;
@@ -9,12 +8,14 @@ import javax.swing.text.DefaultCaret;
 
 import model.containers.CompositeContainer;
 import model.containers.CompositeContainerHead;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
+import view.output.IOutput;
 
 public class TextBoxWriter extends JFrame implements IOutput {
-	
-	private static final long serialVersionUID = 1L;
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7385967735541537200L;
 	private StringBuilder builder;
 	private JTextArea textArea;
 
@@ -56,7 +57,7 @@ public class TextBoxWriter extends JFrame implements IOutput {
 			this.printCompositum(comp, level + 1);
 		}
 	}
-	
+
 	@Override
 	public String getName() {
 		return "Text Box Writer";

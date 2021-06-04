@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import model.Satellite;
 import model.Transponder;
+import model.aggregations.IAggregate;
 import model.containers.CompositeContainer;
 import model.containers.CompositeContainerHead;
 
