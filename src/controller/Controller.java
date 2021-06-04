@@ -12,15 +12,11 @@ import com.google.gson.stream.JsonReader;
 
 import model.Satellite;
 import model.Transponder;
-import model.aggregations.AGGREGATE_Lang_Satellite;
-import model.aggregations.AGGREGATE_Satellite_Ger_Channel;
-import model.aggregations.AGGREGATE_Satellite_Transponder_Count_Channels;
 import model.aggregations.IAggregate;
 import model.containers.CompositeContainerHead;
+import view.FileChooser;
 import view.GUI;
 import view.output.IOutput;
-import view.output.SimpleFileWriter;
-import view.output.TextBoxWriter;
 
 public class Controller {
 
@@ -37,6 +33,20 @@ public class Controller {
 		this.loadAggregationModules();
 		this.loadOutputModules();
 		this.gui.setModules(aggregationModules, outputModules);
+	}
+
+	public Controller() {
+		this(getSourceFile());
+	}
+
+	private static String getSourceFile() {
+		FileChooser fileChooser = new FileChooser(System.getProperty("user.home"));
+		int result = fileChooser.showOpenDialog(null);
+
+		if (result == FileChooser.APPROVE_OPTION) {
+			return fileChooser.getSelectedFile().getAbsolutePath();
+		}
+		return "";
 	}
 
 	public void aggregate() {
