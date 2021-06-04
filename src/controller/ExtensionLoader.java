@@ -1,14 +1,12 @@
 package controller;
 
 import java.io.File;
-import java.lang.reflect.Array;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 //https://stackabuse.com/example-loading-a-java-class-at-runtime
 public class ExtensionLoader<C> {

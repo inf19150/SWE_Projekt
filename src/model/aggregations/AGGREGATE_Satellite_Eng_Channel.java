@@ -2,13 +2,14 @@ package model.aggregations;
 
 import java.util.ArrayList;
 
+import model.Channel;
 import model.Satellite;
 import model.Transponder;
+import model.aggregations.IAggregate;
 import model.containers.CompositeContainer;
 import model.containers.CompositeContainerHead;
-import model.Channel;
 
-public class AGGREGATE_Satellite_Ger_Channel implements IAggregate {
+public class AGGREGATE_Satellite_Eng_Channel implements IAggregate {
 	@Override
 	public CompositeContainerHead aggregate(ArrayList<Satellite> satellitesList) {
 
@@ -18,7 +19,7 @@ public class AGGREGATE_Satellite_Ger_Channel implements IAggregate {
 			CompositeContainer temp = null;
 			for (Transponder transponder : satellite.getTransponders()) {
 				for (Channel channel : transponder.getChannels()) {
-					if (channel.getLanguage().contains("ger")) {
+					if (channel.getLanguage().contains("eng")) {
 						if (temp == null) {
 							temp = new CompositeContainer("Satellite", satellite.getSat());
 							topContainer.addHierarchy(temp);
@@ -35,6 +36,6 @@ public class AGGREGATE_Satellite_Ger_Channel implements IAggregate {
 
 	@Override
 	public String getName() {
-		return "German Channels per Satellite";
+		return "English Channels per Satellite";
 	}
 }
