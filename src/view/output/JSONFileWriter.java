@@ -3,56 +3,43 @@ package view.output;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
-import model.containers.CompositeContainer;
 import model.containers.CompositeContainerHead;
+import view.FileChooser;
+import view.output.IOutput;
 
 public class JSONFileWriter implements IOutput {
 
 	private FileWriter fw;
-	JSONObject sampleObject = new JSONObject();
-
-	public JSONFileWriter(String fileName) {
-		try {
-			fw = new FileWriter(fileName);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
+	private Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
 	@Override
 	public void output(CompositeContainerHead container) {
-		try {
-			for (CompositeContainer comp : container.getCompositums()) {
-				printCompositum(comp);
+
+		FileChooser fileChooser = new FileChooser(System.getProperty("user.home"));
+		int result = fileChooser.showOpenDialog(null);
+
+		if (result == FileChooser.APPROVE_OPTION) {
+			try {
+				if (fileChooser.getSelectedFile() == null)
+					throw new IOException();
+				this.fw = new FileWriter(fileChooser.getSelectedFile());
+			} catch (IOException e) {
 			}
-			fw.write(sampleObject.toJSONString());
+		}
+
+		String serializedJson = this.gson.toJson(container);
+
+		try {
+			this.fw.write(serializedJson);
 			this.fw.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
 
-	@SuppressWarnings("unchecked")
-	private void printCompositum(CompositeContainer c) throws IOException {
-
-		this.sampleObject = new JSONObject();
-		this.sampleObject.put(c.getKey(), c.getData());
-
-		JSONArray messages = new JSONArray();
-		for (CompositeContainer comp : c.getCompositums()) {
-			if (comp.getSize() > 1) {
-				for (CompositeContainer temp : comp.getCompositums()) {
-					messages.add(temp.getData());
-				}
-				this.sampleObject.put("records", messages);
-			}
-
-			printCompositum(comp);
-		}
-	}
 	@Override
 	public String getName() {
 		return "JSON File Writer";
