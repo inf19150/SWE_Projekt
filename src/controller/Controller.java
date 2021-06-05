@@ -19,6 +19,11 @@ import view.FileChooser;
 import view.GUI;
 import view.output.IOutput;
 
+/**
+ * Controller class which handles the GUI, modules and a list of objects of the
+ * highest hierarchy (satellites).
+ *
+ */
 public class Controller {
 
 	private GUI gui;
@@ -28,22 +33,41 @@ public class Controller {
 	private ArrayList<IAggregate> aggregationModules;
 	private ArrayList<IOutput> outputModules;
 
+	/**
+	 * Constructor of Controller, initializes GUI, Satellite, Transponder and
+	 * Channel objects and modules.
+	 * 
+	 * @param file path of the given JSON file
+	 */
 	public Controller(String file) {
 		this.gui = new GUI(this);
 		this.loadJsonData(file);
 		this.initModules();
 	}
 
+	/**
+	 * Constructor of Controller, asks User for the path of the JSON file and calls
+	 * the other Constructor with the path.
+	 */
 	public Controller() {
 		this(getSourceFile());
 	}
 
+	/**
+	 * Loads aggregation and output modules and passes them to the GUI.
+	 * 
+	 */
 	public void initModules() {
 		this.loadAggregationModules();
 		this.loadOutputModules();
 		this.gui.setModules(aggregationModules, outputModules);
 	}
 
+	/**
+	 * Asks the user for the file path of the JSON.
+	 * 
+	 * @return file path of the JSON file, if not given empty String
+	 */
 	private static String getSourceFile() {
 		FileChooser fileChooser = new FileChooser(System.getProperty("user.home"),
 				"Chose json file containing satellite data!", "json");
@@ -55,13 +79,30 @@ public class Controller {
 		return "";
 	}
 
+	/**
+	 * Fetches the selected aggregation and performs it on the data.
+	 */
 	public void aggregate() {
 		IAggregate selectedAggregation = this.gui.getSelectedAggregation();
+		this.output(selectedAggregation.aggregate(satellitesList));
+	}
+
+	/**
+	 * Fetches the selected method of output and outputs the result of the
+	 * aggregation.
+	 * 
+	 * @param aggregationResult The result of the aggregation
+	 */
+	public void output(CompositeContainerHead aggregationResult) {
 		IOutput selectedOutput = this.gui.getSelectedOutput();
-		CompositeContainerHead aggregationResult = selectedAggregation.aggregate(satellitesList);
 		selectedOutput.output(aggregationResult);
 	}
 
+	/**
+	 * Creates Satellite, Transponder and Channel objects with the right hierarchy.
+	 * 
+	 * @param file path of the JSON file
+	 */
 	private void loadJsonData(String file) {
 		InputStream inputStream = null;
 		try {
@@ -90,16 +131,30 @@ public class Controller {
 		}
 	}
 
+	/**
+	 * Takes all modules in "/Aggregation_Modules", instantiates them and saves the
+	 * objects in the aggregationModules list of aggregates.
+	 */
 	private void loadAggregationModules() {
 		ExtensionLoader<IAggregate> loader = new ExtensionLoader<IAggregate>();
 		this.aggregationModules = loader.LoadClasses("/Aggregation_Modules", IAggregate.class);
 	}
 
+	/**
+	 * Takes all modules in "/Output_Modules", instantiates them and saves the
+	 * objects in the outputModules list of outputs.
+	 */
 	private void loadOutputModules() {
 		ExtensionLoader<IOutput> loader = new ExtensionLoader<IOutput>();
 		this.outputModules = loader.LoadClasses("/Output_Modules", IOutput.class);
 	}
 
+	/**
+	 * Main, starts the program with instantiating the Controller with either an in
+	 * place JSON, a as command-line argument supplied path or no path
+	 * 
+	 * @param args possible path of JSON file
+	 */
 	public static void main(String[] args) {
 
 		if (new File(System.getProperty("user.dir") + "/data.json").exists()) {
@@ -110,5 +165,4 @@ public class Controller {
 			new Controller();
 		}
 	}
-
 }

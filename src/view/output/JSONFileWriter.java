@@ -9,11 +9,21 @@ import com.google.gson.GsonBuilder;
 import model.containers.CompositeContainerHead;
 import view.FileChooser;
 
+/**
+ * JSONFileWriter class inherits implements {@link IOutput}. Output module to
+ * print composite structure as JSON to a file.
+ *
+ */
 public class JSONFileWriter implements IOutput {
 
 	private FileWriter fw;
 	private Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
+	/**
+	 * Outputs the composite Structure as JSON to a file.
+	 * 
+	 * @param container Root container of the composite Structure
+	 */
 	@Override
 	public void output(CompositeContainerHead container) {
 
@@ -39,6 +49,11 @@ public class JSONFileWriter implements IOutput {
 		}
 	}
 
+	/**
+	 * Returns decent name of class.
+	 * 
+	 * @return Decent name of class
+	 */
 	@Override
 	public String getName() {
 		return "JSON File Writer";

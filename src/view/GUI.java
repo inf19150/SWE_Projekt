@@ -27,16 +27,11 @@ import view.output.IOutput;
 
 /**
  * GUI class inherits {@link JFrame} and implements {@link ActionListener} for
- * buttons
+ * buttons.
  * 
- * @author Nick
- *
  */
 public class GUI extends JFrame implements ActionListener {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 732987927918732005L;
 
 	private Controller controller;
@@ -47,7 +42,7 @@ public class GUI extends JFrame implements ActionListener {
 	private JButton btnReload;
 
 	/**
-	 * Creates GUI
+	 * Creates GUI.
 	 * 
 	 * @param controller to be passed in
 	 */
@@ -110,6 +105,14 @@ public class GUI extends JFrame implements ActionListener {
 
 	}
 
+	/**
+	 * Adds the possible aggregation and output options to their respective combo
+	 * box. Sets renderer for the combo boxes to show decent name instead of
+	 * class@hashCode.
+	 * 
+	 * @param aggregationModules A list of all aggregation modules as objects
+	 * @param outputModules      A list of all output modules as objects
+	 */
 	public void setModules(ArrayList<IAggregate> aggregationModules, ArrayList<IOutput> outputModules) {
 		this.comboBoxAggregation.removeAllItems();
 		for (IAggregate iAggregate : aggregationModules) {
@@ -124,10 +127,18 @@ public class GUI extends JFrame implements ActionListener {
 		this.comboBoxOutput.setRenderer(new ComboBoxRenderer());
 	}
 
+	/**
+	 * 
+	 * @return the selected output module as object
+	 */
 	public IOutput getSelectedOutput() {
 		return (IOutput) this.comboBoxOutput.getSelectedItem();
 	}
 
+	/**
+	 * 
+	 * @return the selected aggregate module as object
+	 */
 	public IAggregate getSelectedAggregation() {
 		return (IAggregate) this.comboBoxAggregation.getSelectedItem();
 	}
@@ -141,6 +152,11 @@ public class GUI extends JFrame implements ActionListener {
 		setVisible(true);
 	}
 
+	/**
+	 * Receives a action event, checks it sources and acts upon it accordingly.
+	 * 
+	 * @param e The performed action event
+	 */
 	@Override
 	public void actionPerformed(ActionEvent e) {
 
@@ -159,6 +175,5 @@ public class GUI extends JFrame implements ActionListener {
 		} else if (src.equals(this.btnReload)) {
 			this.controller.initModules();
 		}
-
 	}
 }

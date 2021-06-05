@@ -1,56 +1,71 @@
 package model;
 
+/**
+ * Class to represent Channels with the for this project needed information
+ * (could be extended).
+ *
+ */
 public class Channel {
 
 	private int sid;
 	private String type, name, res, a_pid, compression;
 
 	/**
+	 * Returns the language.
 	 * 
-	 * @return the language
+	 * @return language
 	 */
 	public String getLanguage() {
 		return this.a_pid;
 	}
 
 	/**
-	 * @return the type
+	 * Returns the type (whether radio or TV channel).
+	 * 
+	 * @return type
 	 */
 	public String getType() {
 		return this.type;
 	}
 
 	/**
-	 * @return the name
+	 * Returns the name.
+	 * 
+	 * @return name
 	 */
 	public String getName() {
 		return this.name;
 	}
 
 	/**
-	 * @return the a_pid
+	 * @return the a_pid.
 	 */
 	public String getA_pid() {
 		return this.a_pid;
 	}
 
 	/**
-	 * @return the res
+	 * Returns the resolution.
+	 * 
+	 * @return resolution
 	 */
 	public String getRes() {
 		return this.res;
 	}
 
 	/**
-	 * @return the compression
+	 * Returns the compression.
+	 * 
+	 * @return compression
 	 */
 	public String getCompression() {
 		return this.compression;
 	}
 
 	/**
+	 * Returns the sid.
 	 * 
-	 * @return the sid
+	 * @return sid
 	 */
 	public int getSid() {
 		return this.sid;

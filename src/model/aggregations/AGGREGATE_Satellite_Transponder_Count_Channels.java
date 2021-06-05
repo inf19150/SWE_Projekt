@@ -4,12 +4,23 @@ import java.util.ArrayList;
 
 import model.Satellite;
 import model.Transponder;
-import model.aggregations.IAggregate;
 import model.containers.CompositeContainer;
 import model.containers.CompositeContainerHead;
 
+/**
+ * Aggregates all Satellites with their respective count of radio and TV
+ * channels implements {@link IAggregate}.
+ *
+ */
 public class AGGREGATE_Satellite_Transponder_Count_Channels implements IAggregate {
 
+	/**
+	 * Creates Composite structure to store all satellites with their respective
+	 * count of radio and TV channels.
+	 * 
+	 * @param satellitesList list of all Satellite objects
+	 * @return topContainer root composite container
+	 */
 	@Override
 	public CompositeContainerHead aggregate(ArrayList<Satellite> satellitesList) {
 
@@ -18,25 +29,22 @@ public class AGGREGATE_Satellite_Transponder_Count_Channels implements IAggregat
 		for (Satellite satellite : satellitesList) {
 			CompositeContainer compositeContainer = new CompositeContainer("Satellite", satellite.getSat());
 			topContainer.addHierarchy(compositeContainer);
-			// System.out.println("- " + satellite.getSat());
 
 			for (Transponder t : satellite.getTransponders()) {
-
 				CompositeContainer transponder = new CompositeContainer("Frequency", t.getFreq() + "");
-
 				compositeContainer.addHierarchy(transponder);
-				// System.out.println("\t-f=" + t.getFreq());
-
 				transponder.addHierarchy(new CompositeContainer("Radio", t.getAmountRadioChannels() + ""));
 				transponder.addHierarchy(new CompositeContainer("TV", t.getAmountTVChannels() + ""));
-
-//				System.out.println("\t\tTV: " + t.getAmountTVChannels());
-//				System.out.println("\t\tRadio: " + t.getAmountRadioChannels());
 			}
 		}
 		return topContainer;
 	}
 
+	/**
+	 * Returns decent name of class.
+	 * 
+	 * @return Decent name of class
+	 */
 	@Override
 	public String getName() {
 		return "Count Channel per Transponder";

@@ -8,7 +8,16 @@ import java.net.URL;
 import java.net.URLClassLoader;
 import java.util.ArrayList;
 
-//https://stackabuse.com/example-loading-a-java-class-at-runtime
+
+/**
+ * Loads modules from a given directory with a given parent class.
+ * https://stackabuse.com/example-loading-a-java-class-at-runtime
+ * 
+ * @param directory Directory where the modules are in 
+ * @param <C> Type of the module (parent class)
+ * 
+ * @return List of the instantiated classes
+ */
 public class ExtensionLoader<C> {
 
 	public ArrayList<C> LoadClasses(String directory, Class<C> parentClass) {

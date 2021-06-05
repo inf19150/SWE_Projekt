@@ -1,4 +1,5 @@
 package view.output;
+
 import java.awt.BorderLayout;
 
 import javax.swing.JFrame;
@@ -8,17 +9,22 @@ import javax.swing.text.DefaultCaret;
 
 import model.containers.CompositeContainer;
 import model.containers.CompositeContainerHead;
-import view.output.IOutput;
 
+/**
+ * JSONFileWriter class inherits {@link JFrame} implements {@link IOutput}.
+ * Output module to print composite structure in a text box.
+ *
+ */
 public class TextBoxWriter extends JFrame implements IOutput {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 7385967735541537200L;
 	private StringBuilder builder;
 	private JTextArea textArea;
 
+	/**
+	 * Constructor of TextBoxWriter. Initializes a User Interface to show output.
+	 * 
+	 */
 	public TextBoxWriter() {
 		super("TextBox Writer Aggregation von " + IOutput.class);
 		super.setSize(1280, 720);
@@ -37,6 +43,11 @@ public class TextBoxWriter extends JFrame implements IOutput {
 		super.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 	}
 
+	/**
+	 * Outputs the composite Structure as in a text box.
+	 * 
+	 * @param container Root container of the composite Structure
+	 */
 	@Override
 	public void output(CompositeContainerHead container) {
 		this.builder = new StringBuilder();
@@ -48,6 +59,12 @@ public class TextBoxWriter extends JFrame implements IOutput {
 		super.setVisible(true);
 	}
 
+	/**
+	 * Forms the output with an builder object
+	 * 
+	 * @param c     container Root container of the composite Structure
+	 * @param level depth level of hierarchy
+	 */
 	private void printCompositum(CompositeContainer c, int level) {
 		for (int i = 0; i < level; i++)
 			this.builder.append("\t");
@@ -58,6 +75,11 @@ public class TextBoxWriter extends JFrame implements IOutput {
 		}
 	}
 
+	/**
+	 * Returns decent name of class.
+	 * 
+	 * @return Decent name of class
+	 */
 	@Override
 	public String getName() {
 		return "Text Box Writer";
