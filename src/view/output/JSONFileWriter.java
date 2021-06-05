@@ -8,7 +8,6 @@ import com.google.gson.GsonBuilder;
 
 import model.containers.CompositeContainerHead;
 import view.FileChooser;
-import view.output.IOutput;
 
 public class JSONFileWriter implements IOutput {
 
@@ -18,7 +17,7 @@ public class JSONFileWriter implements IOutput {
 	@Override
 	public void output(CompositeContainerHead container) {
 
-		FileChooser fileChooser = new FileChooser(System.getProperty("user.home"));
+		FileChooser fileChooser = new FileChooser(System.getProperty("user.home"), "Chose *.json output-file!", "json");
 		int result = fileChooser.showOpenDialog(null);
 
 		if (result == FileChooser.APPROVE_OPTION) {

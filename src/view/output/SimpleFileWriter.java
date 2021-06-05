@@ -1,11 +1,11 @@
 package view.output;
+
 import java.io.FileWriter;
 import java.io.IOException;
 
 import model.containers.CompositeContainer;
 import model.containers.CompositeContainerHead;
 import view.FileChooser;
-import view.output.IOutput;
 
 public class SimpleFileWriter implements IOutput {
 
@@ -13,7 +13,8 @@ public class SimpleFileWriter implements IOutput {
 
 	@Override
 	public void output(CompositeContainerHead container) {
-		FileChooser fileChooser = new FileChooser(System.getProperty("user.home"));
+		FileChooser fileChooser = new FileChooser(System.getProperty("user.home"), "Chose output-file!", "txt", "dat",
+				"bin", "out", "log");
 		int result = fileChooser.showOpenDialog(null);
 
 		if (result == FileChooser.APPROVE_OPTION) {

@@ -45,7 +45,8 @@ public class Controller {
 	}
 
 	private static String getSourceFile() {
-		FileChooser fileChooser = new FileChooser(System.getProperty("user.home"));
+		FileChooser fileChooser = new FileChooser(System.getProperty("user.home"),
+				"Chose json file containing satellite data!", "json");
 		int result = fileChooser.showOpenDialog(null);
 
 		if (result == FileChooser.APPROVE_OPTION) {
