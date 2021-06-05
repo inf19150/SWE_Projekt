@@ -1,5 +1,6 @@
 package controller;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -21,7 +22,7 @@ import view.output.IOutput;
 public class Controller {
 
 	private GUI gui;
-	
+
 	private ArrayList<Satellite> satellitesList;
 
 	private ArrayList<IAggregate> aggregationModules;
@@ -99,7 +100,14 @@ public class Controller {
 	}
 
 	public static void main(String[] args) {
-		new Controller("data.json");
+
+		if (new File(System.getProperty("user.dir") + "/data.json").exists()) {
+			new Controller("data.json");
+		} else if (args.length == 1) {
+			new Controller(args[0]);
+		} else {
+			new Controller();
+		}
 	}
 
 }
