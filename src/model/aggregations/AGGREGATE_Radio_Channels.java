@@ -63,4 +63,9 @@ public class AGGREGATE_Radio_Channels implements IAggregate {
 	public String getName() {
 		return "Radio Channels per Satellite";
 	}
+
+	@Override
+	public String getDescription() {
+		return this.getName();
+	}
 }

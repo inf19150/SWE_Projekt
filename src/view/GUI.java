@@ -44,7 +44,8 @@ public class GUI extends JFrame implements ActionListener {
 	/**
 	 * Creates GUI.
 	 * 
-	 * @param controller to be passed in
+	 * @param controller
+	 *            to be passed in
 	 */
 	public GUI(Controller controller) {
 		super();
@@ -79,6 +80,7 @@ public class GUI extends JFrame implements ActionListener {
 		panelMenu.add(btnHelp);
 
 		comboBoxAggregation = new JComboBox<IAggregate>();
+		comboBoxAggregation.addActionListener(this);
 		comboBoxAggregation.setBounds(20, 100, 200, 30);
 		getContentPane().add(comboBoxAggregation);
 
@@ -93,6 +95,7 @@ public class GUI extends JFrame implements ActionListener {
 		getContentPane().add(lblOutput);
 
 		comboBoxOutput = new JComboBox<IOutput>();
+		comboBoxOutput.addActionListener(this);
 		comboBoxOutput.setBounds(300, 100, 200, 30);
 		getContentPane().add(comboBoxOutput);
 
@@ -110,8 +113,10 @@ public class GUI extends JFrame implements ActionListener {
 	 * box. Sets renderer for the combo boxes to show decent name instead of
 	 * class@hashCode.
 	 * 
-	 * @param aggregationModules A list of all aggregation modules as objects
-	 * @param outputModules      A list of all output modules as objects
+	 * @param aggregationModules
+	 *            A list of all aggregation modules as objects
+	 * @param outputModules
+	 *            A list of all output modules as objects
 	 */
 	public void setModules(ArrayList<IAggregate> aggregationModules, ArrayList<IOutput> outputModules) {
 		this.comboBoxAggregation.removeAllItems();
@@ -125,6 +130,8 @@ public class GUI extends JFrame implements ActionListener {
 			this.comboBoxOutput.addItem(iOutput);
 		}
 		this.comboBoxOutput.setRenderer(new ComboBoxRenderer());
+		this.updateToolTipTexts();
+		this.repaint();
 	}
 
 	/**
@@ -155,7 +162,8 @@ public class GUI extends JFrame implements ActionListener {
 	/**
 	 * Receives a action event, checks it sources and acts upon it accordingly.
 	 * 
-	 * @param e The performed action event
+	 * @param e
+	 *            The performed action event
 	 */
 	@Override
 	public void actionPerformed(ActionEvent e) {
@@ -174,6 +182,20 @@ public class GUI extends JFrame implements ActionListener {
 			}
 		} else if (src.equals(this.btnReload)) {
 			this.controller.initModules();
+		} else if (src.equals(this.comboBoxAggregation) || src.equals(this.comboBoxOutput)) {
+			this.updateToolTipTexts();
 		}
+	}
+
+	/**
+	 * Updates Tooltip-Text of each ComboBox by setting designated Description of
+	 * corresponding Module
+	 */
+	private void updateToolTipTexts() {
+		/*
+		 * TODO: Change to getDescription(), update Module, rebuild jar files, uff ...
+		 */
+		this.comboBoxAggregation.setToolTipText(this.getSelectedAggregation().getName());
+		this.comboBoxOutput.setToolTipText(this.getSelectedAggregation().getName());
 	}
 }

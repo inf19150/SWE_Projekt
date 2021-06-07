@@ -46,7 +46,8 @@ public class TextBoxWriter extends JFrame implements IOutput {
 	/**
 	 * Outputs the composite Structure as in a text box.
 	 * 
-	 * @param container Root container of the composite Structure
+	 * @param container
+	 *            Root container of the composite Structure
 	 */
 	@Override
 	public void output(CompositeContainerHead container) {
@@ -62,8 +63,10 @@ public class TextBoxWriter extends JFrame implements IOutput {
 	/**
 	 * Forms the output with an builder object
 	 * 
-	 * @param c     container Root container of the composite Structure
-	 * @param level depth level of hierarchy
+	 * @param c
+	 *            container Root container of the composite Structure
+	 * @param level
+	 *            depth level of hierarchy
 	 */
 	private void printCompositum(CompositeContainer c, int level) {
 		for (int i = 0; i < level; i++)
@@ -83,5 +86,10 @@ public class TextBoxWriter extends JFrame implements IOutput {
 	@Override
 	public String getName() {
 		return "Text Box Writer";
+	}
+
+	@Override
+	public String getDescription() {
+		return this.getName();
 	}
 }

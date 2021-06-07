@@ -63,4 +63,9 @@ public class AGGREGATE_Satellite_Channels_HD implements IAggregate {
 	public String getName() {
 		return "HD Channels per Satellite";
 	}
+
+	@Override
+	public String getDescription() {
+		return this.getName();
+	}
 }

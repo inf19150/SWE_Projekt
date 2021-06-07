@@ -61,4 +61,9 @@ public class AGGREGATE_Lang_Satellite implements IAggregate {
 	public String getName() {
 		return "Satellites with german Channels";
 	}
+
+	@Override
+	public String getDescription() {
+		return this.getName();
+	}
 }

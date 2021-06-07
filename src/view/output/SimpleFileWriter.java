@@ -19,7 +19,8 @@ public class SimpleFileWriter implements IOutput {
 	/**
 	 * Outputs the composite Structure with visualized depth level to a file.
 	 * 
-	 * @param container Root container of the composite Structure
+	 * @param container
+	 *            Root container of the composite Structure
 	 */
 	@Override
 	public void output(CompositeContainerHead container) {
@@ -50,10 +51,13 @@ public class SimpleFileWriter implements IOutput {
 	/**
 	 * Forms the output and writes it to the text file
 	 * 
-	 * @param c     container Root container of the composite Structure
-	 * @param level depth level of hierarchy
+	 * @param c
+	 *            container Root container of the composite Structure
+	 * @param level
+	 *            depth level of hierarchy
 	 * 
-	 * @throws IOException if write to file fails
+	 * @throws IOException
+	 *             if write to file fails
 	 */
 	private void printCompositum(CompositeContainer c, int level) throws IOException {
 
@@ -74,5 +78,10 @@ public class SimpleFileWriter implements IOutput {
 	@Override
 	public String getName() {
 		return "Simple File Writer";
+	}
+
+	@Override
+	public String getDescription() {
+		return this.getName();
 	}
 }

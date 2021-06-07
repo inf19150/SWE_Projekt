@@ -18,7 +18,8 @@ public class AGGREGATE_Satellite_Transponder_Count_Channels implements IAggregat
 	 * Creates Composite structure to store all satellites with their respective
 	 * count of radio and TV channels.
 	 * 
-	 * @param satellitesList list of all Satellite objects
+	 * @param satellitesList
+	 *            list of all Satellite objects
 	 * @return topContainer root composite container
 	 */
 	@Override
@@ -48,6 +49,11 @@ public class AGGREGATE_Satellite_Transponder_Count_Channels implements IAggregat
 	@Override
 	public String getName() {
 		return "Count Channel per Transponder";
+	}
+
+	@Override
+	public String getDescription() {
+		return this.getName();
 	}
 
 }

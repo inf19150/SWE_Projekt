@@ -64,4 +64,9 @@ public class AGGREGATE_Satellite_Eng_Channel implements IAggregate {
 	public String getName() {
 		return "English Channels per Satellite";
 	}
+
+	@Override
+	public String getDescription() {
+		return this.getName();
+	}
 }

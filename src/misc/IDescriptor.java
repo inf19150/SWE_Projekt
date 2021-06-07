@@ -12,4 +12,11 @@ public interface IDescriptor {
 	 * @return Decent name of class
 	 */
 	public String getName();
+
+	/**
+	 * Returns description of implemented Aggregation.
+	 * 
+	 * @return Description
+	 */
+	public String getDescription();
 }

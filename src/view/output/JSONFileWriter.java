@@ -58,4 +58,9 @@ public class JSONFileWriter implements IOutput {
 	public String getName() {
 		return "JSON File Writer";
 	}
+
+	@Override
+	public String getDescription() {
+		return this.getName();
+	}
 }
