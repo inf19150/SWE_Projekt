@@ -13,6 +13,9 @@ import view.FileChooser;
  */
 public class SimpleFileWriter implements IOutput {
 
+	
+	private static final String NAME = "Simple File Writer";
+	private static final String DESCRIPTION = "Description";
 	private FileWriterWrapper fw;
 
 	/**
@@ -51,18 +54,13 @@ public class SimpleFileWriter implements IOutput {
 		}
 	}
 
-	/**
-	 * Returns decent name of class.
-	 * 
-	 * @return Decent name of class
-	 */
 	@Override
 	public String getName() {
-		return "Simple File Writer";
+		return NAME;
 	}
 
 	@Override
 	public String getDescription() {
-		return this.getName();
+		return DESCRIPTION;
 	}
 }

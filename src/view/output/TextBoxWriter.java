@@ -16,6 +16,10 @@ import model.containers.CompositeContainer;
  */
 public class TextBoxWriter extends JFrame implements IOutput {
 
+	
+	private static final String NAME = "Text Box Writer";
+	private static final String DESCRIPTION = "Description";
+	
 	private static final long serialVersionUID = 7385967735541537200L;
 	private StringBuilder builder;
 	private JTextArea textArea;
@@ -76,18 +80,13 @@ public class TextBoxWriter extends JFrame implements IOutput {
 		}
 	}
 
-	/**
-	 * Returns decent name of class.
-	 * 
-	 * @return Decent name of class
-	 */
 	@Override
 	public String getName() {
-		return "Text Box Writer";
+		return NAME;
 	}
 
 	@Override
 	public String getDescription() {
-		return this.getName();
+		return DESCRIPTION;
 	}
 }

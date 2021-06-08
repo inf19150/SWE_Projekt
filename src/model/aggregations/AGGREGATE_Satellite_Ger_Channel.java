@@ -13,6 +13,9 @@ import model.containers.CompositeContainer;
  */
 public class AGGREGATE_Satellite_Ger_Channel implements IAggregate {
 
+	private static final String NAME = "German Channels per Satellite";
+	private static final String DESCRIPTION = "Description";
+	
 	/**
 	 * Creates Composite structure to store all satellites with german channels.
 	 * 
@@ -53,18 +56,13 @@ public class AGGREGATE_Satellite_Ger_Channel implements IAggregate {
 		return c.getLanguage().contains("ger");
 	}
 
-	/**
-	 * Returns decent name of class.
-	 * 
-	 * @return Decent name of class
-	 */
 	@Override
 	public String getName() {
-		return "German Channels per Satellite";
+		return NAME;
 	}
 
 	@Override
 	public String getDescription() {
-		return this.getName();
+		return DESCRIPTION;
 	}
 }

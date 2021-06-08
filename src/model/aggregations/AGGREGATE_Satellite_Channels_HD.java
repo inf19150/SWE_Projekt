@@ -13,6 +13,9 @@ import model.containers.CompositeContainer;
  */
 public class AGGREGATE_Satellite_Channels_HD implements IAggregate {
 
+	private static final String NAME = "HD Channels per Satellite";
+	private static final String DESCRIPTION = "Description";
+	
 	/**
 	 * Creates Composite structure to store all satellites with HD channels.
 	 * 
@@ -53,18 +56,13 @@ public class AGGREGATE_Satellite_Channels_HD implements IAggregate {
 		return c.getRes().equals("HD");
 	}
 
-	/**
-	 * Returns decent name of class.
-	 * 
-	 * @return Decent name of class
-	 */
 	@Override
 	public String getName() {
-		return "HD Channels per Satellite";
+		return NAME;
 	}
 
 	@Override
 	public String getDescription() {
-		return this.getName();
+		return DESCRIPTION;
 	}
 }

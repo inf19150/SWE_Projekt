@@ -13,6 +13,9 @@ import model.containers.CompositeContainer;
  */
 public class AGGREGATE_Radio_Channels implements IAggregate {
 
+	private static final String NAME = "Radio Channels per Satellite";
+	private static final String DESCRIPTION = "Description";
+	
 	/**
 	 * Creates Composite structure to store all satellites with radio channels.
 	 * 
@@ -53,18 +56,13 @@ public class AGGREGATE_Radio_Channels implements IAggregate {
 		return c.getType().equals("R");
 	}
 
-	/**
-	 * Returns decent name of class.
-	 * 
-	 * @return Decent name of class
-	 */
 	@Override
 	public String getName() {
-		return "Radio Channels per Satellite";
+		return NAME;
 	}
 
 	@Override
 	public String getDescription() {
-		return this.getName();
+		return DESCRIPTION;
 	}
 }

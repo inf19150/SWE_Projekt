@@ -13,6 +13,9 @@ import model.containers.CompositeContainer;
  */
 public class AGGREGATE_Satellite_Transponder_Count_Channels implements IAggregate {
 
+	private static final String NAME = "Count Channel per Transponder";
+	private static final String DESCRIPTION = "Description";
+	
 	/**
 	 * Creates Composite structure to store all satellites with their respective
 	 * count of radio and TV channels.
@@ -40,19 +43,13 @@ public class AGGREGATE_Satellite_Transponder_Count_Channels implements IAggregat
 		return topContainer;
 	}
 
-	/**
-	 * Returns decent name of class.
-	 * 
-	 * @return Decent name of class
-	 */
 	@Override
 	public String getName() {
-		return "Count Channel per Transponder";
+		return NAME;
 	}
 
 	@Override
 	public String getDescription() {
-		return this.getName();
+		return DESCRIPTION;
 	}
-
 }

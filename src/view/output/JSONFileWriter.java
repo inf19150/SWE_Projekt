@@ -15,6 +15,9 @@ import view.FileChooser;
  *
  */
 public class JSONFileWriter implements IOutput {
+	
+	private static final String NAME = "JSON File Writer";
+	private static final String DESCRIPTION = "Description";
 
 	private FileWriterWrapper fw;
 	private Gson gson = new GsonBuilder().setPrettyPrinting().create();
@@ -39,18 +42,13 @@ public class JSONFileWriter implements IOutput {
 		this.fw.close();
 	}
 
-	/**
-	 * Returns decent name of class.
-	 * 
-	 * @return Decent name of class
-	 */
 	@Override
 	public String getName() {
-		return "JSON File Writer";
+		return NAME;
 	}
 
 	@Override
 	public String getDescription() {
-		return this.getName();
+		return DESCRIPTION;
 	}
 }
