@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.awt.Desktop;
 import java.awt.FlowLayout;
 import java.awt.Font;
+import java.awt.FontMetrics;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -205,10 +206,10 @@ public class GUI extends JFrame implements ActionListener {
 	private void updateToolTipTexts() {
 		/*
 		 * TODO: Change to getDescription(), update Module, rebuild jar files, uff ...
-		 */
+		 */	
 		if( this.getSelectedAggregation() != null && this.getSelectedOutput() != null) {
-			this.comboBoxAggregation.setToolTipText(this.getSelectedAggregation().getName());
-			this.comboBoxOutput.setToolTipText(this.getSelectedOutput().getName());
+			this.comboBoxAggregation.setToolTipText(this.getSelectedAggregation().getDescription());
+			this.comboBoxOutput.setToolTipText(this.getSelectedOutput().getDescription());
 		}
 	}
 }
