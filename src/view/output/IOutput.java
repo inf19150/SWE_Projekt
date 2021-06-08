@@ -1,7 +1,7 @@
 package view.output;
 
 import misc.IDescriptor;
-import model.containers.CompositeContainerHead;
+import model.containers.CompositeContainer;
 
 /**
  * Interface for all output modules inherits {@link IDescriptor}
@@ -14,5 +14,5 @@ public interface IOutput extends IDescriptor {
 	 * 
 	 * @param container Root composite container
 	 */
-	public void output(CompositeContainerHead container);
+	public void output(CompositeContainer container);
 }

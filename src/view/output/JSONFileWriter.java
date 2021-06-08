@@ -1,12 +1,12 @@
 package view.output;
 
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.File;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import model.containers.CompositeContainerHead;
+import misc.FileWriterWrapper;
+import model.containers.CompositeContainer;
 import view.FileChooser;
 
 /**
@@ -16,7 +16,7 @@ import view.FileChooser;
  */
 public class JSONFileWriter implements IOutput {
 
-	private FileWriter fw;
+	private FileWriterWrapper fw;
 	private Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
 	/**
@@ -25,28 +25,18 @@ public class JSONFileWriter implements IOutput {
 	 * @param container Root container of the composite Structure
 	 */
 	@Override
-	public void output(CompositeContainerHead container) {
-
+	public void output(CompositeContainer container) {
 		FileChooser fileChooser = new FileChooser(System.getProperty("user.home"), "Chose *.json output-file!", "json");
-		int result = fileChooser.showOpenDialog(null);
 
-		if (result == FileChooser.APPROVE_OPTION) {
-			try {
-				if (fileChooser.getSelectedFile() == null)
-					throw new IOException();
-				this.fw = new FileWriter(fileChooser.getSelectedFile());
-			} catch (IOException e) {
-			}
-		}
-
+		File file = fileChooser.getFile();
+		if (file == null)
+			return;
+		this.fw = new FileWriterWrapper(file);
+		
 		String serializedJson = this.gson.toJson(container);
-
-		try {
-			this.fw.write(serializedJson);
-			this.fw.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		
+		this.fw.write(serializedJson);
+		this.fw.close();
 	}
 
 	/**

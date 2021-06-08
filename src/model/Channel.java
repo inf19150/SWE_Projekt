@@ -38,13 +38,6 @@ public class Channel {
 	}
 
 	/**
-	 * @return the a_pid.
-	 */
-	public String getA_pid() {
-		return this.a_pid;
-	}
-
-	/**
 	 * Returns the resolution.
 	 * 
 	 * @return resolution

@@ -33,6 +33,7 @@ import view.output.IOutput;
 public class GUI extends JFrame implements ActionListener {
 
 	private static final long serialVersionUID = 732987927918732005L;
+	private static GUI gui;
 
 	private Controller controller;
 	private JComboBox<IAggregate> comboBoxAggregation;
@@ -47,11 +48,10 @@ public class GUI extends JFrame implements ActionListener {
 	 * @param controller
 	 *            to be passed in
 	 */
-	public GUI(Controller controller) {
+	private GUI() {
 		super();
 		setIconImage(Toolkit.getDefaultToolkit().getImage(GUI.class.getResource("/assets/logo.png")));
 		setResizable(false);
-		this.controller = controller;
 
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
@@ -105,7 +105,17 @@ public class GUI extends JFrame implements ActionListener {
 		this.btnAggregate.addActionListener(this);
 		getContentPane().add(btnAggregate);
 		this.initialize();
-
+	}
+	
+	public static GUI getInstance() {
+		if (gui == null) {
+			gui = new GUI();
+		}
+		return gui;	
+	}
+	
+	public void setController(Controller controller) {
+		this.controller = controller;
 	}
 
 	/**
@@ -190,12 +200,15 @@ public class GUI extends JFrame implements ActionListener {
 	/**
 	 * Updates Tooltip-Text of each ComboBox by setting designated Description of
 	 * corresponding Module
+	 * 
 	 */
 	private void updateToolTipTexts() {
 		/*
 		 * TODO: Change to getDescription(), update Module, rebuild jar files, uff ...
 		 */
-		this.comboBoxAggregation.setToolTipText(this.getSelectedAggregation().getName());
-		this.comboBoxOutput.setToolTipText(this.getSelectedAggregation().getName());
+		if( this.getSelectedAggregation() != null && this.getSelectedOutput() != null) {
+			this.comboBoxAggregation.setToolTipText(this.getSelectedAggregation().getName());
+			this.comboBoxOutput.setToolTipText(this.getSelectedOutput().getName());
+		}
 	}
 }

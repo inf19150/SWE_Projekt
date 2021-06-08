@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import model.Satellite;
 import model.Transponder;
 import model.containers.CompositeContainer;
-import model.containers.CompositeContainerHead;
 
 /**
  * Aggregates all Satellites with their respective count of radio and TV
@@ -23,9 +22,9 @@ public class AGGREGATE_Satellite_Transponder_Count_Channels implements IAggregat
 	 * @return topContainer root composite container
 	 */
 	@Override
-	public CompositeContainerHead aggregate(ArrayList<Satellite> satellitesList) {
+	public CompositeContainer aggregate(ArrayList<Satellite> satellitesList) {
 
-		CompositeContainerHead topContainer = new CompositeContainerHead();
+		CompositeContainer topContainer = new CompositeContainer();
 
 		for (Satellite satellite : satellitesList) {
 			CompositeContainer compositeContainer = new CompositeContainer("Satellite", satellite.getSat());

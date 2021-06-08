@@ -1,5 +1,7 @@
 package view;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Arrays;
 
 import javax.swing.JFileChooser;
@@ -32,4 +34,28 @@ public class FileChooser extends JFileChooser {
 
 	}
 
+	/**
+	 * 
+	 * @return
+	 */
+	public File getFile() {
+		boolean success = false;
+		do {
+			int result = this.showOpenDialog(null);
+
+			if (result == FileChooser.APPROVE_OPTION) {
+
+				try {
+					if (this.getSelectedFile() == null)
+						throw new IOException();
+					return this.getSelectedFile();
+				} catch (IOException e) {
+					success = false;
+				}
+			} else {
+				return null;
+			}
+		} while (!success);
+		return null;
+	}
 }

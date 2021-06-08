@@ -1,23 +1,23 @@
 package controller;
 
 import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.nio.file.FileSystems;
-import java.nio.file.Files;
 import java.util.ArrayList;
 
-import com.google.gson.Gson;
-import com.google.gson.stream.JsonReader;
-
 import model.Satellite;
-import model.Transponder;
+import model.aggregations.AGGREGATE_Lang_Satellite;
+import model.aggregations.AGGREGATE_Radio_Channels;
+import model.aggregations.AGGREGATE_Satellite_Channels_HD;
+import model.aggregations.AGGREGATE_Satellite_Eng_Channel;
+import model.aggregations.AGGREGATE_Satellite_Ger_Channel;
+import model.aggregations.AGGREGATE_Satellite_Transponder_Count_Channels;
 import model.aggregations.IAggregate;
-import model.containers.CompositeContainerHead;
+import model.containers.CompositeContainer;
 import view.FileChooser;
 import view.GUI;
 import view.output.IOutput;
+import view.output.JSONFileWriter;
+import view.output.SimpleFileWriter;
+import view.output.TextBoxWriter;
 
 /**
  * Controller class which handles the GUI, modules and a list of objects of the
@@ -26,31 +26,40 @@ import view.output.IOutput;
  */
 public class Controller {
 
+	private static Controller controller;
+
 	private GUI gui;
 
-	private ArrayList<Satellite> satellitesList;
+	private ArrayList<Satellite> satelliteList;
 
 	private ArrayList<IAggregate> aggregationModules;
 	private ArrayList<IOutput> outputModules;
 
 	/**
 	 * Constructor of Controller, initializes GUI, Satellite, Transponder and
-	 * Channel objects and modules.
+	 * Channel objects and modules. Constructor of Controller, asks User for the
+	 * path of the JSON file and calls the other Constructor with the path.
 	 * 
 	 * @param file path of the given JSON file
 	 */
-	public Controller(String file) {
-		this.gui = new GUI(this);
-		this.loadJsonData(file);
-		this.initModules();
+	private Controller() {
+		this.gui = GUI.getInstance();
+		this.gui.setController(this);
 	}
 
-	/**
-	 * Constructor of Controller, asks User for the path of the JSON file and calls
-	 * the other Constructor with the path.
-	 */
-	public Controller() {
-		this(getSourceFile());
+	public static Controller getInstance() {
+		if (controller == null) {
+			controller = new Controller();
+		}
+		return controller;
+	}
+
+	public void init(String file) {
+		if (file == null) {
+			file = Controller.getSourceFile();
+		}
+		this.satelliteList = new JSONLoader(file).getSatelliteList();
+		this.initModules();
 	}
 
 	/**
@@ -71,12 +80,11 @@ public class Controller {
 	private static String getSourceFile() {
 		FileChooser fileChooser = new FileChooser(System.getProperty("user.home"),
 				"Chose json file containing satellite data!", "json");
-		int result = fileChooser.showOpenDialog(null);
-
-		if (result == FileChooser.APPROVE_OPTION) {
-			return fileChooser.getSelectedFile().getAbsolutePath();
+		File file = fileChooser.getFile();
+		if (file == null) {
+			System.exit(-42);
 		}
-		return "";
+		return file.getAbsolutePath();
 	}
 
 	/**
@@ -84,7 +92,7 @@ public class Controller {
 	 */
 	public void aggregate() {
 		IAggregate selectedAggregation = this.gui.getSelectedAggregation();
-		this.output(selectedAggregation.aggregate(satellitesList));
+		this.output(selectedAggregation.aggregate(satelliteList));
 	}
 
 	/**
@@ -93,42 +101,9 @@ public class Controller {
 	 * 
 	 * @param aggregationResult The result of the aggregation
 	 */
-	public void output(CompositeContainerHead aggregationResult) {
+	private void output(CompositeContainer aggregationResult) {
 		IOutput selectedOutput = this.gui.getSelectedOutput();
 		selectedOutput.output(aggregationResult);
-	}
-
-	/**
-	 * Creates Satellite, Transponder and Channel objects with the right hierarchy.
-	 * 
-	 * @param file path of the JSON file
-	 */
-	private void loadJsonData(String file) {
-		InputStream inputStream = null;
-		try {
-			inputStream = Files.newInputStream(FileSystems.getDefault().getPath("", file));
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
-		JsonReader reader = new JsonReader(new InputStreamReader(inputStream));
-		Gson gson = new Gson();
-
-		Transponder[] transponders = gson.fromJson(reader, Transponder[].class);
-
-		this.satellitesList = new ArrayList<Satellite>();
-
-		for (Transponder t : transponders) {
-			boolean flag = false;
-			for (Satellite satellite : satellitesList) {
-				if (satellite.getSat().equals(t.getSat())) {
-					flag = true;
-					satellite.addTransponder(t);
-				}
-			}
-			if (!flag)
-				this.satellitesList.add(new Satellite(t));
-		}
 	}
 
 	/**
@@ -136,8 +111,15 @@ public class Controller {
 	 * objects in the aggregationModules list of aggregates.
 	 */
 	private void loadAggregationModules() {
-		ExtensionLoader<IAggregate> loader = new ExtensionLoader<IAggregate>();
-		this.aggregationModules = loader.LoadClasses("/Aggregation_Modules", IAggregate.class);
+//		ExtensionLoader<IAggregate> loader = new ExtensionLoader<IAggregate>();
+//		this.aggregationModules = loader.LoadClasses("/Aggregation_Modules", IAggregate.class);
+		this.aggregationModules = new ArrayList<IAggregate>();
+		this.aggregationModules.add(new AGGREGATE_Lang_Satellite());
+		this.aggregationModules.add(new AGGREGATE_Radio_Channels());
+		this.aggregationModules.add(new AGGREGATE_Satellite_Channels_HD());
+		this.aggregationModules.add(new AGGREGATE_Satellite_Eng_Channel());
+		this.aggregationModules.add(new AGGREGATE_Satellite_Ger_Channel());
+		this.aggregationModules.add(new AGGREGATE_Satellite_Transponder_Count_Channels());
 	}
 
 	/**
@@ -145,24 +127,11 @@ public class Controller {
 	 * objects in the outputModules list of outputs.
 	 */
 	private void loadOutputModules() {
-		ExtensionLoader<IOutput> loader = new ExtensionLoader<IOutput>();
-		this.outputModules = loader.LoadClasses("/Output_Modules", IOutput.class);
-	}
-
-	/**
-	 * Main, starts the program with instantiating the Controller with either an in
-	 * place JSON, a as command-line argument supplied path or no path
-	 * 
-	 * @param args possible path of JSON file
-	 */
-	public static void main(String[] args) {
-
-		if (new File(System.getProperty("user.dir") + "/data.json").exists()) {
-			new Controller("data.json");
-		} else if (args.length == 1) {
-			new Controller(args[0]);
-		} else {
-			new Controller();
-		}
+//		ExtensionLoader<IOutput> loader = new ExtensionLoader<IOutput>();
+//		this.outputModules = loader.LoadClasses("/Output_Modules", IOutput.class);
+		this.outputModules = new ArrayList<IOutput>();
+		this.outputModules.add(new JSONFileWriter());
+		this.outputModules.add(new SimpleFileWriter());
+		this.outputModules.add(new TextBoxWriter());
 	}
 }

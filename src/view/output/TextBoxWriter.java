@@ -8,7 +8,6 @@ import javax.swing.JTextArea;
 import javax.swing.text.DefaultCaret;
 
 import model.containers.CompositeContainer;
-import model.containers.CompositeContainerHead;
 
 /**
  * JSONFileWriter class inherits {@link JFrame} implements {@link IOutput}.
@@ -36,9 +35,9 @@ public class TextBoxWriter extends JFrame implements IOutput {
 		DefaultCaret caret = (DefaultCaret) this.textArea.getCaret();
 		caret.setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);
 
-		JScrollPane jScrollPaneChat = new JScrollPane(this.textArea);
+		JScrollPane jScrollPane = new JScrollPane(this.textArea);
 
-		super.getContentPane().add(jScrollPaneChat, BorderLayout.CENTER);
+		super.getContentPane().add(jScrollPane, BorderLayout.CENTER);
 
 		super.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 	}
@@ -46,27 +45,26 @@ public class TextBoxWriter extends JFrame implements IOutput {
 	/**
 	 * Outputs the composite Structure as in a text box.
 	 * 
-	 * @param container
-	 *            Root container of the composite Structure
+	 * @param container Root container of the composite Structure
 	 */
 	@Override
-	public void output(CompositeContainerHead container) {
+	public void output(CompositeContainer container) {
 		this.builder = new StringBuilder();
 		for (CompositeContainer comp : container.getCompositums()) {
 			printCompositum(comp, 0);
 		}
 		this.textArea.setText(this.builder.toString());
 
+		super.pack();
+		this.textArea.setCaretPosition(0);
 		super.setVisible(true);
 	}
 
 	/**
 	 * Forms the output with an builder object
 	 * 
-	 * @param c
-	 *            container Root container of the composite Structure
-	 * @param level
-	 *            depth level of hierarchy
+	 * @param c     container Root container of the composite Structure
+	 * @param level depth level of hierarchy
 	 */
 	private void printCompositum(CompositeContainer c, int level) {
 		for (int i = 0; i < level; i++)

@@ -6,7 +6,6 @@ import model.Channel;
 import model.Satellite;
 import model.Transponder;
 import model.containers.CompositeContainer;
-import model.containers.CompositeContainerHead;
 
 /**
  * Aggregates all Satellites that have german channels.
@@ -22,9 +21,9 @@ public class AGGREGATE_Lang_Satellite implements IAggregate {
 	 * @return topContainer root composite container
 	 */
 	@Override
-	public CompositeContainerHead aggregate(ArrayList<Satellite> satellitesList) {
+	public CompositeContainer aggregate(ArrayList<Satellite> satellitesList) {
 
-		CompositeContainerHead topContainer = new CompositeContainerHead();
+		CompositeContainer topContainer = new CompositeContainer();
 		CompositeContainer langContainer = new CompositeContainer("Language", "GER");
 
 		topContainer.addHierarchy(langContainer);
