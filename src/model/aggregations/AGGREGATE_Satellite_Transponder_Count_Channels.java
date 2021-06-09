@@ -15,12 +15,12 @@ public class AGGREGATE_Satellite_Transponder_Count_Channels implements IAggregat
 
 	private static final String NAME = "Count Channel per Transponder";
 	private static final String DESCRIPTION = "<HTML><pre width=220px>"
-			+ "- Satellit A\r\n"
-			+ "	- Transponder B\r\n"
-			+ "		- 20 Radio Programme\r\n"
-			+ "		- 10 Fernsehprogramme\r\n"
-			+ "	- Transponder C\r\n"
-			+ "		- 1 Radio Programm\r\n"
+			+ "- Satellit A\n"
+			+ "	- Transponder B\n"
+			+ "		- 20 Radio Programme\n"
+			+ "		- 10 Fernsehprogramme\n"
+			+ "	- Transponder C\n"
+			+ "		- 1 Radio Programm\n"
 			+ "		- 100 Fernsehprogramme"
 			+ "</pre></HTML>";
 	

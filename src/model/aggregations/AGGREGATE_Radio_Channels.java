@@ -14,8 +14,12 @@ import model.containers.CompositeContainer;
 public class AGGREGATE_Radio_Channels implements IAggregate {
 
 	private static final String NAME = "Radio Channels per Satellite";
-	private static final String DESCRIPTION = "Description";
-	
+	private static final String DESCRIPTION = "<HTML><pre width=220px>"
+			+ "- Satellite: A\n"
+			+ "	- FM-Channel: i\n"
+			+ "	- FM-Channel: ii\n"
+			+ "	- FM-Channel: iii\n"
+			+ "</pre></HTML>";	
 	/**
 	 * Creates Composite structure to store all satellites with radio channels.
 	 * 

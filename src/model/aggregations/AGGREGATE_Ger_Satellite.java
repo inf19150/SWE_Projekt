@@ -11,10 +11,15 @@ import model.containers.CompositeContainer;
  * Aggregates all Satellites that have german channels.
  *
  */
-public class AGGREGATE_Lang_Satellite implements IAggregate {
+public class AGGREGATE_Ger_Satellite implements IAggregate {
 
 	private static final String NAME = "Satellites with german Channels";
-	private static final String DESCRIPTION = "Description";
+	private static final String DESCRIPTION = "<HTML><pre width=220px>"
+			+ "- Language: GER\n"
+			+ "	- Satellite: A\n"
+			+ "	- Satellite: B\n"
+			+ "	- Satellite: C\n"
+			+ "</pre></HTML>";
 	
 	/**
 	 * Creates Composite structure to store all satellites that have german

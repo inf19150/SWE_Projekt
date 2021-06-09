@@ -14,7 +14,12 @@ import model.containers.CompositeContainer;
 public class AGGREGATE_Satellite_Ger_Channel implements IAggregate {
 
 	private static final String NAME = "German Channels per Satellite";
-	private static final String DESCRIPTION = "Description";
+	private static final String DESCRIPTION = "<HTML><pre width=220px>"
+			+ "- Satellite: A\n"
+			+ "	- Channel: a\n"
+			+ "	- Channel: b\n"
+			+ "	- Channel: c\n"
+			+ "</pre></HTML>";
 	
 	/**
 	 * Creates Composite structure to store all satellites with german channels.
