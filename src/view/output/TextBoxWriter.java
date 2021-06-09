@@ -16,12 +16,13 @@ import model.containers.CompositeContainer;
  */
 public class TextBoxWriter extends JFrame implements IOutput {
 
-	
 	private static final String NAME = "Text Box Writer";
-	private static final String DESCRIPTION = "Description";
-	
+	private static final String DESCRIPTION = "<HTML><pre width=300px>"
+			+ "Outputs the selected aggregation like\n the simple text writer on a gui (text area)\n"
+			+ "The selected aggregation can be\nhierarchically indefinitely deep\n" + "</pre></HTML>";
+
 	private static final long serialVersionUID = 7385967735541537200L;
-	private StringBuilder builder;
+	private StringBuilder builder = new StringBuilder();
 	private JTextArea textArea;
 
 	/**
@@ -53,10 +54,9 @@ public class TextBoxWriter extends JFrame implements IOutput {
 	 */
 	@Override
 	public void output(CompositeContainer container) {
-		this.builder = new StringBuilder();
-		for (CompositeContainer comp : container.getCompositums()) {
+		for (CompositeContainer comp : container.getCompositums())
 			printCompositum(comp, 0);
-		}
+
 		this.textArea.setText(this.builder.toString());
 
 		super.pack();
@@ -74,7 +74,7 @@ public class TextBoxWriter extends JFrame implements IOutput {
 		for (int i = 0; i < level; i++)
 			this.builder.append("\t");
 
-		this.builder.append(c.getKey() + ": " + c.getData() + "\n");
+		this.builder.append(c.getKey() + ": " + c.getValue() + "\n");
 		for (CompositeContainer comp : c.getCompositums()) {
 			this.printCompositum(comp, level + 1);
 		}
@@ -88,5 +88,10 @@ public class TextBoxWriter extends JFrame implements IOutput {
 	@Override
 	public String getDescription() {
 		return DESCRIPTION;
+	}
+
+	@Override
+	public void reset() {
+		this.builder = new StringBuilder();
 	}
 }

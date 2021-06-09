@@ -13,10 +13,27 @@ import view.FileChooser;
  */
 public class SimpleFileWriter implements IOutput {
 
-	
 	private static final String NAME = "Simple File Writer";
-	private static final String DESCRIPTION = "Description";
+	private static final String DESCRIPTION = "<HTML><pre width=250px>" + "Outputs the selected aggregation\n"
+			+ "in a simple (tab-based)\ntext-format\n"
+			+ "The selected aggregation can be\nhierarchically indefinitely deep\n" + "</pre></HTML>";
+
+	private File file = null;
 	private FileWriterWrapper fw;
+
+	/**
+	 * 
+	 */
+	public SimpleFileWriter() {
+	}
+
+	/**
+	 * 
+	 * @param f
+	 */
+	public SimpleFileWriter(File f) {
+		this.file = f;
+	}
 
 	/**
 	 * Outputs the composite Structure with visualized depth level to a file.
@@ -25,12 +42,15 @@ public class SimpleFileWriter implements IOutput {
 	 */
 	@Override
 	public void output(CompositeContainer container) {
-		FileChooser fileChooser = new FileChooser(System.getProperty("user.home"), "Chose output-file!", "txt", "dat",
-				"bin", "out", "log");
+		if (this.file == null) {
+			FileChooser fileChooser = new FileChooser(System.getProperty("user.home"), "Chose output-file!", "txt",
+					"dat", "bin", "out", "log");
 
-		File file = fileChooser.getFile();
-		if (file == null)
-			return;
+			this.file = fileChooser.getFile();
+			if (this.file == null)
+				return;
+		}
+
 		this.fw = new FileWriterWrapper(file);
 		for (CompositeContainer comp : container.getCompositums())
 			printCompositum(comp, 0);
@@ -48,7 +68,7 @@ public class SimpleFileWriter implements IOutput {
 		for (int i = 0; i < level; i++)
 			this.fw.write("\t");
 
-		this.fw.write(c.getKey() + ": " + c.getData() + "\n");
+		this.fw.write(c.getKey() + ": " + c.getValue() + "\n");
 		for (CompositeContainer comp : c.getCompositums()) {
 			printCompositum(comp, level + 1);
 		}
@@ -62,5 +82,10 @@ public class SimpleFileWriter implements IOutput {
 	@Override
 	public String getDescription() {
 		return DESCRIPTION;
+	}
+
+	@Override
+	public void reset() {
+		this.file = null;
 	}
 }

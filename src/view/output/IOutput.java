@@ -15,4 +15,10 @@ public interface IOutput extends IDescriptor {
 	 * @param container Root composite container
 	 */
 	public void output(CompositeContainer container);
+
+	/**
+	 * 
+	 */
+	public void reset();
+
 }
