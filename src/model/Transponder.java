@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class Transponder {
 
 	private int freq;
-	private String pol, sat;
+	private String sat;
 
 	private ArrayList<Channel> channels;
 

@@ -7,9 +7,8 @@ package model;
  */
 public class Channel {
 
-	private int sid;
-	private String type, name, res, a_pid, compression;
-	
+	private String type, name, res, a_pid;
+
 	/**
 	 * Returns the language.
 	 * 
