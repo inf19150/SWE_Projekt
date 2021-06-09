@@ -12,10 +12,8 @@ public abstract class AFileWriter {
 		try {
 			this.fileWriter = new FileWriter(file);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		// TODO Auto-generated constructor stub
 	}
 
 	public abstract void write(String content);

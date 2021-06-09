@@ -27,7 +27,7 @@ public class ModuleLoader<C> {
 		this.parentClass = parentClass;
 	}
 
-	public ArrayList<C> LoadClasses() {
+	public ArrayList<C> loadClasses() {
 		ArrayList<C> modules = new ArrayList<C>();
 		File modulesDir = new File(System.getProperty("user.dir") + this.directory);
 		for (File jar : modulesDir.listFiles()) {

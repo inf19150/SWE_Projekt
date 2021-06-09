@@ -4,7 +4,6 @@ import java.awt.Color;
 import java.awt.Desktop;
 import java.awt.FlowLayout;
 import java.awt.Font;
-import java.awt.FontMetrics;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -46,8 +45,7 @@ public class GUI extends JFrame implements ActionListener {
 	/**
 	 * Creates GUI.
 	 * 
-	 * @param controller
-	 *            to be passed in
+	 * @param controller to be passed in
 	 */
 	private GUI() {
 		super();
@@ -107,14 +105,14 @@ public class GUI extends JFrame implements ActionListener {
 		getContentPane().add(btnAggregate);
 		this.initialize();
 	}
-	
+
 	public static GUI getInstance() {
 		if (gui == null) {
 			gui = new GUI();
 		}
-		return gui;	
+		return gui;
 	}
-	
+
 	public void setController(Controller controller) {
 		this.controller = controller;
 	}
@@ -124,10 +122,8 @@ public class GUI extends JFrame implements ActionListener {
 	 * box. Sets renderer for the combo boxes to show decent name instead of
 	 * class@hashCode.
 	 * 
-	 * @param aggregationModules
-	 *            A list of all aggregation modules as objects
-	 * @param outputModules
-	 *            A list of all output modules as objects
+	 * @param aggregationModules A list of all aggregation modules as objects
+	 * @param outputModules      A list of all output modules as objects
 	 */
 	public void setModules(ArrayList<IAggregate> aggregationModules, ArrayList<IOutput> outputModules) {
 		this.comboBoxAggregation.removeAllItems();
@@ -173,8 +169,7 @@ public class GUI extends JFrame implements ActionListener {
 	/**
 	 * Receives a action event, checks it sources and acts upon it accordingly.
 	 * 
-	 * @param e
-	 *            The performed action event
+	 * @param e The performed action event
 	 */
 	@Override
 	public void actionPerformed(ActionEvent e) {
@@ -206,8 +201,8 @@ public class GUI extends JFrame implements ActionListener {
 	private void updateToolTipTexts() {
 		/*
 		 * TODO: Change to getDescription(), update Module, rebuild jar files, uff ...
-		 */	
-		if( this.getSelectedAggregation() != null && this.getSelectedOutput() != null) {
+		 */
+		if (this.getSelectedAggregation() != null && this.getSelectedOutput() != null) {
 			this.comboBoxAggregation.setToolTipText(this.getSelectedAggregation().getDescription());
 			this.comboBoxOutput.setToolTipText(this.getSelectedOutput().getDescription());
 		}

@@ -4,20 +4,11 @@ import java.io.File;
 import java.util.ArrayList;
 
 import model.Satellite;
-import model.aggregations.AGGREGATE_Lang_Satellite;
-import model.aggregations.AGGREGATE_Radio_Channels;
-import model.aggregations.AGGREGATE_Satellite_Channels_HD;
-import model.aggregations.AGGREGATE_Satellite_Eng_Channel;
-import model.aggregations.AGGREGATE_Satellite_Ger_Channel;
-import model.aggregations.AGGREGATE_Satellite_Transponder_Count_Channels;
 import model.aggregations.IAggregate;
 import model.containers.CompositeContainer;
 import view.FileChooser;
 import view.GUI;
 import view.output.IOutput;
-import view.output.JSONFileWriter;
-import view.output.SimpleFileWriter;
-import view.output.TextBoxWriter;
 
 /**
  * Controller class which handles the GUI, modules and a list of objects of the
@@ -104,6 +95,7 @@ public class Controller {
 	private void output(CompositeContainer aggregationResult) {
 		IOutput selectedOutput = this.gui.getSelectedOutput();
 		selectedOutput.output(aggregationResult);
+		selectedOutput.reset();
 	}
 
 	/**
@@ -111,15 +103,15 @@ public class Controller {
 	 * objects in the aggregationModules list of aggregates.
 	 */
 	private void loadAggregationModules() {
-//		ExtensionLoader<IAggregate> loader = new ExtensionLoader<IAggregate>();
-//		this.aggregationModules = loader.LoadClasses("/Aggregation_Modules", IAggregate.class);
-		this.aggregationModules = new ArrayList<IAggregate>();
-		this.aggregationModules.add(new AGGREGATE_Lang_Satellite());
-		this.aggregationModules.add(new AGGREGATE_Radio_Channels());
-		this.aggregationModules.add(new AGGREGATE_Satellite_Channels_HD());
-		this.aggregationModules.add(new AGGREGATE_Satellite_Eng_Channel());
-		this.aggregationModules.add(new AGGREGATE_Satellite_Ger_Channel());
-		this.aggregationModules.add(new AGGREGATE_Satellite_Transponder_Count_Channels());
+		ModuleLoader<IAggregate> loader = new ModuleLoader<IAggregate>("/Aggregation_Modules", IAggregate.class);
+		this.aggregationModules = loader.loadClasses();
+//		this.aggregationModules = new ArrayList<IAggregate>();
+//		this.aggregationModules.add(new AGGREGATE_Ger_Satellite());
+//		this.aggregationModules.add(new AGGREGATE_Radio_Channels());
+//		this.aggregationModules.add(new AGGREGATE_Satellite_Channels_HD());
+//		this.aggregationModules.add(new AGGREGATE_Satellite_Eng_Channel());
+//		this.aggregationModules.add(new AGGREGATE_Satellite_Ger_Channel());
+//		this.aggregationModules.add(new AGGREGATE_Satellite_Transponder_Count_Channels());
 	}
 
 	/**
@@ -127,11 +119,11 @@ public class Controller {
 	 * objects in the outputModules list of outputs.
 	 */
 	private void loadOutputModules() {
-//		ExtensionLoader<IOutput> loader = new ExtensionLoader<IOutput>();
-//		this.outputModules = loader.LoadClasses("/Output_Modules", IOutput.class);
-		this.outputModules = new ArrayList<IOutput>();
-		this.outputModules.add(new JSONFileWriter());
-		this.outputModules.add(new SimpleFileWriter());
-		this.outputModules.add(new TextBoxWriter());
+		ModuleLoader<IOutput> loader = new ModuleLoader<IOutput>("/Output_Modules", IOutput.class);
+		this.outputModules = loader.loadClasses();
+//		this.outputModules = new ArrayList<IOutput>();
+//		this.outputModules.add(new SimpleFileWriter());
+//		this.outputModules.add(new JSONFileWriter());
+//		this.outputModules.add(new TextBoxWriter());
 	}
 }

@@ -24,9 +24,10 @@ public class CompositeContainer {
 		this.key = key;
 		this.value = value;
 	}
-	
+
 	/**
-	 * Constructor of CompositContainer, which takes nor key or value to represent the root
+	 * Constructor of CompositContainer, which takes nor key or value to represent
+	 * the root
 	 */
 	public CompositeContainer() {
 		this.key = null;
@@ -56,7 +57,7 @@ public class CompositeContainer {
 	 * 
 	 * @return data
 	 */
-	public String getData() {
+	public String getValue() {
 		return this.value;
 	}
 
@@ -67,6 +68,43 @@ public class CompositeContainer {
 	 */
 	public String getKey() {
 		return this.key;
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((compositums == null) ? 0 : compositums.hashCode());
+		result = prime * result + ((key == null) ? 0 : key.hashCode());
+		result = prime * result + ((value == null) ? 0 : value.hashCode());
+		return result;
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		CompositeContainer other = (CompositeContainer) obj;
+		if (compositums == null) {
+			if (other.compositums != null)
+				return false;
+		} else if (!compositums.equals(other.compositums))
+			return false;
+		if (key == null) {
+			if (other.key != null)
+				return false;
+		} else if (!key.equals(other.key))
+			return false;
+		if (value == null) {
+			if (other.value != null)
+				return false;
+		} else if (!value.equals(other.value))
+			return false;
+		return true;
 	}
 
 }

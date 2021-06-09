@@ -53,15 +53,6 @@ public class Transponder {
 	}
 
 	/**
-	 * Returns polarization.
-	 * 
-	 * @return polarization
-	 */
-	public String getPol() {
-		return pol;
-	}
-
-	/**
 	 * Returns the satellite the transponder belongs to.
 	 * 
 	 * @return satellite
@@ -78,5 +69,4 @@ public class Transponder {
 	public int getFreq() {
 		return freq;
 	}
-
 }

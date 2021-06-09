@@ -9,7 +9,7 @@ public class Channel {
 
 	private int sid;
 	private String type, name, res, a_pid, compression;
-
+	
 	/**
 	 * Returns the language.
 	 * 
@@ -44,24 +44,6 @@ public class Channel {
 	 */
 	public String getRes() {
 		return this.res;
-	}
-
-	/**
-	 * Returns the compression.
-	 * 
-	 * @return compression
-	 */
-	public String getCompression() {
-		return this.compression;
-	}
-
-	/**
-	 * Returns the sid.
-	 * 
-	 * @return sid
-	 */
-	public int getSid() {
-		return this.sid;
 	}
 
 }
