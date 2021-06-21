@@ -16,7 +16,7 @@ public interface IAggregate extends IDescriptor {
 	 * Creates composite structure to store the aggregate.
 	 * 
 	 * @param satellitesList list of all Satellite objects
-	 * @return CompositeContainerHead Root composite container
+	 * @return CompositeContainer Root composite container
 	 */
 	public CompositeContainer aggregate(ArrayList<Satellite> satellitesList);
 }

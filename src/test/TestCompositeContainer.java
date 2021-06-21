@@ -9,10 +9,19 @@ import org.junit.jupiter.api.Test;
 
 import model.containers.CompositeContainer;
 
+/**
+ * TestCompositeContainer class tests composite container.
+ *
+ */
 public class TestCompositeContainer {
 
 	private static CompositeContainer dummyCompositeContainer;
 
+	/**
+	 * Init function, gets called before all tests. Creates test composite
+	 * structure.
+	 * 
+	 */
 	@BeforeAll
 	public static void init() {
 		dummyCompositeContainer = new CompositeContainer("planet", "Earth");
@@ -23,6 +32,7 @@ public class TestCompositeContainer {
 	}
 
 	/*
+	 * Tests arbitrary key and value of CompositeContainer.
 	 * 
 	 */
 	@Test
@@ -35,6 +45,7 @@ public class TestCompositeContainer {
 	}
 
 	/*
+	 * Tests hierarchy of CompositeContainer.
 	 * 
 	 */
 	@Test

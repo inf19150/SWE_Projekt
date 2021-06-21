@@ -2,11 +2,15 @@ import java.io.File;
 
 import controller.Controller;
 
+/**
+ * Class Main is the run target class and contains the main function
+ *
+ */
 public class Main {
 
 	/**
-	 * Main, starts the program with instantiating the Controller with either an in
-	 * place JSON, a as command-line argument supplied path or no path
+	 * Main, starts the program with the instantiation of the Controller either with
+	 * an existing JSON, a path provided as command line argument or without a path.
 	 * 
 	 * @param args possible path of JSON file
 	 */

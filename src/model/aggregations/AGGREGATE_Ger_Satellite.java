@@ -8,7 +8,7 @@ import model.Transponder;
 import model.containers.CompositeContainer;
 
 /**
- * Aggregates all Satellites that have german channels.
+ * Aggregates all Satellites that have german channels implements {@link IAggregate}.
  *
  */
 public class AGGREGATE_Ger_Satellite implements IAggregate {
@@ -21,13 +21,6 @@ public class AGGREGATE_Ger_Satellite implements IAggregate {
 			+ "	- Satellite: C\n"
 			+ "</pre></HTML>";
 	
-	/**
-	 * Creates Composite structure to store all satellites that have german
-	 * channels.
-	 * 
-	 * @param satellitesList list of all Satellite objects
-	 * @return topContainer root composite container
-	 */
 	@Override
 	public CompositeContainer aggregate(ArrayList<Satellite> satellitesList) {
 
@@ -53,7 +46,7 @@ public class AGGREGATE_Ger_Satellite implements IAggregate {
 	 * Returns whether the channel is a german channel.
 	 * 
 	 * @param c Channel object
-	 * @return whether the channel is a radio channel or not
+	 * @return whether the channel is a german channel or not
 	 */
 	private boolean isGerman(Channel c) {
 		return c.getLanguage().contains("ger");

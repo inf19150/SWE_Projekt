@@ -47,11 +47,6 @@ public class TextBoxWriter extends JFrame implements IOutput {
 		super.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 	}
 
-	/**
-	 * Outputs the composite Structure as in a text box.
-	 * 
-	 * @param container Root container of the composite Structure
-	 */
 	@Override
 	public void output(CompositeContainer container) {
 		for (CompositeContainer comp : container.getCompositums())

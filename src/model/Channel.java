@@ -7,6 +7,10 @@ package model;
  */
 public class Channel {
 
+	/**
+	 * Used field name from JSON file.
+	 * 
+	 */
 	private String type, name, res, a_pid;
 
 	/**

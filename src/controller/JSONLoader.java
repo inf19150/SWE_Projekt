@@ -13,22 +13,23 @@ import com.google.gson.stream.JsonReader;
 import model.Satellite;
 import model.Transponder;
 
+/**
+ * JSONLoader class, holds function that returns list of satellites.
+ *
+ */
 public class JSONLoader {
-	
-	private String file;
-	
-	public JSONLoader(String file) {
-		this.file = file;
-	}
-	
+
 	/**
-	 * Creates Satellite, Transponder and Channel objects with the right hierarchy.
+	 * Creates Satellite, Transponder and Channel objects with the correct
+	 * hierarchy.
 	 * 
+	 * @link {@link com.google.gson.Gson}
+	 * @return satelliteList list of satellites
 	 */
-	public ArrayList<Satellite> getSatelliteList() {
+	public static ArrayList<Satellite> getSatelliteList(String file) {
 		InputStream inputStream = null;
 		try {
-			inputStream = Files.newInputStream(FileSystems.getDefault().getPath(this.file));
+			inputStream = Files.newInputStream(FileSystems.getDefault().getPath(file));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -52,5 +53,5 @@ public class JSONLoader {
 				satelliteList.add(new Satellite(t));
 		}
 		return satelliteList;
-	}	
+	}
 }

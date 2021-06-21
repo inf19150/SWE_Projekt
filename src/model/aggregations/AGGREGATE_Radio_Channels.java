@@ -8,7 +8,7 @@ import model.Transponder;
 import model.containers.CompositeContainer;
 
 /**
- * Aggregates all Satellites with radio channels.
+ * Aggregates all Satellites with radio channels implements {@link IAggregate}.
  *
  */
 public class AGGREGATE_Radio_Channels implements IAggregate {
@@ -20,12 +20,7 @@ public class AGGREGATE_Radio_Channels implements IAggregate {
 			+ "	- FM-Channel: ii\n"
 			+ "	- FM-Channel: iii\n"
 			+ "</pre></HTML>";	
-	/**
-	 * Creates Composite structure to store all satellites with radio channels.
-	 * 
-	 * @param satellitesList list of all Satellite objects
-	 * @return topContainer root composite container
-	 */
+
 	@Override
 	public CompositeContainer aggregate(ArrayList<Satellite> satellitesList) {
 

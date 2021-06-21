@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.ArrayList;
 
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -18,23 +19,32 @@ import model.aggregations.AGGREGATE_Satellite_Transponder_Count_Channels;
 import model.aggregations.IAggregate;
 import model.containers.CompositeContainer;
 
+/**
+ * TestAggregations class tests all aggregations.
+ *
+ */
 public class TestAggregations {
 
 	static ArrayList<Satellite> satelliteList;
-	
 
 	private static final String FILENAME = "data_test.json";
-	
+	private static TestJSONBuilder jsonFactory;
+
 	/**
+	 * Init function, gets called before all tests. Creates test JSON file and
+	 * parses satellite data from it.
 	 * 
 	 */
 	@BeforeAll
 	public static void init() {
-		new JSONFactory(FILENAME).createFile();
-		satelliteList = new JSONLoader(FILENAME).getSatelliteList();
+		jsonFactory = new TestJSONBuilder(FILENAME);
+		jsonFactory.createFile();
+		satelliteList = JSONLoader.getSatelliteList(FILENAME);
 	}
-	
+
 	/**
+	 * Tests AGGREGATE_Ger_Satellite. Creates expected composite structure and
+	 * compares them.
 	 * 
 	 */
 	@Test
@@ -53,8 +63,10 @@ public class TestAggregations {
 
 		assertEquals(expectedResult, result);
 	}
-	
+
 	/**
+	 * Tests AGGREGATE_Ger_Satellite. Creates expected composite structure and
+	 * compares them.
 	 * 
 	 */
 	@Test
@@ -70,8 +82,10 @@ public class TestAggregations {
 
 		assertEquals(expectedResult, result);
 	}
-	
+
 	/**
+	 * Tests AGGREGATE_Satellite_Channels_HD. Creates expected composite structure
+	 * and compares them.
 	 * 
 	 */
 	@Test
@@ -109,8 +123,10 @@ public class TestAggregations {
 
 		assertEquals(expectedResult, result);
 	}
-	
+
 	/**
+	 * Tests AGGREGATE_Satellite_Eng_Channel. Creates expected composite structure
+	 * and compares them.
 	 * 
 	 */
 	@Test
@@ -142,8 +158,10 @@ public class TestAggregations {
 
 		assertEquals(expectedResult, result);
 	}
-	
+
 	/**
+	 * Tests AGGREGATE_Satellite_Ger_Channel. Creates expected composite structure
+	 * and compares them.
 	 * 
 	 */
 	@Test
@@ -168,8 +186,10 @@ public class TestAggregations {
 
 		assertEquals(expectedResult, result);
 	}
-	
+
 	/**
+	 * Tests AGGREGATE_Satellite_Transponder_Count_Channels. Creates expected
+	 * composite structure and compares them.
 	 * 
 	 */
 	@Test
@@ -211,6 +231,15 @@ public class TestAggregations {
 		expectedResult.addHierarchy(firstLayer2);
 
 		assertEquals(expectedResult, result);
+	}
+
+	/**
+	 * Clean up function, gets called after all tests. Deletes test JSON file.
+	 * 
+	 */
+	@AfterAll
+	public static void cleanUp() {
+		jsonFactory.destruct();
 	}
 
 }

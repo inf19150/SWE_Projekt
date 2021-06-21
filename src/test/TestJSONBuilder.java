@@ -1,16 +1,31 @@
 package test;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class JSONFactory {
+/**
+ * Class to create dummy JSON file with a constant subset of the original JSON
+ * data.
+ *
+ */
+public class TestJSONBuilder {
 
 	private String fileName;
 
-	public JSONFactory(String fileName) {
+	/**
+	 * Constructor of TestJSONBuilder, takes a file name.
+	 * 
+	 * @param fileName file name as String.
+	 */
+	public TestJSONBuilder(String fileName) {
 		this.fileName = fileName;
 	}
 
+	/**
+	 * Creates dummy JSON file with a constant subset of the original JSON data.
+	 * 
+	 */
 	public void createFile() {
 		try {
 			FileWriter fileWriter = new FileWriter(this.fileName);
@@ -22,12 +37,13 @@ public class JSONFactory {
 					+ "            \"a_pid\":\"2031 eng\",\r\n" + "            \"compression\":\"MPEG-4\",\r\n"
 					+ "            \"url\":\"http:\\/\\/fuel.tv\\/\",\r\n" + "            \"enc\":\"Bulcrypt\",\r\n"
 					+ "            \"package\":\" \",\r\n" + "            \"res\":\"HD\"\r\n" + "         },\r\n"
-					+ "         {\r\n" + "            \"compression\": \" \",\r\n" + "            \"enc\": \"FTA\",\r\n"
-					+ "            \"package\": \" \",\r\n" + "            \"sid\": \"28468\",\r\n"
-					+ "            \"a_pid\": \"1031 ger\",\r\n" + "            \"res\": \" \",\r\n"
-					+ "            \"url\": \"http:\\/\\/www.swr3.de\\/\",\r\n" + "            \"name\": \"SWR3\",\r\n"
-					+ "            \"type\": \"R\",\r\n" + "            \"v_pid\": \"0\"\r\n" + "         },\r\n"
-					+ "         {\r\n" + "            \"enc\":\"Bulcrypt\",\r\n" + "            \"type\":\"TV\",\r\n"
+					+ "         {\r\n" + "            \"compression\": \" \",\r\n"
+					+ "            \"enc\": \"FTA\",\r\n" + "            \"package\": \" \",\r\n"
+					+ "            \"sid\": \"28468\",\r\n" + "            \"a_pid\": \"1031 ger\",\r\n"
+					+ "            \"res\": \" \",\r\n" + "            \"url\": \"http:\\/\\/www.swr3.de\\/\",\r\n"
+					+ "            \"name\": \"SWR3\",\r\n" + "            \"type\": \"R\",\r\n"
+					+ "            \"v_pid\": \"0\"\r\n" + "         },\r\n" + "         {\r\n"
+					+ "            \"enc\":\"Bulcrypt\",\r\n" + "            \"type\":\"TV\",\r\n"
 					+ "            \"name\":\"Gametoon HD\",\r\n" + "            \"package\":\" \",\r\n"
 					+ "            \"a_pid\":\"2041 eng\",\r\n" + "            \"compression\":\"MPEG-4\",\r\n"
 					+ "            \"v_pid\":\"2040\",\r\n" + "            \"sid\":\"608\",\r\n"
@@ -60,9 +76,9 @@ public class JSONFactory {
 					+ "            \"name\":\"Wness TV HD\",\r\n" + "            \"compression\":\"HEVC (H.265)\",\r\n"
 					+ "            \"enc\":\"BulcryptConax\",\r\n" + "            \"a_pid\":\"1716 bul\"\r\n"
 					+ "         }\r\n" + "      ]\r\n" + "   },\r\n" + "   {\r\n" + "      \"sym\":\"28000\",\r\n"
-					+ "      \"orbital\":\"4.8° E\",\r\n" + "      \"pol\":\"H\",\r\n" + "      \"freq\":\"11881\",\r\n"
-					+ "      \"sat\":\"Astra 4A\",\r\n" + "      \"channels\":[\r\n" + "         {\r\n"
-					+ "            \"url\":\"http:\\/\\/www.cmore.se\\/\",\r\n"
+					+ "      \"orbital\":\"4.8° E\",\r\n" + "      \"pol\":\"H\",\r\n"
+					+ "      \"freq\":\"11881\",\r\n" + "      \"sat\":\"Astra 4A\",\r\n" + "      \"channels\":[\r\n"
+					+ "         {\r\n" + "            \"url\":\"http:\\/\\/www.cmore.se\\/\",\r\n"
 					+ "            \"name\":\"C More Fotboll HD\",\r\n" + "            \"compression\":\"MPEG-4\",\r\n"
 					+ "            \"v_pid\":\"5001\",\r\n" + "            \"sid\":\"5000\",\r\n"
 					+ "            \"res\":\"HD\",\r\n" + "            \"enc\":\"Videoguard\",\r\n"
@@ -86,6 +102,13 @@ public class JSONFactory {
 			e.printStackTrace();
 		}
 
+	}
+
+	/**
+	 * Deletes file.
+	 */
+	public void destruct() {
+		new File(this.fileName).delete();
 	}
 
 }

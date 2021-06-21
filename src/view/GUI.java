@@ -33,6 +33,9 @@ import view.output.IOutput;
 public class GUI extends JFrame implements ActionListener {
 
 	private static final long serialVersionUID = 732987927918732005L;
+	/**
+	 * Singleton instance of GUI
+	 */
 	private static GUI gui;
 
 	private Controller controller;
@@ -45,7 +48,6 @@ public class GUI extends JFrame implements ActionListener {
 	/**
 	 * Creates GUI.
 	 * 
-	 * @param controller to be passed in
 	 */
 	private GUI() {
 		super();
@@ -106,6 +108,12 @@ public class GUI extends JFrame implements ActionListener {
 		this.initialize();
 	}
 
+	/**
+	 * Singleton getter for GUI, instantiates itself if and only if not
+	 * already existent.
+	 * 
+	 * @return controller {@link GUI} object
+	 */
 	public static GUI getInstance() {
 		if (gui == null) {
 			gui = new GUI();
@@ -113,6 +121,12 @@ public class GUI extends JFrame implements ActionListener {
 		return gui;
 	}
 
+	
+	/**
+	 * Set Controller.
+	 * 
+	 * @param controller to be passed in
+	 */
 	public void setController(Controller controller) {
 		this.controller = controller;
 	}
@@ -142,6 +156,7 @@ public class GUI extends JFrame implements ActionListener {
 	}
 
 	/**
+	 * Getter for selected Output modules.
 	 * 
 	 * @return the selected output module as object
 	 */
@@ -150,6 +165,7 @@ public class GUI extends JFrame implements ActionListener {
 	}
 
 	/**
+	 * Getter for selected Aggregation modules.
 	 * 
 	 * @return the selected aggregate module as object
 	 */
@@ -158,7 +174,8 @@ public class GUI extends JFrame implements ActionListener {
 	}
 
 	/**
-	 * Initialized Windows
+	 * Initializes Window.
+	 * 
 	 */
 	private void initialize() {
 		setBounds(100, 100, 527, 320);
@@ -167,7 +184,7 @@ public class GUI extends JFrame implements ActionListener {
 	}
 
 	/**
-	 * Receives a action event, checks it sources and acts upon it accordingly.
+	 * Receives an action event, checks its source and acts upon it accordingly.
 	 * 
 	 * @param e The performed action event
 	 */
@@ -195,13 +212,10 @@ public class GUI extends JFrame implements ActionListener {
 
 	/**
 	 * Updates Tooltip-Text of each ComboBox by setting designated Description of
-	 * corresponding Module
+	 * corresponding Module.
 	 * 
 	 */
 	private void updateToolTipTexts() {
-		/*
-		 * TODO: Change to getDescription(), update Module, rebuild jar files, uff ...
-		 */
 		if (this.getSelectedAggregation() != null && this.getSelectedOutput() != null) {
 			this.comboBoxAggregation.setToolTipText(this.getSelectedAggregation().getDescription());
 			this.comboBoxOutput.setToolTipText(this.getSelectedOutput().getDescription());

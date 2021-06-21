@@ -10,18 +10,22 @@ import java.util.ArrayList;
 
 /**
  * Loads modules from a given directory with a given parent class.
- * @see https://stackabuse.com/example-loading-a-java-class-at-runtime
  * 
- * @param directory Directory where the modules are in
- * @param <C>       Type of the module (parent class)
  * 
- * @return List of the instantiated classes
+ * @param <C> Type of parent class
  */
 public class ModuleLoader<C> {
 
 	private String directory;
 	private Class<C> parentClass;
 
+	/**
+	 * 
+	 * @param directory Directory where the modules are in
+	 * @param <C>       Type of the module (parent class)
+	 * 
+	 * @return List of the instantiated classes
+	 */
 	public ModuleLoader(String directory, Class<C> parentClass) {
 		this.directory = directory;
 		this.parentClass = parentClass;
@@ -34,13 +38,11 @@ public class ModuleLoader<C> {
 			try {
 
 				ClassLoader loader = URLClassLoader.newInstance(new URL[] { jar.toURI().toURL() },
-                        this.getClass().getClassLoader());
-                Class<?> clazz = Class.forName(jar.getName().split("\\.")[0], true, loader);
-                Class<? extends C> newClass = clazz.asSubclass(this.parentClass);
-                // Apparently its bad to use Class.newInstance, so we use
-                // newClass.getConstructor() instead
-                Constructor<? extends C> constructor = newClass.getConstructor();
-                modules.add(constructor.newInstance());
+						this.getClass().getClassLoader());
+				Class<?> clazz = Class.forName(jar.getName().split("\\.")[0], true, loader);
+				Class<? extends C> newClass = clazz.asSubclass(this.parentClass);
+				Constructor<? extends C> constructor = newClass.getConstructor();
+				modules.add(constructor.newInstance());
 
 			} catch (ClassNotFoundException e) {
 				continue;

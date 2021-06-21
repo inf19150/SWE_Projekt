@@ -10,8 +10,8 @@ import model.containers.CompositeContainer;
 import view.FileChooser;
 
 /**
- * JSONFileWriter class inherits implements {@link IOutput}. Output module to
- * print composite structure as JSON to a file.
+ * JSONFileWriter class implements {@link IOutput}. Output module to print
+ * composite structure as JSON to a file.
  *
  */
 public class JSONFileWriter implements IOutput {
@@ -25,24 +25,22 @@ public class JSONFileWriter implements IOutput {
 	private Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
 	/**
+	 * The default constructor is mentioned explicitly because a modified
+	 * constructor is required for the tests.
 	 * 
 	 */
 	public JSONFileWriter() {
 	}
 
 	/**
+	 * Modified constructor for testing which takes a file.
 	 * 
-	 * @param f
+	 * @param f {@link File}
 	 */
 	public JSONFileWriter(File f) {
 		this.file = f;
 	}
 
-	/**
-	 * Outputs the composite Structure as JSON to a file.
-	 * 
-	 * @param container Root container of the composite Structure
-	 */
 	@Override
 	public void output(CompositeContainer container) {
 

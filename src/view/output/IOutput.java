@@ -17,6 +17,7 @@ public interface IOutput extends IDescriptor {
 	public void output(CompositeContainer container);
 
 	/**
+	 * Resets the Output module object to its initial state.
 	 * 
 	 */
 	public void reset();

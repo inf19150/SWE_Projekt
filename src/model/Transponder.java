@@ -9,9 +9,20 @@ import java.util.ArrayList;
  */
 public class Transponder {
 
+	/**
+	 * Used field name from JSON file.
+	 * 
+	 */
 	private int freq;
+	/**
+	 * Used field name from JSON file.
+	 * 
+	 */
 	private String sat;
-
+	/**
+	 * List of channels.
+	 * 
+	 */
 	private ArrayList<Channel> channels;
 
 	/**
@@ -20,7 +31,7 @@ public class Transponder {
 	 * @return List of channels
 	 */
 	public ArrayList<Channel> getChannels() {
-		return channels;
+		return this.channels;
 	}
 
 	/**
@@ -58,7 +69,7 @@ public class Transponder {
 	 * @return satellite
 	 */
 	public String getSat() {
-		return sat;
+		return this.sat;
 	}
 
 	/**
@@ -67,6 +78,6 @@ public class Transponder {
 	 * @return frequency
 	 */
 	public int getFreq() {
-		return freq;
+		return this.freq;
 	}
 }

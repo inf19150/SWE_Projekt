@@ -9,7 +9,15 @@ import java.util.ArrayList;
  */
 public class Satellite {
 
+	/**
+	 * Used field name from JSON file.
+	 * 
+	 */
 	private String sat;
+	/**
+	 * List of transponders.
+	 * 
+	 */
 	private ArrayList<Transponder> transponders = new ArrayList<Transponder>();
 
 	/**
@@ -38,7 +46,7 @@ public class Satellite {
 	 * @return name of satellite
 	 */
 	public String getSat() {
-		return sat;
+		return this.sat;
 	}
 
 	/**
@@ -47,7 +55,7 @@ public class Satellite {
 	 * @return list of transponders
 	 */
 	public ArrayList<Transponder> getTransponders() {
-		return transponders;
+		return this.transponders;
 	}
 
 }

@@ -22,12 +22,6 @@ public class AGGREGATE_Satellite_Eng_Channel implements IAggregate {
 			+ "	- Channel: iii\n"
 			+ "</pre></HTML>";
 	
-	/**
-	 * Creates Composite structure to store all satellites with english channels.
-	 * 
-	 * @param satellitesList list of all Satellite objects
-	 * @return topContainer root composite container
-	 */
 	@Override
 	public CompositeContainer aggregate(ArrayList<Satellite> satellitesList) {
 
@@ -56,7 +50,7 @@ public class AGGREGATE_Satellite_Eng_Channel implements IAggregate {
 	 * Returns whether the channel is a english channel.
 	 * 
 	 * @param c Channel object
-	 * @return whether the channel is a radio channel or not
+	 * @return whether the channel is a english channel or not
 	 */
 	private boolean isEnglish(Channel c) {
 		return c.getLanguage().contains("eng");

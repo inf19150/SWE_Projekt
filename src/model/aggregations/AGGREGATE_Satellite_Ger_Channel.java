@@ -21,12 +21,6 @@ public class AGGREGATE_Satellite_Ger_Channel implements IAggregate {
 			+ "	- Channel: c\n"
 			+ "</pre></HTML>";
 	
-	/**
-	 * Creates Composite structure to store all satellites with german channels.
-	 * 
-	 * @param satellitesList list of all Satellite objects
-	 * @return topContainer root composite container
-	 */
 	@Override
 	public CompositeContainer aggregate(ArrayList<Satellite> satellitesList) {
 
@@ -55,7 +49,7 @@ public class AGGREGATE_Satellite_Ger_Channel implements IAggregate {
 	 * Returns whether the channel is a german channel.
 	 * 
 	 * @param c Channel object
-	 * @return whether the channel is a radio channel or not
+	 * @return whether the channel is a german channel or not
 	 */
 	private boolean isGerman(Channel c) {
 		return c.getLanguage().contains("ger");

@@ -17,11 +17,17 @@ import view.output.JSONFileWriter;
 import view.output.SimpleFileWriter;
 import view.output.TextBoxWriter;
 
+/**
+ * TestOutputs tests all outputs.
+ *
+ */
 public class TestOutputs {
 
 	private static CompositeContainer dummyCompositeContainer;
 
 	/**
+	 * Init function, gets called before all tests. Creates test composite
+	 * structure.
 	 * 
 	 */
 	@BeforeAll
@@ -56,6 +62,8 @@ public class TestOutputs {
 	}
 
 	/*
+	 * Tests SimpleFileWriter class. Creates output and compares it to the expected
+	 * output.
 	 * 
 	 */
 	@Test
@@ -88,7 +96,9 @@ public class TestOutputs {
 		assertEquals(expectedResult, buffer.toString());
 	}
 
-	/**
+	/*
+	 * Tests JSONFileWriter class. Creates output and compares it to the expected
+	 * output.
 	 * 
 	 */
 	@Test
@@ -136,7 +146,9 @@ public class TestOutputs {
 		assertEquals(expectedResult, buffer.toString());
 	}
 
-	/**
+	/*
+	 * Tests TextBoxWriter class. Can only check whether the class throws an
+	 * exception.
 	 * 
 	 */
 	@Test

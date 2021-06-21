@@ -13,13 +13,9 @@ import javax.swing.filechooser.FileNameExtensionFilter;
  */
 public class FileChooser extends JFileChooser {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = -4595760880290991931L;
 
 	/**
-	 * 
 	 * Creates File explorer for the User to choose a file.
 	 * 
 	 * @param path             path to start directory
@@ -35,8 +31,9 @@ public class FileChooser extends JFileChooser {
 	}
 
 	/**
+	 * Open file Dialog for User to choose a file.
 	 * 
-	 * @return
+	 * @return file as a {@link File} and null if everything goes wrong
 	 */
 	public File getFile() {
 		boolean success = false;

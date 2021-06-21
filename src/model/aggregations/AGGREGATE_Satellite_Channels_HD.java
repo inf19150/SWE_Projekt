@@ -21,12 +21,6 @@ public class AGGREGATE_Satellite_Channels_HD implements IAggregate {
 			+ "	- HD-Channel: iii\n"
 			+ "</pre></HTML>";
 	
-	/**
-	 * Creates Composite structure to store all satellites with HD channels.
-	 * 
-	 * @param satellitesList list of all Satellite objects
-	 * @return topContainer root composite container
-	 */
 	@Override
 	public CompositeContainer aggregate(ArrayList<Satellite> satellitesList) {
 

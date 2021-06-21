@@ -3,8 +3,8 @@ package model.containers;
 import java.util.ArrayList;
 
 /**
- * CompositeContainer class to represent a hierarchical structure of any depth
- * Consists of an optional key and value that describes it.
+ * CompositeContainer class to represent a hierarchical structure of any depth.
+ * Consists of an optional key, and value that describes it.
  * 
  */
 public class CompositeContainer {
@@ -17,8 +17,8 @@ public class CompositeContainer {
 	 * Constructor of CompositContainer, which takes a key and a value and safes
 	 * them.
 	 * 
-	 * @param key  Key value of the composite that describes the value
-	 * @param data data of the composite
+	 * @param key   Key of the composite that describes the value
+	 * @param value value of the composite
 	 */
 	public CompositeContainer(String key, String value) {
 		this.key = key;
@@ -53,16 +53,16 @@ public class CompositeContainer {
 	}
 
 	/**
-	 * Returns the value of data.
+	 * Returns the value.
 	 * 
-	 * @return data
+	 * @return value
 	 */
 	public String getValue() {
 		return this.value;
 	}
 
 	/**
-	 * Returns the value of key.
+	 * Returns the key.
 	 * 
 	 * @return key
 	 */
@@ -70,16 +70,6 @@ public class CompositeContainer {
 		return this.key;
 	}
 
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((compositums == null) ? 0 : compositums.hashCode());
-		result = prime * result + ((key == null) ? 0 : key.hashCode());
-		result = prime * result + ((value == null) ? 0 : value.hashCode());
-		return result;
-	}
-	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

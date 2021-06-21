@@ -24,14 +24,6 @@ public class AGGREGATE_Satellite_Transponder_Count_Channels implements IAggregat
 			+ "		- 100 Fernsehprogramme"
 			+ "</pre></HTML>";
 	
-	/**
-	 * Creates Composite structure to store all satellites with their respective
-	 * count of radio and TV channels.
-	 * 
-	 * @param satellitesList
-	 *            list of all Satellite objects
-	 * @return topContainer root composite container
-	 */
 	@Override
 	public CompositeContainer aggregate(ArrayList<Satellite> satellitesList) {
 

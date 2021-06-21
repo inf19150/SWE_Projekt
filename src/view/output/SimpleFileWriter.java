@@ -7,7 +7,7 @@ import model.containers.CompositeContainer;
 import view.FileChooser;
 
 /**
- * JSONFileWriter class inherits implements {@link IOutput}. Output module to
+ * JSONFileWriter class implements {@link IOutput}. Output module to
  * print composite structure with visualized depth level of hierarchy to a file.
  *
  */
@@ -22,24 +22,22 @@ public class SimpleFileWriter implements IOutput {
 	private FileWriterWrapper fw;
 
 	/**
+	 * The default constructor is mentioned explicitly because a modified
+	 * constructor is required for the tests.
 	 * 
 	 */
 	public SimpleFileWriter() {
 	}
 
 	/**
+	 * Modified constructor for testing which takes a file.
 	 * 
-	 * @param f
+	 * @param f {@link File}
 	 */
 	public SimpleFileWriter(File f) {
 		this.file = f;
 	}
 
-	/**
-	 * Outputs the composite Structure with visualized depth level to a file.
-	 * 
-	 * @param container Root container of the composite Structure
-	 */
 	@Override
 	public void output(CompositeContainer container) {
 		if (this.file == null) {
