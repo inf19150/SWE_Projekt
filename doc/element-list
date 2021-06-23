@@ -3,7 +3,7 @@ controller
 misc
 model
 model.aggregations
-model.containers
+model.container
 test
 view
 view.output

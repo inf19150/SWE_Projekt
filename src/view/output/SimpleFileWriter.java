@@ -2,7 +2,6 @@ package view.output;
 
 import java.io.File;
 
-import misc.FileWriterWrapper;
 import model.container.CompositeContainer;
 import view.FileChooser;
 

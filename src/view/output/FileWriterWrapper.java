@@ -1,4 +1,4 @@
-package misc;
+package view.output;
 
 import java.io.File;
 import java.io.IOException;
