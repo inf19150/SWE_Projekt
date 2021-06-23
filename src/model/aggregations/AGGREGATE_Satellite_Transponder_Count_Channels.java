@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import model.Satellite;
 import model.Transponder;
-import model.containers.CompositeContainer;
+import model.container.CompositeContainer;
 
 /**
  * Aggregates all Satellites with their respective count of radio and TV

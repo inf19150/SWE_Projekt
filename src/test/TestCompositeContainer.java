@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import model.containers.CompositeContainer;
+import model.container.CompositeContainer;
 
 /**
  * TestCompositeContainer class tests composite container.

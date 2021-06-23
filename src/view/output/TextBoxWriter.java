@@ -7,7 +7,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.text.DefaultCaret;
 
-import model.containers.CompositeContainer;
+import model.container.CompositeContainer;
 
 /**
  * JSONFileWriter class inherits {@link JFrame} implements {@link IOutput}.

@@ -6,7 +6,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import misc.FileWriterWrapper;
-import model.containers.CompositeContainer;
+import model.container.CompositeContainer;
 import view.FileChooser;
 
 /**

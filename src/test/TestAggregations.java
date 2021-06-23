@@ -17,7 +17,7 @@ import model.aggregations.AGGREGATE_Satellite_Eng_Channel;
 import model.aggregations.AGGREGATE_Satellite_Ger_Channel;
 import model.aggregations.AGGREGATE_Satellite_Transponder_Count_Channels;
 import model.aggregations.IAggregate;
-import model.containers.CompositeContainer;
+import model.container.CompositeContainer;
 
 /**
  * TestAggregations class tests all aggregations.

@@ -1,7 +1,7 @@
 package view.output;
 
 import misc.IDescriptor;
-import model.containers.CompositeContainer;
+import model.container.CompositeContainer;
 
 /**
  * Interface for all output modules inherits {@link IDescriptor}

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 import model.Satellite;
 import model.aggregations.IAggregate;
-import model.containers.CompositeContainer;
+import model.container.CompositeContainer;
 import view.FileChooser;
 import view.GUI;
 import view.output.IOutput;

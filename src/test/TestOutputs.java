@@ -11,7 +11,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
 
-import model.containers.CompositeContainer;
+import model.container.CompositeContainer;
 import view.output.IOutput;
 import view.output.JSONFileWriter;
 import view.output.SimpleFileWriter;

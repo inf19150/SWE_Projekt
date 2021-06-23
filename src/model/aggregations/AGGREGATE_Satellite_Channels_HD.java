@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import model.Channel;
 import model.Satellite;
 import model.Transponder;
-import model.containers.CompositeContainer;
+import model.container.CompositeContainer;
 
 /**
  * Aggregates all Satellites with HD channels implements {@link IAggregate}.

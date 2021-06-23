@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import misc.IDescriptor;
 import model.Satellite;
-import model.containers.CompositeContainer;
+import model.container.CompositeContainer;
 
 /**
  * Interface for all aggregation modules inherits {@link IDescriptor}
