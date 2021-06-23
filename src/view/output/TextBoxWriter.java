@@ -10,7 +10,7 @@ import javax.swing.text.DefaultCaret;
 import model.container.CompositeContainer;
 
 /**
- * JSONFileWriter class inherits {@link JFrame} implements {@link IOutput}.
+ * TextBoxWriter class inherits {@link JFrame} implements {@link IOutput}.
  * Output module to print composite structure in a text box.
  *
  */

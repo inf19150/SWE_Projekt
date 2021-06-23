@@ -6,7 +6,7 @@ import model.container.CompositeContainer;
 import view.FileChooser;
 
 /**
- * JSONFileWriter class implements {@link IOutput}. Output module to
+ * SimpleFileWriter class implements {@link IOutput}. Output module to
  * print composite structure with visualized depth level of hierarchy to a file.
  *
  */
