@@ -22,6 +22,7 @@ public class JSONFileWriter implements IOutput {
 
 	private File file = null;
 	private Gson gson = new GsonBuilder().setPrettyPrinting().create();
+	private FileWriterWrapper fw;
 
 	/**
 	 * The default constructor is mentioned explicitly because a modified
@@ -44,7 +45,6 @@ public class JSONFileWriter implements IOutput {
 	public void output(CompositeContainer container) {
 
 		String serializedJson = this.gson.toJson(container);
-		FileWriterWrapper fw;
 
 		if (this.file == null) {
 			FileChooser fileChooser = new FileChooser(System.getProperty("user.home"), "Chose *.json output-file!",
@@ -55,9 +55,9 @@ public class JSONFileWriter implements IOutput {
 				return;
 		}
 
-		fw = new FileWriterWrapper(this.file);
-		fw.write(serializedJson);
-		fw.close();
+		this.fw = new FileWriterWrapper(this.file);
+		this.fw.write(serializedJson);
+		this.fw.close();
 	}
 
 	@Override

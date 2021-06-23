@@ -4,12 +4,12 @@
   <package id="1" language="java" name="" project="swe-project" 
     file="C:/ProgramData/eclipse-java-2021-03-R-win32-x86_64/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/lib/jrt-fs.jar" 
     binary="true" corner="BOTTOM_RIGHT">    
-    <position height="186" width="279" x="50" y="58"/>    
+    <position height="186" width="279" x="63" y="54"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <class id="2" language="java" name="Main" project="swe-project" file="/swe-project/src/Main.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="178" y="148"/>    
+    <position height="-1" width="-1" x="191" y="144"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -18,12 +18,12 @@
   </class>  
   <package id="3" language="java" name="controller" project="swe-project" file="/swe-project/src/controller" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="533" width="510" x="136" y="299"/>    
+    <position height="533" width="510" x="406" y="51"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <class id="4" language="java" name="controller.Controller" project="swe-project" 
     file="/swe-project/src/controller/Controller.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="394" y="649"/>    
+    <position height="-1" width="-1" x="664" y="399"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -32,7 +32,7 @@
   </class>  
   <class id="5" language="java" name="controller.JSONLoader" project="swe-project" 
     file="/swe-project/src/controller/JSONLoader.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="301" y="420"/>    
+    <position height="-1" width="-1" x="571" y="170"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -41,7 +41,7 @@
   </class>  
   <class id="6" language="java" name="controller.ModuleLoader" project="swe-project" 
     file="/swe-project/src/controller/ModuleLoader.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="529" y="438"/>    
+    <position height="-1" width="-1" x="799" y="188"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -50,227 +50,227 @@
   </class>  
   <package id="7" language="java" name="misc" project="swe-project" file="/swe-project/src/misc" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="395" width="739" x="743" y="12"/>    
+    <position height="247" width="424" x="1101" y="18"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
-  <class id="8" language="java" name="view.output.AFileWriter" project="swe-project" 
-    file="/swe-project/src/view/output/AFileWriter.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="837" y="160"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="9" language="java" name="misc.Constants" project="swe-project" file="/swe-project/src/misc/Constants.java" 
+  <class id="8" language="java" name="misc.Constants" project="swe-project" file="/swe-project/src/misc/Constants.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1206" y="171"/>    
+    <position height="-1" width="-1" x="1188" y="133"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="view.output.FileWriterWrapper" project="swe-project" 
-    file="/swe-project/src/view/output/FileWriterWrapper.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1026" y="159"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <interface id="11" language="java" name="misc.IDescriptor" project="swe-project" 
+  <interface id="9" language="java" name="misc.IDescriptor" project="swe-project" 
     file="/swe-project/src/misc/IDescriptor.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1102" y="331"/>    
+    <position height="-1" width="-1" x="1388" y="141"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <package id="12" language="java" name="model" project="swe-project" file="/swe-project/src/model" binary="false" 
+  <package id="10" language="java" name="model" project="swe-project" file="/swe-project/src/model" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="1014" width="2035" x="1627" y="471"/>    
+    <position height="1014" width="2300" x="63" y="705"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
-  <class id="13" language="java" name="model.Channel" project="swe-project" file="/swe-project/src/model/Channel.java" 
+  <class id="11" language="java" name="model.Channel" project="swe-project" file="/swe-project/src/model/Channel.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="2544" y="1267"/>    
+    <position height="-1" width="-1" x="216" y="1539"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="14" language="java" name="model.Satellite" project="swe-project" 
+  <class id="12" language="java" name="model.Satellite" project="swe-project" 
     file="/swe-project/src/model/Satellite.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1952" y="1296"/>    
+    <position height="-1" width="-1" x="214" y="906"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="15" language="java" name="model.Transponder" project="swe-project" 
+  <class id="13" language="java" name="model.Transponder" project="swe-project" 
     file="/swe-project/src/model/Transponder.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="2281" y="1260"/>    
+    <position height="-1" width="-1" x="215" y="1208"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <package id="16" language="java" name="model.aggregations" project="swe-project" 
+  <package id="14" language="java" name="model.aggregations" project="swe-project" 
     file="/swe-project/src/model/aggregations" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="456" width="1933" x="1683" y="571"/>    
+    <position height="456" width="1933" x="393" y="807"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
-  <class id="17" language="java" name="model.aggregations.AGGREGATE_Ger_Satellite" project="swe-project" 
+  <class id="15" language="java" name="model.aggregations.AGGREGATE_Ger_Satellite" project="swe-project" 
     file="/swe-project/src/model/aggregations/AGGREGATE_Ger_Satellite.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1866" y="920"/>    
+    <position height="-1" width="-1" x="576" y="1156"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="18" language="java" name="model.aggregations.AGGREGATE_Radio_Channels" project="swe-project" 
+  <class id="16" language="java" name="model.aggregations.AGGREGATE_Radio_Channels" project="swe-project" 
     file="/swe-project/src/model/aggregations/AGGREGATE_Radio_Channels.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="2163" y="921"/>    
+    <position height="-1" width="-1" x="873" y="1157"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="19" language="java" name="model.aggregations.AGGREGATE_Satellite_Channels_HD" project="swe-project" 
+  <class id="17" language="java" name="model.aggregations.AGGREGATE_Satellite_Channels_HD" project="swe-project" 
     file="/swe-project/src/model/aggregations/AGGREGATE_Satellite_Channels_HD.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="2465" y="920"/>    
+    <position height="-1" width="-1" x="1175" y="1156"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="20" language="java" name="model.aggregations.AGGREGATE_Satellite_Eng_Channel" project="swe-project" 
+  <class id="18" language="java" name="model.aggregations.AGGREGATE_Satellite_Eng_Channel" project="swe-project" 
     file="/swe-project/src/model/aggregations/AGGREGATE_Satellite_Eng_Channel.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="2769" y="923"/>    
+    <position height="-1" width="-1" x="1479" y="1159"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="21" language="java" name="model.aggregations.AGGREGATE_Satellite_Ger_Channel" project="swe-project" 
+  <class id="19" language="java" name="model.aggregations.AGGREGATE_Satellite_Ger_Channel" project="swe-project" 
     file="/swe-project/src/model/aggregations/AGGREGATE_Satellite_Ger_Channel.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="3065" y="922"/>    
+    <position height="-1" width="-1" x="1775" y="1158"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="22" language="java" name="model.aggregations.AGGREGATE_Satellite_Transponder_Count_Channels" 
+  <class id="20" language="java" name="model.aggregations.AGGREGATE_Satellite_Transponder_Count_Channels" 
     project="swe-project" file="/swe-project/src/model/aggregations/AGGREGATE_Satellite_Transponder_Count_Channels.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="3385" y="916"/>    
+    <position height="-1" width="-1" x="2095" y="1152"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="23" language="java" name="model.aggregations.IAggregate" project="swe-project" 
+  <interface id="21" language="java" name="model.aggregations.IAggregate" project="swe-project" 
     file="/swe-project/src/model/aggregations/IAggregate.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="2666" y="705"/>    
+    <position height="-1" width="-1" x="1376" y="941"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <package id="24" language="java" name="model.container" project="swe-project" file="/swe-project/src/model/container" 
+  <package id="22" language="java" name="model.container" project="swe-project" file="/swe-project/src/model/container" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="338" width="362" x="2730" y="1115"/>    
+    <position height="338" width="362" x="458" y="1335"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
-  <class id="25" language="java" name="model.container.CompositeContainer" project="swe-project" 
+  <class id="23" language="java" name="model.container.CompositeContainer" project="swe-project" 
     file="/swe-project/src/model/container/CompositeContainer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="209" width="235" x="2779" y="1203"/>    
+    <position height="209" width="235" x="509" y="1421"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <package id="26" language="java" name="view" project="swe-project" file="/swe-project/src/view" binary="false" 
+  <package id="24" language="java" name="view" project="swe-project" file="/swe-project/src/view" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="776" width="1466" x="71" y="1228"/>    
+    <position height="1656" width="1110" x="2397" y="60"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
-  <class id="27" language="java" name="view.ComboBoxRenderer" project="swe-project" 
+  <class id="25" language="java" name="view.ComboBoxRenderer" project="swe-project" 
     file="/swe-project/src/view/ComboBoxRenderer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="440" x="119" y="1862"/>    
+    <position height="117" width="440" x="2917" y="318"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="28" language="java" name="view.FileChooser" project="swe-project" 
+  <class id="26" language="java" name="view.FileChooser" project="swe-project" 
     file="/swe-project/src/view/FileChooser.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="219" y="1757"/>    
+    <position height="-1" width="-1" x="3005" y="185"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="29" language="java" name="view.GUI" project="swe-project" file="/swe-project/src/view/GUI.java" 
+  <class id="27" language="java" name="view.GUI" project="swe-project" file="/swe-project/src/view/GUI.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="282" y="1482"/>    
+    <position height="-1" width="-1" x="2666" y="268"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <package id="30" language="java" name="view.output" project="swe-project" file="/swe-project/src/view/output" 
+  <package id="28" language="java" name="view.output" project="swe-project" file="/swe-project/src/view/output" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="535" width="803" x="662" y="1314"/>    
+    <position height="771" width="851" x="2502" y="486"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
-  <interface id="31" language="java" name="view.output.IOutput" project="swe-project" 
+  <interface id="29" language="java" name="view.output.IOutput" project="swe-project" 
     file="/swe-project/src/view/output/IOutput.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1069" y="1470"/>    
+    <position height="-1" width="-1" x="2909" y="642"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="32" language="java" name="view.output.JSONFileWriter" project="swe-project" 
+  <class id="30" language="java" name="view.output.JSONFileWriter" project="swe-project" 
     file="/swe-project/src/view/output/JSONFileWriter.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="794" y="1712"/>    
+    <position height="-1" width="-1" x="2634" y="884"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="33" language="java" name="view.output.SimpleFileWriter" project="swe-project" 
+  <class id="31" language="java" name="view.output.SimpleFileWriter" project="swe-project" 
     file="/swe-project/src/view/output/SimpleFileWriter.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1056" y="1714"/>    
+    <position height="-1" width="-1" x="2896" y="886"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="34" language="java" name="view.output.TextBoxWriter" project="swe-project" 
+  <class id="32" language="java" name="view.output.TextBoxWriter" project="swe-project" 
     file="/swe-project/src/view/output/TextBoxWriter.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1318" y="1713"/>    
+    <position height="-1" width="-1" x="3158" y="885"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="view.output.FileWriterWrapper" project="swe-project" 
+    file="/swe-project/src/view/output/FileWriterWrapper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2762" y="1166"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="view.output.AFileWriter" project="swe-project" 
+    file="/swe-project/src/view/output/AFileWriter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3002" y="1166"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -278,140 +278,148 @@
     </display>  
   </class>  
   <realization id="35">    
-    <end type="SOURCE" refId="33"/>    
-    <end type="TARGET" refId="31"/>  
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="29"/>  
   </realization>  
   <realization id="36">    
-    <end type="SOURCE" refId="34"/>    
-    <end type="TARGET" refId="31"/>  
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="29"/>  
   </realization>  
   <association id="37">    
-    <end type="SOURCE" refId="15" navigable="false">      
-      <attribute id="38" name="channels"/>      
-      <multiplicity id="39" minimum="0" maximum="2147483647"/>    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="38" name="fw"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="13" navigable="true"/>    
+    <end type="TARGET" refId="33" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="40">    
-    <end type="SOURCE" refId="25" navigable="false">      
-      <attribute id="41" name="compositums"/>      
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="41" name="channels"/>      
       <multiplicity id="42" minimum="0" maximum="2147483647"/>    
     </end>    
-    <end type="TARGET" refId="25" navigable="true"/>    
+    <end type="TARGET" refId="11" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="43">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="44" name="aggregationModules"/>      
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="44" name="compositums"/>      
       <multiplicity id="45" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="23" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="46">    
-    <end type="SOURCE" refId="31"/>    
-    <end type="TARGET" refId="11"/>  
-  </generalization>  
-  <realization id="47">    
-    <end type="SOURCE" refId="21"/>    
-    <end type="TARGET" refId="23"/>  
-  </realization>  
-  <association id="48">    
+  <association id="46">    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="49" name="outputModules"/>      
-      <multiplicity id="50" minimum="0" maximum="2147483647"/>    
+      <attribute id="47" name="aggregationModules"/>      
+      <multiplicity id="48" minimum="0" maximum="2147483647"/>    
     </end>    
-    <end type="TARGET" refId="31" navigable="true"/>    
+    <end type="TARGET" refId="21" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <generalization id="49">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <realization id="50">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
   <association id="51">    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="52" name="satelliteList"/>      
+      <attribute id="52" name="outputModules"/>      
       <multiplicity id="53" minimum="0" maximum="2147483647"/>    
     </end>    
-    <end type="TARGET" refId="14" navigable="true"/>    
+    <end type="TARGET" refId="29" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="54">    
-    <end type="SOURCE" refId="29" navigable="false">      
-      <attribute id="55" name="controller"/>      
-      <multiplicity id="56" minimum="0" maximum="1"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="55" name="satelliteList"/>      
+      <multiplicity id="56" minimum="0" maximum="2147483647"/>    
     </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
+    <end type="TARGET" refId="12" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="57">    
-    <end type="SOURCE" refId="4" navigable="false">      
+    <end type="SOURCE" refId="27" navigable="false">      
       <attribute id="58" name="controller"/>      
       <multiplicity id="59" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="60">    
-    <end type="SOURCE" refId="19"/>    
-    <end type="TARGET" refId="23"/>  
-  </realization>  
-  <realization id="61">    
-    <end type="SOURCE" refId="18"/>    
-    <end type="TARGET" refId="23"/>  
-  </realization>  
-  <realization id="62">    
-    <end type="SOURCE" refId="22"/>    
-    <end type="TARGET" refId="23"/>  
-  </realization>  
-  <association id="63">    
+  <association id="60">    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="64" name="gui"/>      
-      <multiplicity id="65" minimum="0" maximum="1"/>    
+      <attribute id="61" name="controller"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="29" navigable="true"/>    
+    <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="66">    
-    <end type="SOURCE" refId="29" navigable="false">      
-      <attribute id="67" name="gui"/>      
-      <multiplicity id="68" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="29" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="69">    
-    <end type="SOURCE" refId="23"/>    
-    <end type="TARGET" refId="11"/>  
-  </generalization>  
-  <realization id="70">    
-    <end type="SOURCE" refId="32"/>    
-    <end type="TARGET" refId="31"/>  
+  <realization id="63">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="21"/>  
   </realization>  
-  <generalization id="71">    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="8"/>  
+  <generalization id="64">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="34"/>  
   </generalization>  
-  <association id="72">    
-    <end type="SOURCE" refId="33" navigable="false">      
-      <attribute id="73" name="fw"/>      
-      <multiplicity id="74" minimum="0" maximum="1"/>    
+  <realization id="65">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <realization id="66">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <association id="67">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="68" name="gui"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="10" navigable="true"/>    
+    <end type="TARGET" refId="27" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <association id="70">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="71" name="gui"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="73">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <realization id="74">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="29"/>  
+  </realization>  
   <association id="75">    
-    <end type="SOURCE" refId="14" navigable="false">      
+    <end type="SOURCE" refId="12" navigable="false">      
       <attribute id="76" name="transponders"/>      
       <multiplicity id="77" minimum="0" maximum="2147483647"/>    
     </end>    
-    <end type="TARGET" refId="15" navigable="true"/>    
+    <end type="TARGET" refId="13" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="78">    
-    <end type="SOURCE" refId="17"/>    
-    <end type="TARGET" refId="23"/>  
+  <association id="78">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="79" name="fw"/>      
+      <multiplicity id="80" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="81">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="21"/>  
   </realization>  
-  <realization id="79">    
-    <end type="SOURCE" refId="20"/>    
-    <end type="TARGET" refId="23"/>  
+  <realization id="82">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="21"/>  
   </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
